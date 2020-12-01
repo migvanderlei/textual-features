@@ -1,0 +1,7 @@
+spacy>=2.3.0
+senticnet
+pandas
+numpy
+sklearn
+textblob
+googletrans
