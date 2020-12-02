@@ -1,9 +1,9 @@
 from sklearn.base import BaseEstimator
-from numpy import np
+import numpy as np
 import re
 
 
-class TWTCountMentions(BaseEstimator):
+class CountMentions(BaseEstimator):
     def __init__(self):
         self.name = "COUNT OF MENTIONS (@user)"
 

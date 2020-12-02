@@ -1,7 +1,7 @@
 from sklearn.base import BaseEstimator
 import numpy as np
 
-liwc_dir = '../../../res/dictionaries/liwc_pt/'
+liwc_dir = '../../../res/liwc_pt/'
 
 
 class LexiconSubjective(BaseEstimator):

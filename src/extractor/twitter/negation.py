@@ -1,9 +1,9 @@
 from sklearn.base import BaseEstimator
-from numpy import np
+import numpy as np
 import re
 
 
-class TWTNegation(BaseEstimator):
+class Negation(BaseEstimator):
     def __init__(self):
         self.name = "PRESENCE OF NEGATION WORDS"
 

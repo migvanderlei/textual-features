@@ -1,9 +1,9 @@
 from sklearn.base import BaseEstimator
-from numpy import np
+import numpy as np
 import re
 
 
-class TWT_CountURL(BaseEstimator):
+class CountURL(BaseEstimator):
     def __init__(self):
         self.name = "COUNT OF URLS"
         self.regex = r"((https?://)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*))"

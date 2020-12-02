@@ -1,11 +1,11 @@
 from sklearn.base import BaseEstimator
-from numpy import np
+import numpy as np
 import re
 
 
-class TWTPropCapitalized(BaseEstimator):
+class CountCapitalized(BaseEstimator):
     def __init__(self):
-        self.name = "PROPORTION OF CAPITALIZED TEXT"
+        self.name = "COUNT OF CAPITALIZED WORDS"
 
     def fit(self, X=None, y=None):
         return self
@@ -13,6 +13,5 @@ class TWTPropCapitalized(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for doc in sentences:
-            words = re.findall(r'([A-Z])', doc)
-            list_count.append(0 if len(words) == 0 else len(words) / len(doc))
+            list_count.append(len(re.findall(r'(\b[A-Z]{2,}\b)', doc)))
         return np.array(list_count).reshape(-1, 1)
