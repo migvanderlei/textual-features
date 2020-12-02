@@ -2,21 +2,20 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-# NOUN -> ADJ -> !NOUN
-class SYNTRule4(BaseEstimator):
+# ADJ -> NOUN -> *
+class SyntacticRule1(BaseEstimator):
     def __init__(self):
-        self.name = "RULE 4"
+        self.name = "RULE 1"
 
     def fit(self, x=None, y=None):
         return self
 
     def __pattern__(self, sentence):
         for i in range(len(sentence)):
-            if i + 2 < len(sentence):
-                if sentence[i].pos_ == "NOUN":
-                    if sentence[i + 1].pos_ == "ADJ":
-                        if sentence[i + 2].pos_ != "NOUN":
-                            return 1
+            if i + 1 < len(sentence):
+                if sentence[i].pos_ == "ADJ":
+                    if sentence[i + 1].pos_ == "NOUN":
+                        return 1
         return 0
 
     def transform(self, sentences):

@@ -3,7 +3,7 @@ import numpy as np
 
 
 # ADV + [<SUP> | <COMP>] -> VERB + [ PCP | GER | PS | IMPF]  -> *
-class SYNTRule5(BaseEstimator):
+class SyntacticRule5(BaseEstimator):
     def __init__(self):
         self.name = "RULE 5"
 

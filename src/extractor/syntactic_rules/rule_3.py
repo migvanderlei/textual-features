@@ -2,10 +2,10 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-# ADV + [<SUP> | <COMP>] -> ADJ -> !NOUN
-class SYNTRule2(BaseEstimator):
+# ADJ -> ADJ -> !NOUN
+class SyntactidRule3(BaseEstimator):
     def __init__(self):
-        self.name = "RULE 2"
+        self.name = "RULE 3"
 
     def fit(self, x=None, y=None):
         return self
@@ -13,8 +13,7 @@ class SYNTRule2(BaseEstimator):
     def __pattern__(self, sentence):
         for i in range(len(sentence)):
             if i + 2 < len(sentence):
-                if sentence[i].pos_ == "ADV" or (sentence[i].pos_ == "ADV" and "<SUP>" in sentence[i].tag_) or (
-                        sentence[i].pos_ == "ADV" and "<COMP>" in sentence[i].tag_):
+                if sentence[i].pos_ == "ADJ":
                     if sentence[i + 1].pos_ == "ADJ":
                         if sentence[i + 2].pos_ != "NOUN":
                             return 1
