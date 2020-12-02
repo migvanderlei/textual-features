@@ -4,7 +4,7 @@ import numpy as np
 liwc_dir = '../../../res/dictionaries/liwc_pt/'
 
 
-class LEXPositive(BaseEstimator):
+class LexiconPositive(BaseEstimator):
     def __init__(self, proportion=False):
         self.name = "PROP" if proportion else "NUM" + " POSITIVE WORDS"
         self.file_name = liwc_dir + "LIWC_Portuguese_positive.txt"

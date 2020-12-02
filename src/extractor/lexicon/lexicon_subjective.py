@@ -4,10 +4,10 @@ import numpy as np
 liwc_dir = '../../../res/dictionaries/liwc_pt/'
 
 
-class LEXNegative(BaseEstimator):
+class LexiconSubjective(BaseEstimator):
     def __init__(self, proportion=False):
-        self.name = "PROP" if proportion else "NUM" + "NEGATIVE WORDS"
-        self.file_name = liwc_dir + "LIWC_Portuguese_negative.txt"
+        self.name = "PROP" if proportion else "NUM" + " SUBJECTIVE WORDS"
+        self.file_name = liwc_dir + "LIWC_Portuguese_subjective.txt"
         self.lexicon = []
         self.proportion = proportion
 
@@ -21,7 +21,7 @@ class LEXNegative(BaseEstimator):
         else:
             return len([term for term in sentence if term.text in self.lexicon])
 
-    def fit(self, X=None, y=None):
+    def fit(self, x=None, y=None):
         return self
 
     def transform(self, sentences):
@@ -29,4 +29,4 @@ class LEXNegative(BaseEstimator):
         list_count = []
         for sentence in sentences:
             list_count.append(self.__value__(sentence))
-        return np.array(list_count)
+        return np.array(list_count).reshape(-1, 1)

@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class LEXQuotationExclamation(BaseEstimator):
+class LexiconQuotationExclamation(BaseEstimator):
     def __init__(self, proportion=False):
         self.name = "PROP" if proportion else "NUM" + "QUOTATION AND EXCLAMATION MARKS"
         self.proportion = proportion
