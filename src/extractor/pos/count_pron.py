@@ -2,9 +2,9 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class POSCountCconj(BaseEstimator):
+class CountPron(BaseEstimator):
     def __init__(self):
-        self.name = "CCONJ"
+        self.name = "PRON"
 
     def fit(self, x=None, y=None):
         return self
@@ -12,5 +12,5 @@ class POSCountCconj(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for doc in sentences:
-            list_count.append(len([token for token in doc if token.pos_ == 'CCONJ']))
+            list_count.append(len([token for token in doc if token.pos_ == 'PRON']))
         return np.array(list_count).reshape(-1, 1)

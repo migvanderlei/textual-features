@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class POSCountIntj(BaseEstimator):
+class CountIntj(BaseEstimator):
     def __init__(self):
         self.name = "INTJ"
 

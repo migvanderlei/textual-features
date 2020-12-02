@@ -2,9 +2,9 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class POSCountDet(BaseEstimator):
+class CountAux(BaseEstimator):
     def __init__(self):
-        self.name = "DET"
+        self.name = "AUX"
 
     def fit(self, x=None, y=None):
         return self
@@ -12,5 +12,5 @@ class POSCountDet(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for doc in sentences:
-            list_count.append(len([token for token in doc if token.pos_ == 'DET']))
+            list_count.append(len([token for token in doc if token.pos_ == 'AUX']))
         return np.array(list_count).reshape(-1, 1)
