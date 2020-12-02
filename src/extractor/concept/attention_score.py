@@ -3,9 +3,9 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class CONCPleasantness(BaseEstimator):
+class AttentionScore(BaseEstimator):
     def __init__(self, absolute=False, average=False):
-        self.name = "AVERAGE" if average else "SUM" + " OF PLEASANTNESS SCORES" + (" (ABS)" if absolute else "")
+        self.name = "AVERAGE" if average else "SUM" + " OF ATTENTION SCORES" + (" (ABS)" if absolute else "")
         self.sn = SenticNet('pt')
         self.abs = absolute
         self.avg = average
@@ -15,9 +15,9 @@ class CONCPleasantness(BaseEstimator):
         for word in sentence:
             try:
                 if self.abs:
-                    score = abs(self.sn.sentics(word.text.lower())['pleasantness'])
+                    score = abs(self.sn.sentics(word.text.lower())['attention'])
                 else:
-                    score = self.sn.sentics(word.text.lower())['pleasantness']
+                    score = self.sn.sentics(word.text.lower())['attention']
                 total += score
             except KeyError:
                 pass
@@ -32,6 +32,6 @@ class CONCPleasantness(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for sentence in sentences:
-            if self.avg:
-                list_count.append(self.__value__(sentence))
+            list_count.append(self.__value__(sentence))
+
         return np.array(list_count).reshape(-1, 1)

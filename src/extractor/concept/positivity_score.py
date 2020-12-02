@@ -3,7 +3,7 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class CONCPolarity(BaseEstimator):
+class PolarityScore(BaseEstimator):
     def __init__(self, absolute=False, average=False):
         self.name = "AVERAGE" if average else "SUM" + " OF POLARITY SCORES" + (" (ABS)" if absolute else "")
         self.sn = SenticNet('pt')

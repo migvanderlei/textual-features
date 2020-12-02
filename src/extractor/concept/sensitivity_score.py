@@ -3,9 +3,9 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class CONCAptitude(BaseEstimator):
+class SensitivityScore(BaseEstimator):
     def __init__(self, absolute=False, average=False):
-        self.name = "AVERAGE" if average else "SUM" + " OF APTITUDE SCORES" + (" (ABS)" if absolute else "")
+        self.name = "AVERAGE" if average else "SUM" + " OF SENSITIVITY SCORES" + (" (ABS)" if absolute else "")
         self.sn = SenticNet('pt')
         self.abs = absolute
         self.avg = average
@@ -15,9 +15,9 @@ class CONCAptitude(BaseEstimator):
         for word in sentence:
             try:
                 if self.abs:
-                    score = abs(self.sn.sentics(word.text.lower())['aptitude'])
+                    score = abs(self.sn.sentics(word.text.lower())['sensitivity'])
                 else:
-                    score = self.sn.sentics(word.text.lower())['aptitude']
+                    score = self.sn.sentics(word.text.lower())['sensitivity']
                 total += score
             except KeyError:
                 pass
@@ -26,7 +26,7 @@ class CONCAptitude(BaseEstimator):
         else:
             return total
 
-    def fit(self, X=None, y=None):
+    def fit(self, x=None, y=None):
         return self
 
     def transform(self, sentences):
