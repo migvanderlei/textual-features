@@ -26,4 +26,4 @@ class CountDictionaryWords(BaseEstimator):
         list_count = []
         for sentence in sentences:
             list_count.append(self.__value__(sentence))
-        return np.array(list_count)
+        return np.array(list_count).reshape(-1, 1)
