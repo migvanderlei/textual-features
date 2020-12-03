@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator
 import numpy as np
 from pathlib import Path
 
-liwc_dir = '../../../res/liwc_pt/LIWC_Portuguese_subjective.txt'
+liwc_dir = '../../res/liwc_pt/LIWC_Portuguese_subjective.txt'
 
 
 class LexiconSubjective(BaseEstimator):
