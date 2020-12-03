@@ -1,13 +1,14 @@
 from sklearn.base import BaseEstimator
 import numpy as np
+from pathlib import Path
 
-liwc_dir = '../../../res/liwc_pt/'
+liwc_dir = '../../../res/liwc_pt/LIWC_Portuguese_positive.txt'
 
 
 class LexiconPositive(BaseEstimator):
     def __init__(self, proportion=False):
         self.name = "PROP" if proportion else "NUM" + " POSITIVE WORDS"
-        self.file_name = liwc_dir + "LIWC_Portuguese_positive.txt"
+        self.file_name = Path(liwc_dir).resolve()
         self.lexicon = []
         self.proportion = proportion
 

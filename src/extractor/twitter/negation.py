@@ -1,6 +1,5 @@
 from sklearn.base import BaseEstimator
 import numpy as np
-import re
 
 
 class Negation(BaseEstimator):

@@ -1,13 +1,14 @@
 from sklearn.base import BaseEstimator
 import numpy as np
+from pathlib import Path
 
-words_dir = '../../../res/dictionaries/'
+words_dir = '../../res/dictionaries/palavras.txt'
 
 
 class CountDictionaryWords(BaseEstimator):
     def __init__(self):
         self.name = "COUNT DICTIONARY WORDS"
-        self.file_name = words_dir + "palavras.txt"
+        self.file_name = Path(words_dir).resolve()
         self.lexicon = []
 
     def __load_lexicon__(self):
