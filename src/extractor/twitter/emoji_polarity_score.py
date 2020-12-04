@@ -18,10 +18,16 @@ class EmojiPolarityScore(BaseEstimator):
 
     def __load_lexicon__(self):
         with open(self.file_name, "r") as f:
-            self.emoji_data = pd.read_csv(self.file_name)
+            self.emoji_data = pd.read_csv(self.file_name, index_col='char').to_dict('index')
 
-    def __value__(self, emojis):
-        return [term for term in sentence if term.text in self.emoji_data]
+    def __value__(self, sentence):
+        score = 0
+        for term in sentence:
+            if term.text in self.emoji_data:
+                score += self.emoji_data[term.text][self.scoring_type]
+            else:
+                print(term.text)
+        return score
 
     def fit(self, x=None, y=None):
         return self

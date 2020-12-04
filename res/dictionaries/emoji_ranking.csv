@@ -1,4 +1,4 @@
-char,unicode,negative,neutral,positive,score,name
+char,unicode,negative,neutral,polarity,score,name
 😂,0x1f602,0.247,0.285,0.46799999999999997,0.221,FACE WITH TEARS OF JOY
 ❤,0x2764,0.044000000000000004,0.166,0.79,0.746,HEAVY BLACK HEART
 ♥,0x2665,0.035,0.272,0.693,0.657,BLACK HEART SUIT

@@ -2,12 +2,14 @@ from src.extractor.twitter.count_dictionary_words import CountDictionaryWords
 from src.utils.spacy_preprocessor import SpacyPreprocessor
 from src.extractor.twitter.emoji_polarity_score import EmojiPolarityScore
 
-sentences = ['O abacaxi é doce', 'A casa é amarela demais', "A sobremesa é boa"]
+sentences = ["☷ 😊 🥺 😍", "😘 😚 😜 😂 😝", "😳 😁 😣 😢 😭"]
+# sentences = [":)", "lalalal :) :) ;)", ":("]
 spacy_sentences = SpacyPreprocessor().transform(sentences)
 
-emojis = "☷ 😊 🥺 😍 😘 😚 😜 😂 😝 😳 😁 😣 😢 😭"
-print(emojis)
-print(emojis.encode('unicode-escape'))
+# for sentence in sentences:
+#     for doc in sentence:
+#         print(doc)
+#         print(doc.encode('utf-8').hex())
 
-# extractor = EmojiPolarityScore()
-# print(extractor.transform(spacy_sentences))
+extractor = EmojiPolarityScore()
+print(extractor.transform(spacy_sentences))
