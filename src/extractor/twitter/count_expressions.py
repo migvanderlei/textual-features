@@ -7,7 +7,7 @@ words_dir = '../../res/dictionaries/girias.txt'
 
 class CountExpressions(BaseEstimator):
     def __init__(self):
-        self.name = "COUNT EXPRESIONS (GÍRIAS)"
+        self.name = "COUNT EXPRESSIONS (GÍRIAS)"
         self.file_name = Path(words_dir).resolve()
         self.lexicon = []
 
