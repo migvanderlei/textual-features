@@ -1,4 +1,4 @@
-from src.extractor.positional.sentence_position import SentencePosition
+from src.extractor.positional.document_size import DocumentSize
 from src.utils import SpacyPreprocessor
 from src.extractor.lexicon.count_words import CountWords
 
@@ -25,11 +25,9 @@ sentences = ["Hamburgueria artesanal com tempero diferenciado, de primeira quali
 
 spacy_sentences = SpacyPreprocessor().transform(sentences)
 
-extractor1 = SentencePosition(relative=True)
+extractor1 = DocumentSize()
 extractor2 = CountWords()
 
 feat1 = extractor1.transform(docs)
-feat2 = extractor2.transform(sentences)
 
 print(feat1)
-print(feat2)
