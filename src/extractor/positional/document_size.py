@@ -1,6 +1,7 @@
 from src.utils import SpacySentenceTokenizer
 from sklearn.base import BaseEstimator
 import numpy as np
+import re
 
 
 class DocumentSize(BaseEstimator):
@@ -15,6 +16,7 @@ class DocumentSize(BaseEstimator):
         list_count = []
         for document in documents:
             sentences = self.spacy_preprocessor.transform(document)
+            words = len(re.findall(r'[^\s!\?,\(\)\.]+', document))
             for sentence in sentences:
-                list_count.append(len(document))
+                list_count.append(words)
         return np.array(list_count).reshape(-1, 1)

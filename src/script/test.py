@@ -29,5 +29,5 @@ extractor1 = DocumentSize()
 extractor2 = CountWords()
 
 feat1 = extractor1.transform(docs)
-
-print(feat1)
+feat2 = extractor2.transform(sentences)
+print(feat1.shape, feat2.shape)
