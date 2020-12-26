@@ -2,7 +2,7 @@ from sklearn.base import BaseEstimator
 import numpy as np
 
 
-class POSCountSym(BaseEstimator):
+class CountSym(BaseEstimator):
     def __init__(self):
         self.name = "SYM"
 
