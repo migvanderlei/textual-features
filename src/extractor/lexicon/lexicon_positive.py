@@ -18,7 +18,7 @@ class LexiconPositive(BaseEstimator):
 
     def __value__(self, sentence):
         if self.proportion:
-            return len([term for term in sentence if term.text in self.lexicon]) / len(proportion)
+            return len([term for term in sentence if term.text in self.lexicon]) / len(sentence)
         else:
             return len([term for term in sentence if term.text in self.lexicon])
 
