@@ -1,6 +1,6 @@
-from src.extractor.positional.document_size import DocumentSize
+from src.extractor.lexicon.document_size import DocumentSize
 from src.utils import SpacyPreprocessor
-from src.extractor.lexicon.count_words import CountWords
+from src.extractor.lenght.count_words import CountWords
 
 docs = ["Hamburgueria artesanal com tempero diferenciado, de primeira qualidade, fora o atendimento no qual "
         "diferencia por serem bilíngues,. Recomendo quem quer saciar a fome..",
