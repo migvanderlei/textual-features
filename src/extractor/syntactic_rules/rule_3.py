@@ -3,7 +3,7 @@ import numpy as np
 
 
 # ADJ -> ADJ -> !NOUN
-class SyntactidRule3(BaseEstimator):
+class SyntacticRule3(BaseEstimator):
     def __init__(self):
         self.name = "RULE 3"
 

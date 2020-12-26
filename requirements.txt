@@ -1,6 +1,6 @@
 spacy>=2.3.0
-senticnet
-pandas
+senticnet>=1.6
+pandas>=1.1.4
 numpy
 sklearn
 textblob

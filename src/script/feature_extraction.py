@@ -1,26 +1,34 @@
 from sklearn.pipeline import FeatureUnion, Pipeline
 from pathlib import Path
 import pandas as pd
+from src.utils.features_list import ALL_FEATURES
+from src.utils.features_list import RAW_TEXT_FEATURES
 from src.utils.spacy_preprocessor import SpacyPreprocessor
-from src.utils.features_list import POS_FEATURES_LIST
 from src.utils.csv_generator import generate_file
 
 DATASET_PATH = '../../res/datasets/{}_dataset.tsv'
+
+RAW_TEXT_FEATURES_NAMES = [feature[0] for feature in RAW_TEXT_FEATURES]
+SPACY_FEATURES = [feature for feature in ALL_FEATURES if feature[0] not in RAW_TEXT_FEATURES_NAMES]
 
 
 def feature_extraction(dataset_name):
     dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
 
     data = pd.read_csv(dataset_path, sep='\t')
-    sentences = SpacyPreprocessor().transform(data['sentence'])
+    raw_sentences = data['sentence']
 
-    union = FeatureUnion(transformer_list=POS_FEATURES_LIST)
+    spacy_union = FeatureUnion(transformer_list=SPACY_FEATURES)
 
-    features = union.fit_transform(sentences)
+    pipeline = Pipeline(steps=[
+        ('features', FeatureUnion(
+            transformer_list=RAW_TEXT_FEATURES + [('spacy', Pipeline(steps=[
+                    ('spacy_preprocessor', SpacyPreprocessor()),
+                    ('spacy_features', spacy_union)
+                ]))],
+        ))
+    ])
 
-    print(features)
-    generate_file(features, POS_FEATURES_LIST, 'teste')
+    features = pipeline.fit_transform(raw_sentences)
 
-
-
-feature_extraction("teste")
+    generate_file(features, RAW_TEXT_FEATURES+SPACY_FEATURES, 'teste')

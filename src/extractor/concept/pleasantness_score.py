@@ -1,4 +1,4 @@
-from senticnet.senticnet import SenticNet
+from senticnet.babelsenticnet import BabelSenticNet as SenticNet
 from sklearn.base import BaseEstimator
 import numpy as np
 
@@ -32,6 +32,5 @@ class PleasantnessScore(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for sentence in sentences:
-            if self.avg:
-                list_count.append(self.__value__(sentence))
+            list_count.append(self.__value__(sentence))
         return np.array(list_count).reshape(-1, 1)

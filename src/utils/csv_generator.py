@@ -20,11 +20,9 @@ def generate_file(feature_arrays, feature_names, name):
     target = data[TARGET].to_numpy().reshape(-1, 1)
 
     columns = get_feature_names(feature_names) + [TARGET]
-    print(target.shape, feature_arrays.shape)
 
     feature_arrays = np.append(feature_arrays, target, axis=1)
     extracted_dataset = [columns] + feature_arrays.tolist()
-    print(extracted_dataset)
 
     content = []
     for line in extracted_dataset:
@@ -32,3 +30,5 @@ def generate_file(feature_arrays, feature_names, name):
 
     with open(extracted_path, 'w+') as f:
         f.write("\n".join(content))
+
+    print("created dataset file with {} lines and {} columns".format(len(content)-1, len(columns.split(','))))

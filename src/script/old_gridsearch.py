@@ -75,7 +75,7 @@ pipeline = Pipeline(steps=[
                         ('qtAdverbs', CountAdverbs()),
                         ('qtNouns', CountNouns()),
                         ('qtAmod', CountAmod()),
-                    ]))
+                    ]+['qtAmod2', CountAmod()]))
             ]))
         ],
     )),

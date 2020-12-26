@@ -1,0 +1,4 @@
+from .lexicon_subjective import LexiconSubjective
+from .lexicon_negative import LexiconNegative
+from .lexicon_positive import LexiconPositive
+from .lexicon_quotation_exclamation import LexiconQuotationExclamation

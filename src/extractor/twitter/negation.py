@@ -14,7 +14,7 @@ class Negation(BaseEstimator):
         for doc in sentences:
             presence = 0
             for token in doc:
-                if token in ['não', 'nao', 'nem', 'nunca', 'nn', 'n', 'ñ']:
+                if token.text in ['não', 'nao', 'nem', 'nunca', 'nn', 'n', 'ñ']:
                     presence = 1
                     break
             list_count.append(presence)

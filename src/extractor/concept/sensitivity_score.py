@@ -1,4 +1,4 @@
-from senticnet.senticnet import SenticNet
+from senticnet.babelsenticnet import BabelSenticNet as SenticNet
 from sklearn.base import BaseEstimator
 import numpy as np
 

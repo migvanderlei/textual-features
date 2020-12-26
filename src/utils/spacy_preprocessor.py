@@ -11,4 +11,4 @@ class SpacyPreprocessor(BaseEstimator):
         return self
 
     def transform(self, sentences):
-        return list(self.nlp.pipe(sentences, n_threads=10))
+        return list(self.nlp.pipe(sentences, disable=["parser"], n_threads=10))

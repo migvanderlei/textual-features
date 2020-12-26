@@ -25,8 +25,6 @@ class EmojiPolarityScore(BaseEstimator):
         for term in sentence:
             if term.text in self.emoji_data:
                 score += self.emoji_data[term.text][self.scoring_type]
-            else:
-                print(term.text)
         return score
 
     def fit(self, x=None, y=None):
