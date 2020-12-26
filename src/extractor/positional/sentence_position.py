@@ -15,7 +15,7 @@ class SentencePosition(BaseEstimator):
     def __get_position(self, sentences, sentence):
         pos = sentences.index(sentence)+1
         if self.relative:
-            return pos/len(sentences)
+            return pos/len(sentences)\
         else:
             return pos
 
