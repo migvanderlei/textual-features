@@ -6,3 +6,4 @@ sklearn
 textblob
 googletrans
 pathlib
+argparse

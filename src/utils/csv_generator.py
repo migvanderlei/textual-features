@@ -31,4 +31,4 @@ def generate_file(feature_arrays, feature_names, name):
     with open(extracted_path, 'w+') as f:
         f.write("\n".join(content))
 
-    print("created dataset file with {} lines and {} columns".format(len(content)-1, len(columns.split(','))))
+    print("created dataset file with {} lines and {} columns".format(len(content)-1, len(columns)))

@@ -32,3 +32,5 @@ def feature_extraction(dataset_name):
     features = pipeline.fit_transform(raw_sentences)
 
     generate_file(features, RAW_TEXT_FEATURES+SPACY_FEATURES, 'teste')
+
+feature_extraction('teste')
