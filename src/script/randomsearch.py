@@ -9,7 +9,7 @@ from src.extractor.lenght.count_words import CountWords
 DATASET_PATH = '../../res/datasets/extracted/{}_dataset_ext.csv'
 
 
-def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=10):
+def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100):
     """Performs RandomSearch for the specified pipeline and params"""
     dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
     dataset = pd.read_csv(dataset_path)

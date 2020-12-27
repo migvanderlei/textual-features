@@ -13,24 +13,25 @@ SPACY_FEATURES = [feature for feature in ALL_FEATURES if feature[0] not in RAW_T
 
 
 def feature_extraction(dataset_name):
-    dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
+    try:
+        dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
 
-    data = pd.read_csv(dataset_path, sep='\t')
-    raw_sentences = data['sentence']
+        data = pd.read_csv(dataset_path, sep='\t')
+        raw_sentences = data['sentence']
 
-    spacy_union = FeatureUnion(transformer_list=SPACY_FEATURES)
+        spacy_union = FeatureUnion(transformer_list=SPACY_FEATURES)
 
-    pipeline = Pipeline(steps=[
-        ('features', FeatureUnion(
-            transformer_list=RAW_TEXT_FEATURES + [('spacy', Pipeline(steps=[
-                    ('spacy_preprocessor', SpacyPreprocessor()),
-                    ('spacy_features', spacy_union)
-                ]))],
-        ))
-    ])
+        pipeline = Pipeline(steps=[
+            ('features', FeatureUnion(
+                transformer_list=RAW_TEXT_FEATURES + [('spacy', Pipeline(steps=[
+                        ('spacy_preprocessor', SpacyPreprocessor()),
+                        ('spacy_features', spacy_union)
+                    ]))],
+            ))
+        ])
 
-    features = pipeline.fit_transform(raw_sentences)
+        features = pipeline.fit_transform(raw_sentences)
 
-    generate_file(features, RAW_TEXT_FEATURES+SPACY_FEATURES, 'teste')
-
-feature_extraction('teste')
+        generate_file(features, RAW_TEXT_FEATURES+SPACY_FEATURES, dataset_name)
+    except FileNotFoundError:
+        print("Path do arquivo não econtrado: {}".format(Path(DATASET_PATH.format(dataset_name)).resolve()))
