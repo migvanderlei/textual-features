@@ -1,14 +1,15 @@
 from sklearn.base import BaseEstimator
 import numpy as np
 from pathlib import Path
+from src.utils.paths import PATH_DIR
 
-words_dir = '../../res/dictionaries/girias.txt'
+words_dir = PATH_DIR+'res/dictionaries/girias.txt'
 
 
 class CountExpressions(BaseEstimator):
     def __init__(self):
         self.name = "COUNT EXPRESSIONS (GÍRIAS)"
-        self.file_name = Path(words_dir).resolve()
+        self.file_name = words_dir
         self.lexicon = []
 
     def __load_lexicon__(self):

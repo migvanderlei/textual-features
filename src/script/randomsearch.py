@@ -1,12 +1,10 @@
 from sklearn.model_selection import RandomizedSearchCV
-from sklearn.pipeline import Pipeline, FeatureUnion
-from sklearn.svm import SVC as SVM
 from pathlib import Path
 import pandas as pd
+from src.utils.paths import PATH_DIR
 
-from src.extractor.lenght.count_words import CountWords
 
-DATASET_PATH = '../../res/datasets/extracted/{}_dataset_ext.csv'
+DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}_dataset_ext.csv'
 
 
 def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100, verbose=10, n_jobs=10):
@@ -22,3 +20,6 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
     search.fit(X, y)
 
     print(search.best_params_)
+    print(search.best_score_)
+    with open("{}random_search.log".format(dataset_name), "w+") as f:
+        f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_,search.best_params_))

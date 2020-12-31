@@ -1,14 +1,15 @@
 from sklearn.base import BaseEstimator
 import numpy as np
 from pathlib import Path
+from src.utils.paths import PATH_DIR
 
-liwc_dir = '../../res/liwc_pt/LIWC_Portuguese_subjective.txt'
+liwc_dir = PATH_DIR+'res/liwc_pt/LIWC_Portuguese_subjective.txt'
 
 
 class LexiconSubjective(BaseEstimator):
     def __init__(self, proportion=False):
         self.name = "PROP" if proportion else "NUM" + " SUBJECTIVE WORDS"
-        self.file_name = Path(liwc_dir).resolve()
+        self.file_name = liwc_dir
         self.lexicon = []
         self.proportion = proportion
 

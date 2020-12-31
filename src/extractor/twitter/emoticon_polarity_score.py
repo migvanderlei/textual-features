@@ -2,14 +2,15 @@ from sklearn.base import BaseEstimator
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from src.utils.paths import PATH_DIR
 
-emoticon_dir = '../../res/dictionaries/emoticon_sentiment_lexicon.tsv'
+emoticon_dir = PATH_DIR+'res/dictionaries/emoticon_sentiment_lexicon.tsv'
 
 
 class EmoticonPolarityScore(BaseEstimator):
     def __init__(self):
         self.name = "SUM OF EMOTICON SCORE"
-        self.file_name = Path(emoticon_dir).resolve()
+        self.file_name = emoticon_dir
         self.emoticon_data = None
 
     def __get_emojis__(self, sentence):

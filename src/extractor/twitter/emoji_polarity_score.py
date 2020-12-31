@@ -2,15 +2,16 @@ from sklearn.base import BaseEstimator
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from src.utils.paths import PATH_DIR
 
-emoji_dir = '../../res/dictionaries/emoji_ranking.csv'
+emoji_dir = PATH_DIR+'res/dictionaries/emoji_ranking.csv'
 
 
 class EmojiPolarityScore(BaseEstimator):
     def __init__(self, scoring_type='polarity'):
         self.scoring_type = scoring_type
         self.name = "SUM OF " + scoring_type.upper() + " EMOJIS"
-        self.file_name = Path(emoji_dir).resolve()
+        self.file_name = emoji_dir
         self.emoji_data = None
 
     def __get_emojis__(self, sentence):
