@@ -2,7 +2,7 @@ from sklearn.model_selection import RandomizedSearchCV
 from pathlib import Path
 import pandas as pd
 from src.utils.paths import PATH_DIR
-
+from datetime import datetime
 
 DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}_dataset_ext.csv'
 
@@ -21,5 +21,6 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
 
     print(search.best_params_)
     print(search.best_score_)
-    with open("{}random_search.log".format(dataset_name), "w+") as f:
-        f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_,search.best_params_))
+    with open("{}logs/{}_randomsearch_{}.log".format(
+            PATH_DIR, datetime.now().strftime("%m-%d-%Y-%H-%M-%S"), dataset_name), "w+") as f:
+        f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))

@@ -1,9 +1,10 @@
 from src.extractor.lenght.document_size import DocumentSize
 from src.utils import SpacyPreprocessor
 from src.extractor.lenght.count_words import CountWords
-from src.extractor.pos import CountAdj
-from src.extractor.concept import AptitudeScore
+from src.extractor.positional import SentencePosition
+from src.utils.spacy_sent_tokenizer import SpacySentenceTokenizer
 import pandas as pd
+
 """
 docs = ["Hamburgueria artesanal com tempero diferenciado, de primeira qualidade, fora o atendimento no qual "
         "diferencia por serem bilíngues,. Recomendo quem quer saciar a fome..",
@@ -26,18 +27,15 @@ sentences = ["Hamburgueria artesanal com tempero diferenciado, de primeira quali
              "Adorei TUDO que experimentei especialmente, o pesto de Jambu. ",
              "Fora isso, o atendimento é MUITO bom e o ambiente/vista são lindos."]
 """
-data = pd.read_csv("/home/miguel/PycharmProjects/textual-features/res/datasets/tripadvisor_dataset.tsv", sep='\t')
+data = pd.read_csv("/home/miguel/PycharmProjects/textual-features/res/datasets/computerbr_dataset.tsv", sep='\t')
 sentences = data['sentence'].to_list()
-spacy_sentences = SpacyPreprocessor().transform(sentences)
+targets = data['subjectivity'].to_list()
 
-extractor1 = DocumentSize()
-extractor2 = CountWords()
+for i in range(len(sentences[:10])):
+    sbj = targets[i]
+    print('--')
+    for sent in SpacySentenceTokenizer().transform(sentences[i]):
+        print(sbj, sent)
 
-adj_extractor = CountAdj()
-aptitude_extractor = AptitudeScore(True, True)
-
-features = aptitude_extractor.transform(spacy_sentences)
-
-# print(features)
-print(features.shape)
-features = adj_extractor.transform(sentences)
+# with open('/home/miguel/PycharmProjects/textual-features/sentences_computerbr.txt', 'w+') as f:
+#     f.write('\n'.join(tokenized))

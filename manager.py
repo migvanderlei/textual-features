@@ -7,6 +7,8 @@ parser.add_argument('--extract', help='Extract features from text. Specify --dat
 parser.add_argument('--randomsearch', help='Perform RamdomizedSearchCV Specify --dataset (-d) '
                                            'or it will run for all datasets. Check default params.',
                     dest='randomsearch', action='store_true')
+parser.add_argument('--ablation', help='Perform Ablation Study. Specify --dataset (-d). Model configuration in code.',
+                    dest='ablation', action='store_true')
 parser.add_argument('--dataset', '-d', help='Dataset name. [computerbr, reli, tripadvidor, teste]', dest='dataset')
 parser.add_argument('--crossval', '-c', help='Cross validation number of folds (default = 5)', dest='crossval')
 parser.add_argument('--iter', '-i', help='Number of iterations on RandomizedSearchCV (default = 100)', dest='iter')
@@ -16,10 +18,21 @@ parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr
 
 args = parser.parse_args()
 
+if args.ablation:
+    from src.script.ablation_study import perform_ablation
+    from src.utils.methods_list import SVC
+    if args.dataset:
+        perform_ablation(SVC(), args.dataset)
+    else:
+        for dataset in ['computerbr', 'reli', 'tripadvisor']:
+            print("Extracting {} dataset".format(dataset))
+            # feature_extraction(dataset)
+            print("{} extraction finished".format(dataset))
+
 if args.extract:
     from src.script.feature_extraction import feature_extraction
     if args.dataset:
-        if args.dataset in ['computerbr', 'reli', 'tripadvisor']:
+        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste']:
             print("Extract {} dataset".format(args.dataset))
             feature_extraction(args.dataset)
             print("{} extraction finished".format(args.dataset))
