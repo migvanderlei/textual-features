@@ -23,7 +23,7 @@ if args.ablation:
     from src.utils.methods_list import CLASSIFIERS_PARAMETERS
     if args.dataset:
         if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste']:
-            print("starting ablation for {} dataset".format(dataset))
+            print("starting ablation for {} dataset".format(args.dataset))
             perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
             print("{} ablation study finished".format(args.dataset))
         else:
