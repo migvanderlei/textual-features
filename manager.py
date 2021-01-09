@@ -20,14 +20,22 @@ args = parser.parse_args()
 
 if args.ablation:
     from src.script.ablation_study import perform_ablation
-    from src.utils.methods_list import SVC
-    if args.dataset:
-        perform_ablation(SVC(), args.dataset)
+    from src.utils.methods_list import CLASSIFIERS_PARAMETERS
+    if args.clf:
+        if args.dataset:
+            if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste']:
+                perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
+                print("{} ablation study finished".format(args.dataset))
+            else:
+                print("{} not a dataset. Finishing.".format(args.dataset))
+        else:
+            for dataset in ['computerbr', 'reli', 'tripadvisor']:
+                print("Extracting {} dataset".format(dataset))
+                perform_ablation(CLASSIFIERS_PARAMETERS[dataset], dataset)
+                print("{} ablation study finished".format(dataset))
     else:
-        for dataset in ['computerbr', 'reli', 'tripadvisor']:
-            print("Extracting {} dataset".format(dataset))
-            # feature_extraction(dataset)
-            print("{} extraction finished".format(dataset))
+        print("Classifier must be specified with --clf. Specify one from list [svm, lr, rf, gbt]")
+
 
 if args.extract:
     from src.script.feature_extraction import feature_extraction
@@ -42,7 +50,7 @@ if args.extract:
     else:
         for dataset in ['computerbr', 'reli', 'tripadvisor']:
             print("Extracting {} dataset".format(dataset))
-            # feature_extraction(dataset)
+            feature_extraction(dataset)
             print("{} extraction finished".format(dataset))
 
 if args.randomsearch:

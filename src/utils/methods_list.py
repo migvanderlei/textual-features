@@ -41,3 +41,9 @@ CLASSIFIERS_LIST = [
           }
      },
 ]
+
+CLASSIFIERS_PARAMETERS = {
+    'tripadvisor': GradientBoostingClassifier(min_samples_leaf=1, max_depth=1, learning_rate=0.5, n_estimators=300),
+    'computerbr': SVC(kernel='rbf', gamma='scale', class_weight='balanced', C=10),
+    'reli': SVC(kernel='sigmoid', gamma='auto', class_weight=None, C=0.01)
+}
