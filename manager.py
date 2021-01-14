@@ -22,7 +22,13 @@ if args.ablation:
     from src.script.ablation_study import perform_ablation
     from src.utils.methods_list import CLASSIFIERS_PARAMETERS
     if args.dataset:
-        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste']:
+        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste', 'reli_less', 'computerbr_twt']:
+
+            if args.dataset == 'reli_less':
+                args.dataset = 'reli'
+            if args.dataset == 'computerbr_twt':
+                args.dataset = 'computerbr'
+
             print("starting ablation for {} dataset".format(args.dataset))
             perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
             print("{} ablation study finished".format(args.dataset))
