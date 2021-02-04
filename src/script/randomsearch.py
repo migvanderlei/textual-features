@@ -22,5 +22,5 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
     print(search.best_params_)
     print(search.best_score_)
     with open("{}logs/{}_randomsearch_{}.log".format(
-            PATH_DIR, datetime.now().strftime("%m-%d-%Y-%H-%M-%S"), dataset_name), "w+") as f:
+            PATH_DIR, dataset_name, datetime.now().strftime("%m-%d-%Y-%H-%M-%S")), "w+") as f:
         f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))
