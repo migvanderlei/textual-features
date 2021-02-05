@@ -17,17 +17,17 @@ CLASSIFIERS_LIST = [
     {'id': 'lr',
      'clf': LogisticRegression(),
      'parameters':
-         {'penalty': ['l1', 'l2'],
+         {'penalty': ['l2'],
           'C': [0.001, 0.01, 1, 10, 100, 1000],
-          'max_iter': list(range(100, 800, 100)),
-          'solver': ['lbfgs', 'liblinear', 'sag', 'saga', 'newton-cg']
+          'max_iter': list(range(100, 1001, 100)),
+          'solver': ['newton-cg', 'lbfgs', 'liblinear']
           }
      },
     {'id': 'rf',
      'clf': RandomForestClassifier(),
      'parameters':
-         {'max_depth': [3, 6, 9, 18, 32],
-          'min_samples_leaf': [1, 2, 4, 8, 12, 16],
+         {'max_depth': [3, 6, 9, 18, 32, 64, 128],
+          'min_samples_leaf': [1, 2, 4, 8, 12, 16, 32],
           'n_estimators': [x for x in range(100, 1001, 100)],
           }
      },
@@ -35,8 +35,8 @@ CLASSIFIERS_LIST = [
      'clf': GradientBoostingClassifier(),
      'parameters':
          {'learning_rate': [0.01, 0.1, 0.5, 1],
-          'max_depth': [ 3, 6, 9, 18, 32],
-          'min_samples_leaf': [1, 2, 4, 8, 12, 16],
+          'max_depth': [ 3, 6, 9, 18, 32, 64, 128],
+          'min_samples_leaf': [1, 2, 4, 8, 12, 16, 32],
           'n_estimators': [x for x in range(100, 1001, 100)],
           }
      },

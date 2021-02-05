@@ -15,6 +15,7 @@ parser.add_argument('--iter', '-i', help='Number of iterations on RandomizedSear
 parser.add_argument('--verbose', '-v', help='Verbosity level (default = 10)', dest='verbose')
 parser.add_argument('--jobs', '-j', help='Number of threads (default = 10)', dest='jobs')
 parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr, rf, gbt]', dest='clf')
+parser.add_argument('--preprocess', '-p', help='If passed, data is standardized with mean = 0', dest='preprocess', action='store_true')
 
 args = parser.parse_args()
 
@@ -61,6 +62,7 @@ if args.randomsearch:
             verbose = int(args.verbose) if args.verbose else 10
             jobs = int(args.jobs) if args.jobs else 10
             clf_name = args.clf
+            preprocess = args.preprocess
 
             print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs and method {}"
                   .format(args.dataset, crossval, iterations, verbose, jobs, clf_name))
@@ -69,7 +71,7 @@ if args.randomsearch:
             clf = elem['clf']
             parameters = elem['parameters']
 
-            perform_randomsearch(clf, args.dataset, parameters, crossval, iterations, verbose, jobs)
+            perform_randomsearch(clf, args.dataset, parameters, crossval, iterations, verbose, jobs, preprocess)
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:
