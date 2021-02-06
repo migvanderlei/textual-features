@@ -1,5 +1,5 @@
 from sklearn.model_selection import RandomizedSearchCV
-from sklearn import preprocessing
+from sklearn.preprocessing import StandardScaler
 from pathlib import Path
 import pandas as pd
 from src.utils.paths import PATH_DIR
@@ -17,7 +17,8 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
     y = dataset['subjectivity']
 
     if preprocess:
-        X = preprocessing.StandardScaler().fit(X)
+        scaler = StandardScaler()
+        X = scaler.fit_transform(X)
 
     search = RandomizedSearchCV(pipeline, parameters, n_iter=n_iter, scoring='f1',
                                 cv=folds, verbose=verbose, n_jobs=n_jobs, random_state=42)
@@ -25,6 +26,12 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
 
     print(search.best_params_)
     print(search.best_score_)
-    with open("{}logs/{}_randomsearch_{}.log".format(
-            PATH_DIR, dataset_name, datetime.now().strftime("%m-%d-%Y-%H-%M-%S")), "w+") as f:
+    filename = ""
+    if preprocess:
+        filename = "{}logs/{}_randomsearch_{}.log".format(
+            PATH_DIR, dataset_name+"_scaled", datetime.now().strftime("%m-%d-%Y-%H-%M-%S"))
+    else:
+        filename = "{}logs/{}_randomsearch_{}.log".format(
+            PATH_DIR, dataset_name, datetime.now().strftime("%m-%d-%Y-%H-%M-%S"))
+    with open(filename, "w+") as f:
         f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))

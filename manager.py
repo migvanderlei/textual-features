@@ -64,8 +64,8 @@ if args.randomsearch:
             clf_name = args.clf
             preprocess = args.preprocess
 
-            print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs and method {}"
-                  .format(args.dataset, crossval, iterations, verbose, jobs, clf_name))
+            print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs, {} preprocessing data, and method {}"
+                  .format(args.dataset, crossval, iterations, verbose, jobs, "" if args.preprocess else "not" clf_name))
 
             elem = [elem for elem in CLASSIFIERS_LIST if elem['id'] == clf_name][0]
             clf = elem['clf']
