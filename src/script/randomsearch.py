@@ -8,7 +8,7 @@ from datetime import datetime
 DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}_dataset_ext.csv'
 
 
-def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100, verbose=10, n_jobs=10, preprocess=False):
+def perform_randomsearch(pipeline, dataset_name, parameters, model_name, folds=5, n_iter=100, verbose=10, n_jobs=10, preprocess=False):
     """Performs RandomSearch for the specified pipeline and params"""
     dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
     dataset = pd.read_csv(dataset_path)
@@ -28,10 +28,10 @@ def perform_randomsearch(pipeline, dataset_name, parameters, folds=5, n_iter=100
     print(search.best_score_)
     filename = ""
     if preprocess:
-        filename = "{}logs/{}_randomsearch_{}.log".format(
-            PATH_DIR, dataset_name+"_scaled", datetime.now().strftime("%m-%d-%Y-%H-%M-%S"))
+        filename = "{}logs/{}_randomsearch_{}_{}.log".format(
+            PATH_DIR, dataset_name+"_scaled", model_name, datetime.now().strftime("%%Y-%m-%d-%H-%M"))
     else:
-        filename = "{}logs/{}_randomsearch_{}.log".format(
-            PATH_DIR, dataset_name, datetime.now().strftime("%m-%d-%Y-%H-%M-%S"))
+        filename = "{}logs/{}_randomsearch_{}_{}.log".format(
+            PATH_DIR, dataset_name, model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
     with open(filename, "w+") as f:
         f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))

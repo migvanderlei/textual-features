@@ -8,7 +8,7 @@ from src.utils.csv_generator import generate_file
 from src.utils.paths import PATH_DIR
 import csv
 
-DATASET_PATH = PATH_DIR+'res/datasets/{}_dataset.tsv'
+DATASET_PATH = PATH_DIR+'res/datasets/raw/{}_dataset.tsv'
 
 RAW_TEXT_FEATURES_NAMES = [feature[0] for feature in RAW_TEXT_FEATURES]
 SPACY_FEATURES = [feature for feature in ALL_FEATURES if feature[0] not in RAW_TEXT_FEATURES_NAMES]
@@ -35,4 +35,6 @@ def feature_extraction(dataset_name):
 
         generate_file(features, RAW_TEXT_FEATURES+SPACY_FEATURES, dataset_name)
     except FileNotFoundError:
-        print("Path do arquivo não econtrado: {}".format(DATASET_PATH.format(dataset_name)))
+        print("Path do arquivo não econtrado: {}".format(dataset_path))
+    except Exception as err:
+        print(err)

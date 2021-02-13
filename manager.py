@@ -71,7 +71,7 @@ if args.randomsearch:
             clf = elem['clf']
             parameters = elem['parameters']
 
-            perform_randomsearch(clf, args.dataset, parameters, crossval, iterations, verbose, jobs, preprocess)
+            perform_randomsearch(clf, args.dataset, parameters, clf_name, crossval, iterations, verbose, jobs, preprocess)
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:
@@ -89,7 +89,7 @@ if args.randomsearch:
                 clf = elem['clf']
                 parameters = elem['parameters']
 
-                perform_randomsearch(clf, dataset, parameters, crossval, iterations, verbose, jobs)
+                perform_randomsearch(clf, dataset, parameters, clf_name, crossval, iterations, verbose, jobs)
 
     else:
         print("Classifier must be specified with --clf. Specify one from list [svm, lr, rf, gbt]")

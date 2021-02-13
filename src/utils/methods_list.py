@@ -10,7 +10,7 @@ CLASSIFIERS_LIST = [
      'parameters':
          {'C': [0.01, 0.1, 1, 10, 100, 1000],
           'class_weight': [None, 'balanced'],
-          'kernel': ['linear', 'poly'],
+          'kernel': ['linear', 'poly', 'rbf'],
           'gamma': ['auto', 'scale'],
           }
      },
@@ -19,25 +19,25 @@ CLASSIFIERS_LIST = [
      'parameters':
          {'penalty': ['l2'],
           'C': [0.001, 0.01, 1, 10, 100, 1000],
-          'max_iter': list(range(100, 1001, 100)),
+          'max_iter': list(range(100, 2001, 100)),
           'solver': ['newton-cg', 'lbfgs', 'liblinear']
           }
      },
     {'id': 'rf',
      'clf': RandomForestClassifier(),
      'parameters':
-         {'max_depth': [3, 6, 9, 18, 32, 64, 128],
+         {'max_depth': [2**x for x in range(2, 10)],
           'min_samples_leaf': [1, 2, 4, 8, 12, 16, 32],
-          'n_estimators': [x for x in range(100, 1001, 100)],
+          'n_estimators': [2**x for x in range(2, 12)],
           }
      },
     {'id': 'gbt',
      'clf': GradientBoostingClassifier(),
      'parameters':
-         {'learning_rate': [0.01, 0.1, 0.5, 1],
-          'max_depth': [ 3, 6, 9, 18, 32, 64, 128],
+         {'learning_rate': [0.001, 0.01, 0.1, 0.5, 1],
+          'max_depth': [2**x for x in range(2, 10)],
           'min_samples_leaf': [1, 2, 4, 8, 12, 16, 32],
-          'n_estimators': [x for x in range(100, 1001, 100)],
+          'n_estimators': [2**x for x in range(2, 12)],
           }
      },
 ]

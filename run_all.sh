@@ -24,7 +24,11 @@ python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf svm -j 6 -i 20
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf gbt -j 6 -i 2000 -v 0 | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf lr -j 6 -i 2000 -v 0 | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf rf -j 6 -i 2000 -v 0 | telegram-send --stdin
-
+#
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf svm -j 6 -i 2000 -v 0 | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf gbt -j 6 -i 2000 -v 0 | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf lr -j 6 -i 2000 -v 0 | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf rf -j 6 -i 2000 -v 0 | telegram-send --stdin
 ################### preprocessed 
 python $MANAGER_PATH/manager.py --randomsearch -d tripadvisor --clf svm -j 6 -i 2000 -v 0 -p | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d tripadvisor --clf gbt -j 6 -i 2000 -v 0 -p | telegram-send --stdin
@@ -50,5 +54,10 @@ python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf svm -j 6 -i 20
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf gbt -j 6 -i 2000 -v 0 -p | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf lr -j 6 -i 2000 -v 0 -p | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_less --clf rf -j 6 -i 2000 -v 0 -p | telegram-send --stdin
+#
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf svm -j 6 -i 2000 -v 0 -p | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf gbt -j 6 -i 2000 -v 0 -p | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf lr -j 6 -i 2000 -v 0 -p | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_pos --clf rf -j 6 -i 2000 -v 0 -p | telegram-send --stdin
 
 echo "ALL STEPS FINISHED" | telegram-send --stdin
