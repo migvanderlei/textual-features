@@ -60,10 +60,10 @@ LENGHT_FEATURES_LIST_WORDS = [
     ('count_words', CountWords()),
 ]
 
-# LENGHT_FEATURES_LIST = [
-#     ('count_words', CountWords()),
-#     ('count_words_document', DocumentSize()),
-# ]
+LENGHT_FEATURES_LIST = [
+    ('count_words', CountWords()),
+    ('count_words_document', DocumentSize()),
+]
 
 LEXICON_FEATURES_LIST = [
     ('lexicon_subjective', LexiconSubjective()),
