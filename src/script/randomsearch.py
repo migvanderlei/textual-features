@@ -5,12 +5,13 @@ import pandas as pd
 from src.utils.paths import PATH_DIR
 from datetime import datetime
 
-DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}_dataset_ext.csv'
+DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}/{}_grouped_{}_dataset_ext.csv'
 
 
-def perform_randomsearch(pipeline, dataset_name, parameters, model_name, folds=5, n_iter=100, verbose=10, n_jobs=10, preprocess=False):
+def perform_randomsearch(pipeline, dataset_name, parameters, model_name, group=0, folds=5, n_iter=100, verbose=10, n_jobs=10, preprocess=False):
     """Performs RandomSearch for the specified pipeline and params"""
-    dataset_path = Path(DATASET_PATH.format(dataset_name)).resolve()
+    dataset_path = DATASET_PATH.format(dataset_name, dataset_name, str(group))
+    print(dataset_path)
     dataset = pd.read_csv(dataset_path)
     
     X = dataset.loc[:, dataset.columns != 'subjectivity']

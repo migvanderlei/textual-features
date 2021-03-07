@@ -17,6 +17,7 @@ parser.add_argument('--jobs', '-j', help='Number of threads (default = 10)', des
 parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr, rf, gbt]', dest='clf')
 parser.add_argument('--preprocess', '-p', help='If passed, data is standardized with mean = 0', dest='preprocess', action='store_true')
 parser.add_argument('--allgroups', help='If passed, all groups of features are extracted', dest='allgroups', action='store_true')
+parser.add_argument('--group', dest='group')
 
 args = parser.parse_args()
 
@@ -72,7 +73,7 @@ if args.randomsearch:
             clf = elem['clf']
             parameters = elem['parameters']
 
-            perform_randomsearch(clf, args.dataset, parameters, clf_name, crossval, iterations, verbose, jobs, preprocess)
+            perform_randomsearch(clf, args.dataset, parameters, clf_name, args.group, crossval, iterations, verbose, jobs, preprocess)
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:
