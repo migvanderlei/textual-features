@@ -7,21 +7,21 @@ class PolarityScore(BaseEstimator):
     def __init__(self, absolute=False, average=False):
         self.name = "AVERAGE" if average else "SUM" + " OF POLARITY SCORES" + (" (ABS)" if absolute else "")
         self.sn = SenticNet('pt')
-        self.abs = absolute
-        self.avg = average
+        self.absolute = absolute
+        self.average = average
 
     def __value__(self, sentence):
         total = 0
         for word in sentence:
             try:
-                if self.abs:
+                if self.absolute:
                     score = abs(self.sn.polarity_value(word.text.lower()))
                 else:
                     score = self.sn.polarity_value(word.text.lower())
                 total += score
             except KeyError:
                 pass
-        if self.avg:
+        if self.average:
             return total / len(sentence)
         else:
             return total
