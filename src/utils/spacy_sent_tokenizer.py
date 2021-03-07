@@ -1,12 +1,12 @@
-import pt_core_news_lg
 from sklearn.base import BaseEstimator
+import spacy
 
 
 class SpacySentenceTokenizer(BaseEstimator):
 
     def __init__(self):
-        self.nlp = pt_core_news_lg.load()
-
+        self.nlp = spacy.load('pt_core_news_lg')
+        
     def fit(self, x=None, y=None):
         return self
 

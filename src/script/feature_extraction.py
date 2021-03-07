@@ -77,5 +77,21 @@ def extract_variations():
 
         generate_file(extracted, features, 'reli', '_grouped_{}'.format(i))
 
+# def exctract_legacy(dataset):
+#     dataset_path = DATASET_PATH.format(dataset)
+#     print(dataset_path)
+#     data = pd.read_csv(dataset_path, sep='\t', quoting=csv.QUOTE_NONE)
+#     raw_sentences = data['sentence']
+    
+#     comp = CountComparatives()
+#     comp.legacy_extraction(raw_sentences, dataset)
+#     extracted_data = comp.transform(raw_sentences)
+#     print(extracted_data.shape)
+#     sup = CountSuperlatives()
+#     sup.legacy_extraction(raw_sentences, dataset)
+#     extracted_data = sup.transform(raw_sentences)
+#     print(extracted_data.shape)
+
+
 if __name__ == "__main__":
     extract_variations()

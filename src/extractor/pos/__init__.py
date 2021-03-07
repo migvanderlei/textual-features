@@ -15,3 +15,5 @@ from .count_punct import CountPunct
 from .count_propn import CountPropn
 from .count_pron import CountPron
 from .count_num import CountNum
+from .count_legacy_comparative import CountComparatives
+from .count_legacy_superlative import CountSuperlatives

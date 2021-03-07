@@ -1,0 +1,9 @@
+spacy==2.2.2
+senticnet>=1.6
+pandas>=1.1.4
+numpy
+sklearn
+textblob
+googletrans
+pathlib
+argparse

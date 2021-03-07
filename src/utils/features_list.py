@@ -8,6 +8,7 @@ from src.extractor.syntactic_rules import *
 from src.extractor.twitter import *
 
 POS_FEATURES_LIST = [
+    ('count_words', CountWords()),
     ('pos_adj', CountAdj()),
     ('pos_adp', CountAdp()),
     ('pos_adv', CountAdj()),
@@ -25,6 +26,8 @@ POS_FEATURES_LIST = [
     ('pos_sym', CountSym()),
     ('pos_verb', CountVerb()),
     ('pos_x', CountX()),
+    ('pos_comparatives', CountComparatives()),
+    ('pos_superlatives', CountSuperlatives()),
 ]
 
 CONCEPT_FEATURES_LIST = [
@@ -57,10 +60,10 @@ LENGHT_FEATURES_LIST_WORDS = [
     ('count_words', CountWords()),
 ]
 
-LENGHT_FEATURES_LIST = [
-    ('count_words', CountWords()),
-    ('count_words_document', DocumentSize()),
-]
+# LENGHT_FEATURES_LIST = [
+#     ('count_words', CountWords()),
+#     ('count_words_document', DocumentSize()),
+# ]
 
 LEXICON_FEATURES_LIST = [
     ('lexicon_subjective', LexiconSubjective()),
