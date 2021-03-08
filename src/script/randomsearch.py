@@ -32,7 +32,7 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, group=0
         filename = "{}logs/{}_randomsearch_{}_{}.log".format(
             PATH_DIR, dataset_name+"_scaled", model_name, datetime.now().strftime("%%Y-%m-%d-%H-%M"))
     else:
-        filename = "{}logs/{}_randomsearch_{}_{}.log".format(
-            PATH_DIR, dataset_name, model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
+        filename = "{}logs/{}/{}_{}_{}_{}.log".format(
+            PATH_DIR, dataset_name, dataset_name, str(group), model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
     with open(filename, "w+") as f:
         f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))

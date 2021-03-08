@@ -1,4 +1,0 @@
-name: textual-features
-channels:
-  - defaults
-prefix: /home/miguel/anaconda3/envs/textual-features
