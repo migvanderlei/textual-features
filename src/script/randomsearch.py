@@ -5,7 +5,7 @@ import pandas as pd
 from src.utils.paths import PATH_DIR
 from datetime import datetime
 
-DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}/{}_grouped_{}_dataset_ext.csv'
+DATASET_PATH = PATH_DIR+'res/datasets/extracted/{}/{}_unique_{}_dataset_ext.csv'
 
 
 def perform_randomsearch(pipeline, dataset_name, parameters, model_name, group=0, folds=5, n_iter=100, verbose=10, n_jobs=10, preprocess=False):
@@ -29,7 +29,7 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, group=0
     print(search.best_score_)
     filename = ""
     if preprocess:
-        filename = "{}logs/{}_randomsearch_{}_{}.log".format(
+        filename = "{}logs/{}_randomsearch_unique_{}_{}.log".format(
             PATH_DIR, dataset_name+"_scaled", model_name, datetime.now().strftime("%%Y-%m-%d-%H-%M"))
     else:
         filename = "{}logs/{}/{}_{}_{}_{}.log".format(

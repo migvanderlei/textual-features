@@ -1,3 +1,4 @@
+from numpy import extract
 from sklearn.pipeline import FeatureUnion, Pipeline
 from pathlib import Path
 import pandas as pd
@@ -92,6 +93,36 @@ def extract_variations():
 #     extracted_data = sup.transform(raw_sentences)
 #     print(extracted_data.shape)
 
+def extract_single():
+    all_features = [POS_FEATURES_LIST, CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS,LEXICON_FEATURES_LIST,SUBJECTIVITY_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, TWITTER_FEATURES_LIST]
+
+    dataset_path = DATASET_PATH.format('reli')
+
+    data = pd.read_csv(dataset_path, sep='\t', quoting=csv.QUOTE_NONE)
+    raw_sentences = data['sentence']
+
+    for i in tqdm(range(len(all_features))):
+        features = all_features[i]
+        # getting raw text to process later
+        raw_text_features = list(filter(lambda x: x[0] in RAW_TEXT_FEATURES_NAMES, features))
+        # print('total de texto puro', len(list(raw_text_features)))
+        filtered_features = list(filter(lambda x: x[0] not in RAW_TEXT_FEATURES_NAMES, features))
+        # print('total filtrado', len(list(filtered_features)))
+
+        spacy_union = FeatureUnion(transformer_list=filtered_features)
+        
+        pipeline = Pipeline(steps=[
+            ('features', FeatureUnion(
+                transformer_list=raw_text_features + [('spacy', Pipeline(steps=[
+                        ('spacy_preprocessor', SpacyPreprocessor()),
+                        ('spacy_features', spacy_union)
+                    ]))],
+            ))
+        ])
+
+        extracted = pipeline.fit_transform(raw_sentences)
+
+        generate_file(extracted, features, 'reli', '_unique_{}'.format(i))
 
 if __name__ == "__main__":
-    extract_variations()
+    extract_single()
