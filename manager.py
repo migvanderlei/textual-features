@@ -1,4 +1,5 @@
 import argparse
+import time
 from src.utils.methods_list import CLASSIFIERS_LIST
 
 parser = argparse.ArgumentParser(description='Manage operations like feature extraction and parameter search')
@@ -18,6 +19,7 @@ parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr
 parser.add_argument('--preprocess', '-p', help='If passed, data is standardized with mean = 0', dest='preprocess', action='store_true')
 parser.add_argument('--allgroups', help='If passed, all groups of features are extracted', dest='allgroups', action='store_true')
 parser.add_argument('--group', dest='group')
+parser.add_argument('--unique', dest='group', action='store_true')
 
 args = parser.parse_args()
 
@@ -25,11 +27,12 @@ if args.ablation:
     from src.script.ablation_study import perform_ablation
     from src.utils.methods_list import CLASSIFIERS_PARAMETERS
     if args.dataset:
-        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste', 'reli_less', 'computerbr_twt']:
+        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste', 'reli_less', 'computerbr_twt', 'reli_original']:
 
             print("starting ablation for {} dataset".format(args.dataset))
+            start_time = time.clock()
             perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
-            print("{} ablation study finished".format(args.dataset))
+            print("{} ablation study finished in {} seconds".format(args.dataset), time.clock() - start_time)
         else:
             print("{} not a dataset. Finishing.".format(args.dataset))
     else:
@@ -41,7 +44,7 @@ if args.ablation:
 if args.extract:
     from src.script.feature_extraction import feature_extraction
     if args.dataset:
-        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste']:
+        if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'reli_original']:
             print("Extract {} dataset".format(args.dataset))
             feature_extraction(args.dataset)
             print("{} extraction finished".format(args.dataset))
@@ -65,6 +68,7 @@ if args.randomsearch:
             jobs = int(args.jobs) if args.jobs else 10
             clf_name = args.clf
             preprocess = args.preprocess
+            unique = True if args.unique else False
 
             print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs, {} preprocessing data, and method {}"
                   .format(args.dataset, crossval, iterations, verbose, jobs, "" if args.preprocess else "not", clf_name))
@@ -72,8 +76,9 @@ if args.randomsearch:
             elem = [elem for elem in CLASSIFIERS_LIST if elem['id'] == clf_name][0]
             clf = elem['clf']
             parameters = elem['parameters']
-
-            perform_randomsearch(clf, args.dataset, parameters, clf_name, args.group, crossval, iterations, verbose, jobs, preprocess)
+            start_time = time.clock()
+            perform_randomsearch(clf, args.dataset, parameters, clf_name, unique, args.group, crossval, iterations, verbose, jobs, preprocess)
+            print("Finished in {} seconds".format(time.clock() - start_time))
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:

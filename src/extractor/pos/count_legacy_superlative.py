@@ -2,13 +2,14 @@ from sklearn.base import BaseEstimator
 import numpy as np
 import spacy
 from src.utils.paths import PATH_DIR
-
+# import pt_core_news_sm
 filename = PATH_DIR+'res/legacy/{}_superlative.txt'
 
 datasets = {
     2281: 'computerbr',
     2000: 'reli',
-    1049: 'tripadvisor'
+    1049: 'tripadvisor',
+    350: 'reli_original'
 }
 
 class CountSuperlatives(BaseEstimator):
@@ -27,7 +28,7 @@ class CountSuperlatives(BaseEstimator):
         return np.array(recovered).reshape(-1, 1)
     
     # def legacy_extraction(self, raw_sentences, dataset):
-    #     nlp = spacy.load('pt_core_news_sm')
+    #     nlp = pt_core_news_sm.load()
     #     sentences = list(nlp.pipe(raw_sentences, n_threads=4))
 
     #     list_count = []

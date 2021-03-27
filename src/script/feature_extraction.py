@@ -1,11 +1,7 @@
-from numpy import extract
 from sklearn.pipeline import FeatureUnion, Pipeline
-from pathlib import Path
 import pandas as pd
 from functools import reduce
-from itertools import chain, combinations
 from src.utils.features_list import *
-from src.utils.features_list import RAW_TEXT_FEATURES
 from src.utils.spacy_preprocessor import SpacyPreprocessor
 from src.utils.csv_generator import generate_file
 from src.utils.paths import PATH_DIR
@@ -43,10 +39,10 @@ def feature_extraction(dataset_name):
     except Exception as err:
         print(err)
 
-def extract_variations():
+def extract_variations(dataset):
     all_features = [POS_FEATURES_LIST, CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS,LEXICON_FEATURES_LIST,SUBJECTIVITY_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, TWITTER_FEATURES_LIST]
 
-    dataset_path = DATASET_PATH.format('reli')
+    dataset_path = DATASET_PATH.format(dataset)
 
     data = pd.read_csv(dataset_path, sep='\t', quoting=csv.QUOTE_NONE)
     raw_sentences = data['sentence']
@@ -76,27 +72,12 @@ def extract_variations():
 
         extracted = pipeline.fit_transform(raw_sentences)
 
-        generate_file(extracted, features, 'reli', '_grouped_{}'.format(i))
+        generate_file(extracted, features, dataset, '_grouped_{}'.format(i))
 
-# def exctract_legacy(dataset):
-#     dataset_path = DATASET_PATH.format(dataset)
-#     print(dataset_path)
-#     data = pd.read_csv(dataset_path, sep='\t', quoting=csv.QUOTE_NONE)
-#     raw_sentences = data['sentence']
-    
-#     comp = CountComparatives()
-#     comp.legacy_extraction(raw_sentences, dataset)
-#     extracted_data = comp.transform(raw_sentences)
-#     print(extracted_data.shape)
-#     sup = CountSuperlatives()
-#     sup.legacy_extraction(raw_sentences, dataset)
-#     extracted_data = sup.transform(raw_sentences)
-#     print(extracted_data.shape)
-
-def extract_single():
+def extract_single(dataset):
     all_features = [POS_FEATURES_LIST, CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS,LEXICON_FEATURES_LIST,SUBJECTIVITY_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, TWITTER_FEATURES_LIST]
 
-    dataset_path = DATASET_PATH.format('computerbr')
+    dataset_path = DATASET_PATH.format(dataset)
 
     data = pd.read_csv(dataset_path, sep='\t', quoting=csv.QUOTE_NONE)
     raw_sentences = data['sentence']
@@ -122,7 +103,9 @@ def extract_single():
 
         extracted = pipeline.fit_transform(raw_sentences)
 
-        generate_file(extracted, features, 'computerbr', '_unique_{}'.format(i))
+        generate_file(extracted, features, dataset, '_unique_{}'.format(i))
 
 if __name__ == "__main__":
-    extract_single()
+    dataset='reli_original'
+    extract_variations(dataset)
+    extract_single(dataset)
