@@ -1,0 +1,1050 @@
+sentence,count_words,pos_adj,pos_adp,pos_adv,pos_aux,pos_cconj,pos_det,pos_intj,pos_noun,pos_num,pos_part,pos_pron,pos_propn,pos_punct,pos_sconj,pos_sym,pos_verb,pos_x,pos_comparatives,pos_superlatives,subjectivity
+"""Ambiente agradável, bons pratos, comida saborosa , bom serviço, vale a pena conferir, bom tempero, recomendo""",15.0,5.0,0.0,5.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Lugar muito agradável, comida excelente é importante o bom atendimento dos garçons.""",13.0,4.0,1.0,4.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Pedimos um pirarucu ao molho de tucupi e não arrependemos""",10.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O Coqueiro verde serve uma deliciosa carne de sol, também contam com serviço de entrega o que é uma boa pedida para quem não quer sair de casa.. O serviço no restaurante é simples, a comida também, mas muito gostosa..""",41.0,5.0,5.0,5.0,2.0,1.0,5.0,0.0,9.0,0.0,0.0,3.0,1.0,7.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Ambiente confortável, ótimo atendimento com um garçon simpático, ele nos contou a história do empreendimento e sempre bem solícito.""",20.0,4.0,2.0,4.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
+"""Comida Boa por um bom preço.""",7.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O restaurante fica dentro do hotel Vila Amazônia""",8.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Boa carne, atendimento eficiente e grande variedade de saladas.""",10.0,3.0,1.0,3.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Local agradável.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Sucos com frutas locais além dos tradicionais.""",8.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Adoro as pizzas e o almoço, nas duas unidades.""",10.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,3.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O atendimento também é muito bom.""",7.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Delivery também vale super a pena.. a pizza chega bem quentinha!""",12.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Estivemos no kawamura para provar o sashimi, mas acabamos provando outros pratos tbm, gostamos de tudo, porém faltou um pouquinho de tempero na costelinha de porco.""",27.0,0.0,5.0,0.0,1.0,2.0,3.0,0.0,7.0,0.0,0.0,2.0,0.0,6.0,1.0,0.0,5.0,0.0,1.0,0.0,0.0
+"""Mas nada que nos impeça de voltar""",7.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,2.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Tambaqui um dos peixes mais gostosos de Manaus e região você pode comprar e fazer o mesmo caldeirada ou assado na brasa com o famoso tucupi, pimenta da região.""",30.0,3.0,5.0,3.0,0.0,3.0,2.0,0.0,7.0,1.0,0.0,1.0,1.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Parada obrigatória sempre que vou a Manaus!!""",8.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Tucunaré, tambaqui e pirarucu, é só escolher, cada um melhor que o outro.""",14.0,1.0,0.0,1.0,1.0,1.0,3.0,0.0,2.0,0.0,0.0,1.0,0.0,6.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0
+"""Atendimento bom, local familiar.""",5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Amei conhecer,o açaí é delicioso!Tem bastante opção em comida regional,o que nos deixa bem servidos!Super recomendo.""",21.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,3.0,1.0,5.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""O tacacá continua bom, mas o problema ainda é o preço.""",12.0,1.0,0.0,1.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Inclusive, recentemente houve um aumento para R$18,00.""",9.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,4.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+"""Resultado: só dá para provar de vez em quando.""",10.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Como alternativa, o tacacá do parque rio negro é tão bom quanto e custa bem menos.""",17.0,3.0,2.0,3.0,1.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,2.0,0.0,1.0
+"""Deliciosos pratos.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Local aconchegante e familar.""",5.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Boa comida e boa bebida.""",6.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ideal para desfrutar um jantar romantico.""",7.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Tucunaré escabeche, e primeira, pirão a gosto.""",8.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Tucunaré peixada sem igual.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Vários tipos de molho regional, com tucupi e outros.""",10.0,1.0,2.0,1.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""A Cachaçaria do Dedé do Shop Manauara brilha aos olhos: é linda, imponente, a decoração é fantástica e você pode ficar ao ladinho de árvores nativas da Amazônia.""",29.0,4.0,6.0,4.0,2.0,1.0,2.0,0.0,4.0,0.0,0.0,1.0,5.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Os pratos, petiscos e bebidas são nota 10!""",9.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Mas....... o serviço às vezes deixa muito a desejar.... mais pela demora.""",13.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0,4.0,1.0,0.0,2.0,0.0,1.0,0.0,1.0
+"""Então, tenha paciência!""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""rs O bar lota nos fins de tarde, principalmente às sextas feiras.""",13.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""No andar de cima, o burburinho chega a ser insuportável de tanta gente!""",14.0,1.0,3.0,1.0,1.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""rs Mas se vc quer se divertir, relaxar e degustar pratos deliciosos (experimente o Pirarucu na chapa!""",18.0,1.0,1.0,1.0,0.0,2.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0,6.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0
+"""), aguente..... rs Vale a pena!""",7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Mesmo com os preços um pouco salgados....""",8.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale a pena fazer uma visita e conferir os pratos deliciosos, é um lugar seguro, confortável,refrigerado, familiar e romântico, preço  acessível,""",23.0,6.0,0.0,6.0,1.0,2.0,4.0,0.0,5.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Muito bom.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Tanto no atendimento quanto no ambiente, e, principalmente nas variedades encontradas para um excelente café.""",16.0,1.0,4.0,1.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ideal para o domingo de manhã com a família, pois possui um ambiente agradável e uma ótima localização.""",19.0,2.0,3.0,2.0,0.0,1.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Já fui diversas vezes e sempre levando amigos e parentes para conhecer.""",13.0,1.0,0.0,1.0,1.0,2.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Porém, da última vez que fui, depois de meses sem ir, notei que o preço aumentou, mas a qualidade não.""",21.0,1.0,2.0,1.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,7.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""As sopas permanecem as mesmas, com as pequenas variações de sempre em conta do dia da semana e eles nem servem mais água.""",24.0,1.0,5.0,1.0,0.0,2.0,4.0,0.0,7.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0
+"""Para quem não conhece ainda, recomendo.""",7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Mas acho difícil a casa manter visitantes frequentes com a concorrência que aumenta.""",14.0,2.0,1.0,2.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Otimo rodizio de carne tanto para o almoço como para o jantar, preço bastante em conta, grande variedade de comida, alem de carne, tem massa, saladas, ambiente bom, amplo, atendimento excelente.""",32.0,5.0,6.0,5.0,0.0,0.0,2.0,0.0,13.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,2.0,0.0,1.0,0.0,1.0
+"""SUPER RECOMENDO.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""A tradição gaúcha está bem representada o a Búfalo.""",10.0,2.0,1.0,2.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Cortes especiais das mais nobres carnes são um convite todo especial.""",12.0,3.0,1.0,3.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Delicioso, variado e completo buffet.""",6.0,3.0,0.0,3.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pratos quentes fenomenais.""",4.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Também com opção de comida japonesa e peixes em geral.""",11.0,2.0,3.0,2.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Agrada facilmente todos os gostos.""",6.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ambiente amplo, confortável e muito agradável.""",7.0,3.0,0.0,3.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento nota 10.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Exelente localização.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O nome do restaurante pode dar uma conotação de vender apenas lanches, mas não é assim, pois possui uma diversidade de sopas no rodízio que oferece.""",27.0,0.0,3.0,0.0,0.0,1.0,3.0,0.0,7.0,0.0,0.0,1.0,0.0,5.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0
+"""E é uma delicia, com destaque para a sopa de carne com legumes acompanhada da deliciosa torradinha.""",18.0,1.0,5.0,1.0,1.0,1.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""atendimento deixa a desejar.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Nem sempre fui bem atendida.""",6.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Mesmo os não vegetarianos comerão bem.""",7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Comida de qualidade, com pouco óleo, lembra os restaurantes Adventistas.""",11.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Almoçamos em uma sexta feira, fomos em 2 famílias.""",10.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""A comida estava boa e bem servida.""",8.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O ambiente é amplo com 2 andares e banheiros bastante limpos.""",12.0,2.0,1.0,2.0,1.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento é cordial.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O que nos incomodou foi o volume do som da apresentação de um cantor, não permitia conversar em um tom normal, acabou nos irritando.""",25.0,1.0,5.0,1.0,1.0,0.0,3.0,0.0,5.0,0.0,0.0,3.0,0.0,5.0,0.0,0.0,5.0,0.0,1.0,0.0,0.0
+"""O cardápio é bem variado, gostoso, mas o atendimento é muito ruim.""",13.0,3.0,0.0,3.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""As garçonetes atendem com um mau humor...parece que estão fazendo um favor, eu mesmo pedi uma tapioca e estou esperando entregarem até hoje!""",25.0,1.0,2.0,1.0,2.0,1.0,4.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0
+"""Precisa melhorar muito o atendimento ou dar um treinamento porque a comida é muito boa e aquelas funcionárias afundam o restaurante.""",22.0,1.0,0.0,1.0,1.0,2.0,5.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Rodízio contém pizzas e massas e além disso tem cardápio, estacionamento não tem.""",14.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,1.0,1.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Contém também sopas""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O restaurante do SENAC é bem situado.""",8.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente super higienizado, atendimento excelente, os preços são ótimos.""",10.0,3.0,0.0,3.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""As comidas são excelentes.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Muito bom..., aconselho!.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Vale experimentar o tambaqui na brasa, é muito bom!!!""",10.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O restaurante é sem luxo, mas o atendimento é muito bom, com garçons simpáticos.""",15.0,2.0,2.0,2.0,2.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Muito bom o atendimento.""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cardápio variado.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Culinária regional e deliciosa.""",5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Ambiente agradável.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Custo benefício alto.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""So vale a pena em datas especiais.""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Recomendo conhecer.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Lanche em um bairro tradicional e antido de manaus, localizado mas precisamente em uma area rodeada de auto peças.""",20.0,2.0,4.0,2.0,0.0,2.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0
+"""O tacacá da Gisela, juntamente com o governo do Estado, promovem todas as quartas o tacacá na bossa que é um evento onde os artistas locais se apresentam no largo.""",31.0,1.0,5.0,1.0,1.0,0.0,7.0,0.0,9.0,0.0,0.0,3.0,1.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Ótima opção para quem está a passeio pela cidade e quer experimentar um tacacá e ouvir boa música.""",19.0,2.0,1.0,2.0,1.0,2.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,1.0,1.0,1.0
+"""O tacacá não é um dos melhores, mas a música compensa.""",12.0,1.0,1.0,1.0,1.0,1.0,2.0,0.0,3.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""Comida muito boa.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Casa muito linda, grande e elegante.""",7.0,3.0,0.0,3.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Buffet variado de pratos quentes e frios.""",8.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Churrascaria perfeita, Fanatástica!""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Imperdivel!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Excelente comida, excelente atendimento.""",5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pouca tempo de espera se consideramos que era uma data festiva.""",12.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Eu recomendo o Banzeiro, um lugar perfeito para comer uma comida tipica da região e boa qualidade.""",18.0,3.0,1.0,3.0,0.0,1.0,3.0,0.0,4.0,0.0,0.0,1.0,1.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Manaus esta de parabéns!""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Ótimo lugar para ir comemorar aniversarios, confraternizações e tudo mais.""",11.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O preço é mais salgado mas é justo.""",9.0,2.0,0.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Ambiente bem amplo.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento muito eficaz!""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Variação no cardipio 100% regional, comida quentinha e muito saborosa, tambaqui assado sem espinha juntamente com a farofa de castanha e aquele suco de cupuaçu, melhor degustação que já tive.""",31.0,4.0,5.0,4.0,0.0,2.0,2.0,0.0,9.0,1.0,0.0,1.0,0.0,6.0,0.0,1.0,2.0,0.0,1.0,1.0,1.0
+"""Sim, em Manaus tem opções todos os dias da semana, e no Armando começa na segunda feira!!!""",18.0,1.0,5.0,1.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,2.0,7.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Tem música ao vivo, bolinho de bacalhau, bebidas geladas, bom atendimento, gente de todas as partes do mundo!!!""",19.0,1.0,4.0,1.0,0.0,0.0,2.0,0.0,9.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""É sem sombra de dúvidas um dos melhores bares da cidade, sem frescura!!!""",14.0,1.0,5.0,1.0,1.0,0.0,0.0,0.0,5.0,1.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""A melhor coisa dessa padaria é a possibilidade de montar seu próprio sanduíche com as opções da casa.""",19.0,2.0,3.0,2.0,1.0,0.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Apesar de não ser um lanche pra matar a fome (ainda mais porque não é tão barato assim), é uma ótima opção para acompanhar um cafezinho.""",27.0,2.0,1.0,2.0,3.0,0.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,6.0,3.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Cafezinho esse que aliás, é muito bom.""",8.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O lugar é adoravel, oferece um excelente serviço e o lugar perfeito para um jantarzinho a dois... Para quem gosta de massa este é um ótimo restaurante...""",28.0,4.0,3.0,4.0,2.0,1.0,5.0,0.0,6.0,1.0,0.0,2.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0
+"""Um lugar aconchegante, seguro, tem estacionamento, atendimento é bom, os preços são moderados, cardápio variado, sopas, vale a pena conhecer.""",21.0,5.0,0.0,5.0,2.0,0.0,3.0,0.0,7.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""A melhor peixaria da cidade!""",6.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+"""Ambiente agradável e culinária apurada, tendo como principais ingredientes os belos peixes de água doce da região.""",18.0,4.0,3.0,4.0,1.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O preço é um pouco acima da média, mas vale cada centavo que custa.""",15.0,0.0,1.0,0.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Recomendo""",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Comemos um prato Camarões Beira mar!""",7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""É excepcional, mas poderia vim um pouco mais...""",9.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Serve três pessoas.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Vem como acompanhamento batata cozida e arroz com brócolis!""",10.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Coco Bambu sempre tem fila!""",6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""É bom ligar antes para fazer a reserva.""",9.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Ligue o quanto antes porque o horário para agendar reserva é limitado.""",13.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Hamburgueria artesanal com tempero diferenciado, de primeira qualidade, fora o atendimento no qual diferencia por serem bilíngues,.""",18.0,3.0,3.0,3.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,1.0,6.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Recomendo quem quer saciar a fome..""",7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Os pratos são bem servidos, por isso atenção, o pedido para uma pessoa geralmente vem com dois filés ou postas, dependendo do seu apetite e do seu bolso...peça o que lhe for melhor.""",35.0,1.0,5.0,1.0,2.0,2.0,5.0,0.0,8.0,1.0,0.0,4.0,0.0,7.0,0.0,0.0,4.0,0.0,1.0,0.0,1.0
+"""Uma excelente descoberta que fiz em terras manauaras ao localizar este simpático restaurante de peixe amazônico próximo ao hotel em que estive hospedado (Blue Tree Premium).""",27.0,6.0,4.0,6.0,1.0,0.0,2.0,0.0,5.0,0.0,0.0,2.0,3.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Como já disse o cardápio principal é de peixe amazônico.""",11.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Experimentei o 'Tambaqui na Telha'.""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""No jantar em que estive havia música ao vivo com um ótimo cantor de MPB.""",16.0,1.0,5.0,1.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0
+"""Local agradável, vale a visita e excelente custo benefício (1 prato serve 3).""",14.0,2.0,0.0,2.0,0.0,1.0,1.0,0.0,5.0,2.0,0.0,0.0,0.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""ótimo restaurante e ótimo atendimento, fomos atendidos pelo sr. Pedro Jacks muito atencioso, gostei de mais.""",17.0,3.0,2.0,3.0,1.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,1.0
+"""Excelente peixe, para quem esta localizado no Distrito Industrial, excelente pedida para almoço.""",14.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,2.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""dica Matrinxã recheada.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""É um restaurante executivo com buffet gostoso e serviço a la carte bem no centrinho da cidade mas é bem pequeno.""",22.0,3.0,4.0,3.0,2.0,2.0,1.0,0.0,6.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Funciona para almoço e jantar.""",6.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Nota 10 restaurante com comidas típicas e variadas para todos gostos atendimento nota mil super recomendo fantástico voltaria com certeza!!!""",21.0,2.0,3.0,2.0,0.0,1.0,1.0,0.0,7.0,2.0,0.0,0.0,0.0,5.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Comparativamente ao Coco Bambu de Brasília, achei os pratos melhores servidos de camarão.""",14.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Lugar novo , dentro do shopping Ponta Negra.""",8.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Serviço bom.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Som ao vivo agradavel.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pratos dão até para três pessoas.""",7.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Muito bom, recomendo atendimento 100% Agradeço o Ricardo José pelo excelente atendimento e o prato de camarão show!!!""",19.0,2.0,2.0,2.0,0.0,1.0,2.0,0.0,4.0,1.0,0.0,0.0,2.0,6.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0
+"""O atendimento foi ótimo, a entrada (banana pacová com patê de algum peixe) foi uma delícia e o tambaqui, em si, um espetáculo!""",24.0,2.0,3.0,2.0,2.0,1.0,6.0,0.0,8.0,0.0,0.0,1.0,0.0,8.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+"""Recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O preço também é ótimo!""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+"""Comida regional chique demais.""",5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente frequentado pela elite de Manaus.""",7.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Encontrei até jogador de vôlei (Nalbert).""",7.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""E vi um peixe tambaqui de 40 Kg!!!""",9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,2.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Pratos usando produtos regionais mas com inovações.""",8.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ambiente agradável com decoração lembrando a Amazônia como parede imitando escamas de pirarucu e casa de pau-a-pique.""",18.0,1.0,4.0,1.0,0.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Melhor rodízio de pizza de manaus (de terça a quinta-feira), a pizza com massa fininha, bem recheada e com vários sabores, muito bom!!""",24.0,4.0,6.0,4.0,0.0,1.0,2.0,0.0,7.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0
+"""O rodízio tem um preço acima dos concorrentes, mas vale o cobrado pela qualidade oferecida.""",16.0,0.0,2.0,0.0,0.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""O serviço é bom, sempre tem um garçom por perto e o bacana é que possui um estacionamento gratuito bem em frente.""",23.0,2.0,2.0,2.0,2.0,1.0,4.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""O gergelim na borda é a marca registrada da pizzaria e vai muito bem com os sabores salgados.""",19.0,0.0,3.0,0.0,1.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Para beber uma dica é o mate que fazem, que acompanha bem a pizza.""",15.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,3.0,0.0,0.0,2.0,0.0,4.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Já na sobremesa, as pizzas de cupuaçu e de mm's já fazem valer o rodízio, por serem sensacionais.""",19.0,1.0,3.0,1.0,1.0,1.0,2.0,0.0,5.0,0.0,0.0,0.0,1.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Manaus tem peixarias muito boas e a Choupana, sem dúvida está entre as melhores!""",15.0,2.0,2.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0
+"""A comida é ótima, saborosa e bem preparada.""",9.0,3.0,0.0,3.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O ambiente é agradabilíssimo!""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Coco bambu é maravilhoso em qualquer lugar!""",8.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Camarão internacional para duas pessoas serve tranquilo para três!""",10.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""De sobremesa a cocada ao forno com sorvete é espetacular!""",11.0,1.0,3.0,1.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Sem duvidas, o Restaurante Banzeiro é uma das melhores peixarias de Manaus!""",13.0,1.0,3.0,1.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0,0.0,3.0,4.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""A criatividade na elaboração dos pratos é fantástica!""",9.0,1.0,2.0,1.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Uma explosão de sabores regionais inigualável!""",7.0,2.0,1.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atualmente peca, é muito, pela falta de compromisso com o horário de atendimento (fechamento) pela parte da noite!""",19.0,0.0,6.0,0.0,1.0,0.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Visito o restaurante com certa frequência e muitas foram as vezes q mesmo chegando antes das 23:00 ( horário de fechamento, em tese)encontrei com a plaquinha minúscula, pouco visível de dentro do carro, avisando que já estava fechado.""",39.0,3.0,6.0,3.0,2.0,1.0,4.0,0.0,9.0,0.0,0.0,2.0,0.0,7.0,2.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Saudades do tempo em q o maître Adonias  nos  atendia e aos demais clientes, com rigor no cumprimento do horário!.""",21.0,0.0,7.0,0.0,0.0,1.0,2.0,0.0,7.0,0.0,0.0,1.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Lamentável um restaurante da categoria do Banzeiro, não respeitar os clientes com o Básico., qual seja, cumprimento do horário!""",20.0,1.0,4.0,1.0,0.0,0.0,3.0,0.0,5.0,0.0,0.0,1.0,2.0,7.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Saudades do que já tivemos!""",6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Entre um vôo e outro , já que no aeroporto de Manaus ainda não tem NEHUM restaurante , arriscamos esse .""",19.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,2.0,5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""O local é bastante simples e até que o preço cobrado não é tão ""simples"" assim , mas a comida era boa .""",22.0,3.0,0.0,3.0,3.0,2.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,6.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Apenas fiquei surpresa pois era num sábado as 21:00 e não havia nenhuma mesa ocupada além da nossa.""",19.0,0.0,2.0,0.0,1.0,1.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Uma pena!""",3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O nome engana - o lugar tem uma variedade enorme de todo tipo de bebidas, comidas tipicas deliciosas padrão gourmet, um ambiente aconchegante.""",24.0,5.0,2.0,5.0,0.0,0.0,5.0,0.0,8.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Quem entra não tem pressa de sair.""",8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Excelente atendimento, garçom Ebrahim muito educado e atencioso.""",9.0,3.0,0.0,3.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo o restaurante, o melhor de Manaus!""",8.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0
+"""Ótima variedade de sucos.""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Salgados e sanduíches saborosos, porém o valor exorbitante cobrado me deixa insatisfeito.""",13.0,3.0,0.0,3.0,0.0,2.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Restaurante muito bom e concorrido de Manaus.""",8.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida regional com pratos generosos.""",6.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Muito bom com muitas opções, além do tradiconal peixe, tem também outros pratos para quem não come peixe.""",19.0,1.0,2.0,1.0,0.0,0.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Preço justo""",2.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida saborosa.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Impecável.""",2.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Peixe estava bem preparado no ponto e com acompanhamentos deliciosos.""",11.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O único problema foi no atendimento, pois o garçom deveria ser novo e não sabia explicar as bebidas por exemplo.""",21.0,2.0,2.0,2.0,1.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Mas valeu a pena.""",5.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Boas pixzzas e boas massas.""",6.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Lugar aconchegante e tranquilo.""",5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento razoavel, principalmente quando está cheio.""",7.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço justo pela qualidade dos pratos.""",7.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vim comer nessa pizzaria no domingo.""",7.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Foi bastante tranquilo e a pizza veio rápido.""",9.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Achei bem saborosa e com recheio de qualidade.""",9.0,1.0,2.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Não gostei muito da borda com gergelim, algo fora do padrão de pizza.""",14.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Mas de maneira geral valeu a pena.""",8.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Quando se está com muita fome e sem opção o Habibs pode ser a saída....o ambiente não é agradável e comida é razoável.""",25.0,2.0,2.0,2.0,4.0,2.0,4.0,0.0,5.0,0.0,0.0,1.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Uma boa opção para quem quer comer rápido, mas fugindo do barulho da praça de alimentação.""",17.0,2.0,3.0,2.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Buffet com opções variadas e saborosas.""",7.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""De sobremesa, peça o petit gateau !""",7.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Serve lanches e cerveja gelada, tem mesinhas fora do estabelecimento, funciona em uma casa antiga o que faz parte do seu charme.""",23.0,2.0,3.0,2.0,0.0,1.0,2.0,0.0,7.0,0.0,0.0,2.0,1.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Recentemente inaugurado e em plena Savassi, o restaurante é um local agradável, com sua cozinha espanhola com influência mediterrânea, conta também com um espaço cultural com exposições de artes, apresentações artísticas e dança flamenca.""",35.0,7.0,6.0,7.0,1.0,2.0,4.0,0.0,9.0,0.0,0.0,0.0,1.0,7.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Seu carro chefe são as paellas valencianas e marinera.""",10.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Imperdíveis!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O bar fica próximo ao Teatro Amazonas, e geralmente tem música ao vivo acompanhada de cerveja gelada.""",18.0,1.0,3.0,1.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Para comer uma boa pedida é o sanduíche de pernil e bolinhos de bacalhau.""",15.0,1.0,2.0,1.0,1.0,1.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O ambiente é agradável em razão da diversidade de seus frequentadores.""",12.0,1.0,3.0,1.0,1.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um lugar seguro, agradável, aconchegante, preço acessível, bem localizado, faça uma visita com a sua família ou amigos.""",19.0,4.0,1.0,4.0,0.0,1.0,4.0,0.0,5.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Sabor da comida fantástico, em qualquer especialidade típica da região.""",11.0,2.0,3.0,2.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Além do atendimento e ambiente super confortável.""",8.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Além de continuar com um bom self service, com destaque para as sobremesas, também tem boas opções a la carte.""",21.0,2.0,5.0,2.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,2.0,2.0,0.0,0.0,1.0
+"""Mas o destaque são os drinks preparados pelo Marcolino, principalmente as caipirinhas de cupuaçu e a tradicional.""",18.0,0.0,2.0,0.0,1.0,2.0,4.0,0.0,5.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Também tem bons shows folclóricos nas quintas feira.""",9.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Bom para experimentar releituras de pratos da comida regional.""",10.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Adorei TUDO que experimentei, especialmente, o pesto de Jambu.""",10.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Fora isso, o atendimento é MUITO bom e o ambiente/vista são lindos.""",13.0,2.0,0.0,2.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""As empanadas deste lugar são deliciosas, e as cervejas também, tem boa opção de vinho!!""",16.0,2.0,2.0,2.0,1.0,1.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Gostei, pena que o lugar é pequeno, muitas vezes não tem lugares disponíveis!""",14.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Muito bom!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""A carne de sol é ótima, muito bem servida, as Cervejas do Dedé são muito saborosas, principalmente a Dunkel, o atendimento é top""",23.0,3.0,3.0,3.0,3.0,0.0,3.0,0.0,3.0,0.0,0.0,0.0,3.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Esta sorveteria é muito simpática, bem em frente ao Teatro Amazonas, na praça.""",14.0,1.0,4.0,1.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Experimentei o sorvete de Creme de Cupuaçu, delicioso!""",9.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Tem outros sabores de frutas locais e também os usuais.""",11.0,1.0,1.0,1.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Além disso, o pessoal que atende é muito gentil!""",10.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Muito bom, local simples de boa qualidade, sucos deliciosos e abundantes.""",12.0,5.0,1.0,5.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço razoável.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Aconselho conhecer!.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""adorei estar neste lugar o qual possue um otimo cardapio regional local alem do otimo atendimento o local e bastante amplo e bem climatizado com amplo estacionamento e otima localizacao.. recomendo a todos..""",34.0,8.0,4.0,8.0,1.0,3.0,3.0,0.0,6.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""É uma delicia a carne sol do coqueiro verde, com mais os bolinhos de macaxeira frita.""",17.0,1.0,3.0,1.0,1.0,0.0,3.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Padrão de qualidade, bom atendimento, o preço é razoável.""",10.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""boa localização, bonito, amplo , limpo, pessoal atencioso , comida super agradável, e farta ; as carnes sao da melhor qualidade""",19.0,8.0,1.0,8.0,1.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Excelente comida, cozinha aberta a visita, estacionamento amplo, lugar bem aconchegante, amplo, bom atendimento, selv service.""",17.0,6.0,0.0,6.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0
+"""Ótimo atendimento, carnes saborosíssimas, ambiente agradável com brinquedoteca, boa opção para os pais que tem filhos pequenos.""",18.0,5.0,2.0,5.0,0.0,0.0,1.0,0.0,7.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Não deixe de pedir o steak de alcatra e a costela com molho barbecue.. são fantásticos!""",17.0,2.0,2.0,2.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Vou sempre que posso.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Deliciosamente ,variedades no cardápio ,ambiente confortável e com um preçinho saboroso,indico p todos,vale conferir""",16.0,2.0,3.0,2.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Fui no almoço.""",4.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Primeiro o garçom foi inconveniente ao insistir no que deveríamos pedir, pedimos de entrada um camarão de 76 reais que não estava bem preparado.""",25.0,1.0,2.0,1.0,2.0,0.0,2.0,0.0,4.0,1.0,0.0,3.0,0.0,4.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Depois de muita dúvida pois o cardápio é muito extenso e repetitivo, pedimos um camarão Iracema(157 reais) que no cardápio dizia servir até  4 pessoas, talvez serviria se a quarta pessoa aceitasse comer só arroz de leite, pois sobrou uma quantidade enorme, camarão mesmo que é bom achei que só come no máximo 3.""",56.0,6.0,5.0,6.0,2.0,1.0,5.0,0.0,10.0,2.0,0.0,1.0,1.0,8.0,5.0,0.0,10.0,0.0,0.0,0.0,1.0
+"""De acompanhamento uma porção de macaxeira que nem comemos pois estava dura.""",13.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Resultado, 300 reais a conta pra três pessoas, lugar bonito mas a comida, o atendimento e o preço não valeu a pena.""",23.0,1.0,1.0,1.0,0.0,2.0,5.0,0.0,9.0,2.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Fui diversas vezes desde qdo mudei pra Manaus e trouxe as visitas ( turistas) pra ter a experiência de tomar sopas variadas em sistema de buffet, em ambiente rústico e amplo.Todos sempre gostaram da experiência""",35.0,2.0,6.0,2.0,1.0,2.0,3.0,0.0,10.0,0.0,0.0,1.0,1.0,6.0,2.0,0.0,6.0,0.0,0.0,0.0,1.0
+"""Os garçons falam como se fossem ada nossa família!""",10.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O ambiente é sofisticado e há bastante opção de acompanhamento, desde saladas, geleias, queijos e o tradicional para um churrasco.""",21.0,1.0,3.0,1.0,1.0,2.0,4.0,0.0,8.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Achei que faltou o feijão normal, pois só tinha o tropeiro!""",12.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Na entrada, há cachaças artesanais para os clientes provarem!""",10.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O local é caro, então faça valer a pena e coma muito!""",13.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Se você procura comer um bom bacalhau, estará no lugar certo.""",12.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Experimentei dois pratos e ambos estavam divinos.""",8.0,1.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O ambiente é muito bonito, mas nem tanto acolhedor.""",10.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Os funcionários são educados, porém, numa das vezes que estivemos houve um problema com a conta (erro da casa) e a mesma não se esforçou para resolvê-lo.""",28.0,0.0,3.0,0.0,2.0,2.0,4.0,0.0,6.0,0.0,0.0,3.0,0.0,7.0,1.0,0.0,4.0,0.0,1.0,0.0,1.0
+"""Um casa desse nível não poderia ter tal comportamento.""",10.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Todavia, o preço dos pratos são assustadores, muito embora um prato individual serve com fartura duas pessoas, mas ainda assim o preço é puxado.""",25.0,2.0,2.0,2.0,2.0,1.0,3.0,0.0,6.0,1.0,0.0,0.0,0.0,6.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Boa estrutura, ótima comida, esperava ais variedade, serve rodízio e a la carte, atendimento bom, poderia ter maior área climatizada, não identifiquei mobilidade para cadeirantes, idosos, se for em um numero grande de pessoas, é bom fazer uma reserva.""",40.0,7.0,3.0,7.0,1.0,1.0,3.0,0.0,12.0,0.0,0.0,1.0,1.0,12.0,1.0,0.0,8.0,0.0,2.0,0.0,1.0
+"""A Cantina Ghiotto é um dos pouquíssimos restaurantes em Manaus que está sempre se reinventando e buscando maneiras de melhorar seu espaço e serviço pra melhor atender seus clientes.""",30.0,1.0,3.0,1.0,2.0,2.0,3.0,0.0,5.0,1.0,0.0,2.0,3.0,3.0,1.0,0.0,4.0,0.0,1.0,0.0,0.0
+"""Isso verdadeiramente me impressiona!""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ótima opção pra quem gosta de um rodízio de massa e pizza em um ambiente descontraído repleto de jovens e muita energia positiva.""",24.0,3.0,5.0,3.0,0.0,2.0,3.0,0.0,7.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,1.0,1.0
+"""Atendimento sempre excelente !""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida típica da região, gostosa, feita com capricho, peixes frescos, tudo muito gostoso!!""",14.0,4.0,2.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,8.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Atendimento excelente, garçons muito atenciosos!""",6.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Foi uma experiência incrível e única!""",7.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Um restaurante que representa muito bem a potencialidade da comida nortense.""",12.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Muito bem preparado e elaborado, apesar do cargo chefe ser uma alimentação bem pesada, ainda assim o indico (pirarucu amazônico).""",21.0,3.0,0.0,3.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Infelizmente as bebidas pra quem quer uma experiência completa, não vai de total encontro a expectativa, caipirinhas e caipiroskas mal elaboradas, mas logico os sucos são muito bem feitos e a batida de cacau sensacional.""",36.0,4.0,3.0,4.0,1.0,3.0,5.0,0.0,8.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Tem pratos feitos com muito requinte (camarão com castanha) e pratos feitos como se fosse de casa (sardinha frita com baião).""",22.0,0.0,4.0,0.0,1.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0,7.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0
+"""Indico para quem quiser ter uma experiencia amazônica diferenciada.""",10.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Afinal de contas o melhor cozinheiro do Brasil varias vezes consecutivas não é a toa.""",16.0,3.0,2.0,3.0,1.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0
+"""é um otimo restaurante, os pratos sao muito bons, o ambiente e o atendimento também, porém há um problema com a acústica do restaurante, muito barulhento""",26.0,3.0,2.0,3.0,2.0,2.0,6.0,0.0,7.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Ambiente ótimo pra ir com amigos, comida muito boa mesmo.""",11.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""A decoração é linda e voce pode caminhar pelo local e conhecer cachaças de varias partes do país e do mundo, e o melhor estão todas a venda, otimo ambiente.""",31.0,2.0,5.0,2.0,2.0,4.0,4.0,0.0,9.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,3.0,0.0,1.0,1.0,1.0
+"""Super recomendo.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Excelente churrascaria.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Após alguns dias comendo apenas os pratos da região com peixe, resolvi comer uma boa carne e fiquei muito satisfeito com o restaurante.""",24.0,2.0,4.0,2.0,0.0,1.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""O ambiente é bem agradável.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Para quem prefere menos barulho, sugiro ficar na parte superior.""",11.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Pedi a picanha e a carne veio suculenta e no ponto certo.""",13.0,2.0,1.0,2.0,0.0,2.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O atendimento também foi ótimo e a comida veio super rápido.""",12.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0
+"""Local bonito e agradável, localizado dentro do shopping Manauara.""",10.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Muitas opções de drinks e bebidas.""",7.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O atendimento deixou um pouco a desejar porque tinha garçons que não sabiam quais os chopes disponíveis na casa e chegamos a ficar 15 min esperando uma rodada com um monte de garçom ocioso.""",35.0,2.0,3.0,2.0,0.0,1.0,5.0,0.0,9.0,1.0,0.0,2.0,0.0,3.0,3.0,0.0,7.0,0.0,0.0,0.0,1.0
+"""Mesmo assim recomendo o local, basta ser paciente.""",9.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Apesar de não terem matrinxã assado, o qual queria jantar, o tambaqui estava saboroso e a farofa branca com ovo estava muito bom.""",24.0,3.0,2.0,3.0,2.0,1.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""O que eu pedi e gostei foram o escondidinho de carne de sol e uma carne na chapa, muito gostosa mesmo.""",22.0,1.0,3.0,1.0,1.0,2.0,2.0,0.0,5.0,0.0,0.0,3.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""além da variedade de bebidas e um chopp bem geladinho.""",11.0,1.0,2.0,1.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ótima opção para uma sexta feira explorando Manaus .""",9.0,2.0,1.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0
+"""O local é lindo , a comida é ótima (sem falar na batida de coco!!)""",15.0,2.0,2.0,2.0,2.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,7.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+""", música ao vivo e o atendimento perfeito do garçom Bruno .""",12.0,1.0,2.0,1.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Podendo , voltaremos !""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""É horrivel, o atendimento vai de mal a pior só depende do astral dos funcionários, além disso para ""mundo"" de alguma coisa essa  casa passa muito longe!""",28.0,2.0,5.0,2.0,1.0,0.0,4.0,0.0,6.0,0.0,0.0,1.0,0.0,7.0,0.0,0.0,3.0,0.0,1.0,1.0,1.0
+"""é um lugar agradável por estar no Largo, no entanto poderia ser um ótimo lugar se mudasse a administração, seria realmente um lugar interessante de se conhecer!""",28.0,3.0,2.0,3.0,4.0,0.0,4.0,0.0,5.0,0.0,0.0,2.0,1.0,5.0,2.0,0.0,3.0,0.0,0.0,1.0,1.0
+"""para jantar recomendo, pratos diferenciados, não tradicionais, ou melhor tradicionais modificados, o chefe tem um menu muito gostoso.""",19.0,3.0,0.0,3.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,7.0,1.0,0.0,5.0,0.0,1.0,0.0,1.0
+"""o lugar é agradável, pequeno, parece com o japao realmente.""",11.0,2.0,1.0,2.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Grande bufê  que inclui além de pratos quentes, sushis e saladas que servem de acompanhamento para os variados tipos de carne que é servido.""",25.0,2.0,4.0,2.0,1.0,1.0,1.0,0.0,7.0,0.0,0.0,3.0,1.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Vale à pena chegar chegar cedo para pegar uma boa mesa e curtir as promoções de happy hour do Outback.""",21.0,1.0,3.0,1.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,2.0,3.0,1.0,0.0,4.0,1.0,0.0,0.0,0.0
+"""O atendimento é muito bom; a comida, saborosa; o chopp está sempre na temperatura certa!""",16.0,3.0,1.0,3.0,2.0,0.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Claro que, com a casa cheia, há um pouco mais de demora, mas nada que prejudique a experiência.""",19.0,1.0,2.0,1.0,0.0,1.0,3.0,0.0,3.0,0.0,0.0,2.0,0.0,6.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Dica: se puder sentar na varanda, o som ambiente não atrapalha as conversas.""",14.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Jantamos no Jamie’s de Curitiba a poucos dias.""",9.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Embora seja um restaurante recém inaugurado o atendimento é ótimo.""",11.0,2.0,0.0,2.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
+"""Serviço prestado com atenção e cuidado ao consumidor.""",9.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Fomos atendidos pelo Fernando.""",5.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A comida é muito boa.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Com cardápio variado.""",4.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Fácil de agradar.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Boa carta de vinhos.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""E o preço não é abusivo.""",7.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale conferir.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Um bom atendimento, a comida estava deliciosa, tudo na medida certa, a localização do restaurante é ótima, o saber de comidas regionais pe o que mais surpreende, voltarei outras vezes com certeza !!!!""",33.0,5.0,5.0,5.0,2.0,0.0,5.0,0.0,9.0,0.0,0.0,3.0,0.0,11.0,0.0,0.0,2.0,0.0,2.0,0.0,1.0
+"""A comida é extremamente saborosa e os pratos são bem servidos.""",12.0,1.0,0.0,1.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O ambiente é bastante simples e o serviço deixou a desejar.""",12.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""O preço de bebidas, principalmente dos coquetéis, são acima da média e a comida tem preço compatível com a qualidade.""",21.0,1.0,4.0,1.0,1.0,1.0,3.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Vale a visita""",3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Lanchonete com variedade em lanches e sucos, um bom atendimento e está em uma boa localização da cidade.""",19.0,2.0,4.0,2.0,1.0,2.0,2.0,0.0,6.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Excelente atendimento agilade rapidez desdo garçom a gerência chopp gelado ambiente agradável parabéns...Voltaremos quando estivermos em Curitiba.""",19.0,2.0,2.0,2.0,1.0,0.0,1.0,0.0,7.0,0.0,0.0,0.0,1.0,4.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""O ambiente é bem amplo, iluminado.""",7.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Nenhum luxo, mas é agradável.""",6.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Atendimento muito cordial dos funcionários.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pedi um fetuccini com picanha: o serviço não foi muito rápido, mas o problema é que a comida estava fria.""",21.0,2.0,1.0,2.0,2.0,1.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Caro demais.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo procurar outros restaurantes na área.""",7.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Pela música fizemos o sacrifício de entrar, não tem couvert artístico e nem 10%, o que é uma deslavada mentira pois já estão embutidos nos preços do cardápio.""",29.0,3.0,3.0,3.0,2.0,1.0,2.0,0.0,6.0,1.0,0.0,2.0,0.0,5.0,2.0,1.0,3.0,0.0,0.0,0.0,0.0
+"""O cardápio é outra falácia, pois pedimos uns 4 itens que não estavam disponíveis.""",15.0,1.0,0.0,1.0,2.0,0.0,3.0,0.0,3.0,1.0,0.0,1.0,0.0,4.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Boteco bem simples com preço de Bistrô.""",8.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um bom lugar para estar com a família e/ou amigos, incluindo crianças.""",13.0,1.0,1.0,1.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Restaurante muito aconchegante e com bom atendimento.""",8.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A cozinheira veio até à nossa mesa e se colocou à disposição para confirmar o bom atendimento.""",18.0,1.0,3.0,1.0,0.0,1.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Preço bom e comida muito boa.""",7.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Frequento o restaurante a 3 anos e toda vez que eu vou sou bem tratada.""",16.0,0.0,1.0,0.0,2.0,1.0,2.0,0.0,3.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Os sushis são diferentes, frescos e incríveis.""",8.0,3.0,0.0,3.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Os especiais da casa são os coringas e meus favoritos.""",11.0,0.0,1.0,0.0,1.0,1.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Com sobremesa inclusa de rolinho primavera de doce de leite.""",11.0,1.0,4.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""SENSACIONAL.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Amooo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Endereco tradicional paulistano.""",4.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Sem rococos alheios ao padrao original de uma excelente casa de carnes a churrascaria prima pelas carnes, servico e buffet (saladas, queijos, iguarias / sem frutos do mar).""",29.0,4.0,7.0,4.0,0.0,1.0,2.0,0.0,13.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Fui por indicação a esse restaurante e realmente fiquei muito surpresa.""",12.0,0.0,2.0,0.0,1.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Primeiro que o serviço é excelente e o cardápio, apesar de pequeno, contempla todos os gostos.""",17.0,2.0,1.0,2.0,1.0,1.0,4.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comi gnui e estava maravilhoso.""",6.0,2.0,0.0,2.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""De sobremesa um doce com aipim, sorvete de côco e doce de leite.""",14.0,1.0,4.0,1.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O côco pesou para mim, mas essa é uma intolerância minha.""",12.0,0.0,1.0,0.0,1.0,1.0,3.0,0.0,2.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A sobremesa estava excelente.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A minha amiga que comeu também não teve problema algum.""",11.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Recomendo e voltarei!""",4.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Difícil não sair satisfeito do Rascal.""",7.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O Buffet tem uma variedade de saladas maravilhosa que se completa com os pratos quentes do dia.""",18.0,2.0,3.0,2.0,0.0,0.0,3.0,0.0,4.0,0.0,0.0,2.0,1.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Almoço caseiro muito bom, três opções de carne, muita variedade de saladas, três frutas, um bufê de sobremesas incrivel, com bolos e tortas doces e dois sucos naturais, o melhor é o preço, R$18,90 a vontade!!!""",38.0,5.0,4.0,5.0,1.0,2.0,5.0,0.0,14.0,4.0,0.0,0.0,0.0,12.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0
+"""Ambiente rústico que traz o apelo artesanal.""",8.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O cardápio conta com pizzas de sabores diferenciados, bebidas interessantes e preços compatíveis.""",14.0,2.0,2.0,2.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""A fabricação é visível aos clientes e o atendimento é bom.""",12.0,2.0,1.0,2.0,2.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bem localizado na Av.""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Dom Severino, local nobre da zona leste da cidade.""",10.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Fui com amigos comemorar um aniversário, por fora o prédio é bem velho e feio.""",16.0,2.0,2.0,2.0,2.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""No ambiente do restaurante temos a vista a beira mar de Niteroi e da ponte, esse acredito ser o ponto alto do restaurante.""",24.0,1.0,6.0,1.0,1.0,1.0,3.0,0.0,8.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""As estradas foram boas mas o como prato principal pedi um bacalhau para dois e não achei grande coisa, estava bom mas um pouco ressecado.""",26.0,4.0,2.0,4.0,2.0,3.0,3.0,0.0,4.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""De sobremesa pedi um sorvete  que vem com dois tipos de mousses, porção bem pequena.""",16.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Não pedimos vinho ou alguma bebida cara para elevar o preço.""",12.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Em resumo, nada que justifique o preço de R$ 194,40 por pessoa.""",14.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,2.0,0.0,4.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+"""Recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Estive almoço de Natal do Fogo de Chão Danto Amaro e o atendimento foi excepcional.""",16.0,1.0,3.0,1.0,2.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,5.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Destaque para o Mateus, Maciel e em especial o Carlos""",10.0,0.0,2.0,0.0,0.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""É tipo um boteco sofisticado.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O espaço é apertado , mas o serviço é bom e os aperitivos são de qualidade , muito bons.""",18.0,2.0,1.0,2.0,3.0,2.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Freqüentado pelos moradores do Leblon.""",6.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Muito bem localizado em frente à praia de Meirelles, pouco depois da popular ""feirinha"", com excelente atendimento e ambiente muito agradável.""",22.0,2.0,5.0,2.0,0.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,2.0,7.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comi a famosa carne seca na moranga, que faz jus à sua fama.""",14.0,2.0,2.0,2.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,1.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bem servido para duas pessoas, vem acompanhada de arroz e salada verde com vinagrete de rapdura.""",17.0,1.0,4.0,1.0,0.0,1.0,0.0,0.0,5.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Recomendo também a Caipirosca de morango.""",7.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Fui num domingo, dia em que a dupla de músicos atendia na hora os pedidos dos clientes e tocavam de sertanejo a rock, passando por mpb e bossa nova.""",30.0,1.0,8.0,1.0,1.0,2.0,2.0,0.0,11.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""O restaurante Coco Bambu de Fortaleza/CE é excelente, com dezenas de opções de pratos, variando entre peixes, frangos e carnes vermelhas.""",22.0,2.0,5.0,2.0,1.0,1.0,2.0,0.0,6.0,0.0,0.0,0.0,4.0,7.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Há também dezenas de opções de bebidas (quentes ou frias) e sobremesas variadas.""",14.0,2.0,2.0,2.0,0.0,2.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O atendimento é extremamente agradável, com garçons muito solícitos e simpáticos.""",12.0,3.0,1.0,3.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Como não poderia deixar de ser, nem tudo é perfeito.""",11.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""O preço do restaurante é alto, mas a quantidade de comida nos pratos vale muito à pena e serve bem ao menos 2 pessoas.""",25.0,1.0,5.0,1.0,1.0,2.0,2.0,0.0,8.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Restaurante com atendimento cordial, preço na média da região e boa variedade de pratos e sobremesas.""",17.0,2.0,4.0,2.0,0.0,2.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""As sobremesas merecem destaque pela variedade e sabor.""",9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Local muito bom , na Passarela do Caranguejo.""",8.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Com excelente comida e música ao vivo.""",8.0,1.0,2.0,1.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Destaque para a decoração que achei incrível .""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""ótimo atendimento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço dentro da média .""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale a pena conhecer.""",5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""A melhor cerveja artesanal de Belém, fica na Cervejaria Amazon Beer, localizada na Estação das Docas, próximo ao ver-o-peso, um dos ambientes mais indicados para os turistas, além, de poder ver o por-do-sol a beira da baia do guajará.""",40.0,2.0,9.0,2.0,0.0,0.0,4.0,0.0,8.0,1.0,0.0,0.0,6.0,9.0,1.0,0.0,5.0,0.0,2.0,1.0,1.0
+"""Existe diversos tipos de cervejas, como a com sabor de açaí, taperebá e bacuri.""",15.0,0.0,4.0,0.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""As pizzas da Forneria são ótimas!!""",7.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Massa deliciosa, ingredientes de qualidade.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento é muito bom e o preço bem justo.""",11.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pizza simples (margherita) sai por R$ 47, uma mais elaborada por R$ 56!!""",14.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,7.0,0.0,2.0,2.0,0.0,1.0,0.0,0.0
+"""O restaurante é especializado na cozinha portuguesa.""",8.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Atendimento muito bom, o bacalhau esplêndido.""",7.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O único defeito é o espaço que é pequeno.""",10.0,2.0,0.0,2.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Os pratos quentes do restaurantes são deliciosos.""",8.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Restaurante a kilo , normalmente são de baixo custo , atenção , não é o caso deste !""",15.0,1.0,3.0,1.0,2.0,0.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O kilo perto dos R $ 75,00 torna o almoço de rotina muito caro , permitindo o cálculo e trazendo o almoço no Mangai pra uma realidade possível , quanto ao sabor ... muito bom !""",34.0,3.0,4.0,3.0,0.0,1.0,6.0,0.0,7.0,0.0,0.0,0.0,3.0,6.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0
+"""Bom mesmo.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Comida perfeita, atendimento do garçom Wemerson nota 10, música agradável, ambiente agradável""",12.0,3.0,1.0,3.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,0.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Bebida sempre gelada , pessoas bonitas  e simpáticas , lugar perfeito para fazer amizades e passar a noite toda bebendo e comendo!""",21.0,3.0,0.0,3.0,0.0,3.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Atendimento top, Wemerson garçom com um atendimento impecável, chopp gelado e comida de primeira.""",15.0,3.0,2.0,3.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Muito bom!!!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A comida do restaurante é maravilhosa, com boa variedade de pratos e vinhos, o ambiente também é fenomenal.""",19.0,3.0,3.0,3.0,2.0,1.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Porém o atendimento deixa muito a desejar, a entrada demorou muito mais que o prato principal, acredito que esqueceram de encaminhar o pedido, a coca-cola que pedimos não veio, tivemos que pedir a outro garçom.""",36.0,1.0,1.0,1.0,0.0,1.0,6.0,0.0,6.0,0.0,0.0,1.0,0.0,7.0,5.0,0.0,10.0,0.0,2.0,0.0,1.0
+"""E os preços são um pouco caro, nada exorbitante, mas R$ 16,50 numa entrada simples de apenas 06 torradas de brusqueta e R$ 51,00 num prato de macarrão simples com molho vermelho é um pouco defasado da realidade.""",41.0,5.0,7.0,5.0,2.0,3.0,3.0,0.0,9.0,3.0,0.0,1.0,0.0,5.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0
+"""comida muito boa e de alto nível, lugar super agradável e atendimento de primeira.""",15.0,5.0,2.0,5.0,0.0,2.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""parabéns aos proprietários .""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Comidas típicas do Nordeste, decoração rústica é bem aconchegante com atendimento ótimo e estacionamento privativo.""",16.0,5.0,2.0,5.0,1.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Lugar pequeno e no ápice do sucesso, então é normal que tenha fila.""",14.0,2.0,2.0,2.0,1.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Achei a gestão da fila atenciosa e amigável.""",9.0,2.0,1.0,2.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O lugar é descontraído e a proposta particular e bem cuidada nos detalhes.""",14.0,2.0,1.0,2.0,1.0,2.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O valor é médio alto e o serviço ágil.""",10.0,3.0,0.0,3.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um lugar que está na moda.""",7.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Mas nada de ""best 50""......""",6.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+"""Cheguei no local na noite do dia 25/04/2019.""",9.0,0.0,3.0,0.0,1.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O restaurante possui uma loja de vinhos, onde pude encontrar opções bastante em conta e outras um pouco mais caras.""",21.0,0.0,2.0,0.0,0.0,1.0,4.0,0.0,6.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,3.0,0.0,2.0,0.0,0.0
+"""Tem vinhos para todos os gostos mas, para ser sincero, achei fraca da disponibilidade dos vinhos do Porto, meu vinho favorito.""",22.0,3.0,4.0,3.0,1.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,1.0,6.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Muito poucas (e caras) opções.""",6.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Os garçons são muito educados e atenciosos.""",8.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O ambiente é interessante.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente familiar.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Os pratos são extraordinários, atendimento cortês e a Carla Pernambuco passa de mesa em mesa cumprimentando os clientes.""",19.0,2.0,2.0,2.0,1.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Superou nossa expectativa.""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Uma opção excelente, os hambúrgueres são muito gostosos, a maionese artesanal é espetacular, as batatas bem crocantes, o atendimento é sempre bom.""",23.0,6.0,0.0,6.0,3.0,0.0,5.0,0.0,5.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O melhor fondue que já comi!!!!""",7.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,0.0,1.0,1.0,1.0
+"""Tudo com muita qualidade e atendimento ideal.""",8.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Única coisa chata é a espera.""",7.0,2.0,0.0,2.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cheguei às 20h e entrei somente as 22h.""",9.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Mas ainda assim vale muito a pena.""",8.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A hamburgueria oferece um conceito inovador, seja em seu cardápio ou em sua decoração.""",15.0,1.0,2.0,1.0,1.0,1.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Trata-se da tradicional localização do famoso Rio’s .""",8.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A proposta é seguir o modelo do antigo Porcão, inclusive sem grandes modificações na estrutura.""",16.0,2.0,3.0,2.0,1.0,0.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Mantiveram tudo igual: buffet de saladas incrivel e as carnes chegando a mesa no estilo rodízio.""",17.0,3.0,2.0,3.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Quanto as carnes tudo dentro do esperado sem grandes novidades.""",11.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Ficam devendo as costelas bovinas e as linguiças .""",9.0,1.0,0.0,1.0,0.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Preços bem salgados por sinal.""",6.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Vou demorar para voltar!""",5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""fomos pra um café da manhã no dia dos pais, estava bem cheio mas havia mesa disponível.""",18.0,2.0,4.0,2.0,1.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Local linda, com mesas ao ar livre e super arborizado, tem um cantinho pra crianças com alguns brinquedos e lápis pra desenhar.""",23.0,3.0,4.0,3.0,0.0,2.0,2.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Comida boa mas sem muita variedade, devem melhorar no atendimento pq demora um pouco.""",15.0,1.0,2.0,1.0,0.0,2.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Pedimos um cardápio pronto de café da manhã pra dividirmos, não troxeram pratos suficientes e, ao solicitarmos demoraram pra trazer, tivemos que pedir pra outra pessoa que prontamente nos atendeu.""",31.0,2.0,3.0,2.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,2.0,0.0,6.0,4.0,0.0,9.0,0.0,1.0,0.0,0.0
+"""Vale a visita em um dia ensolarado, local muito aconchegante.""",11.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comida maravilhosa, preco justo....""",5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bar do Adão é tradicional dos cariocas!""",8.0,1.0,2.0,1.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Destaque para o pastel de camarão e a cervejinha na calçada!""",12.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Maravilhoso!""",2.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Fomos comemorar meu aniversário no Coco Bambu e tivemos um excelente atendimento - garçom Carlos , além da comida que estava deliciosa e bebidas perfeitas.""",25.0,3.0,2.0,3.0,2.0,2.0,2.0,0.0,5.0,0.0,0.0,1.0,3.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Comida boa e com um diferencial no sabor.""",9.0,1.0,2.0,1.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Lanches de qualidade e com inovação, bom para um final de tarde entre amigos""",14.0,1.0,5.0,1.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Outback é uma otima opção para comer e beber com qualidade, fica situado no shopping Center Norte com facil acesso, muito bom para almoço em familia, amigos e ate mesmo um almoço de negócio informal, recomendo como pedido a costelinha de porco, simplesmente perfeito.""",45.0,6.0,8.0,6.0,1.0,2.0,3.0,0.0,11.0,0.0,0.0,0.0,3.0,8.0,2.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Sem duvida o menezes Grill é o melhor espetinho de carne que existe no bairro da Cidade Velha é bem servidor e delicioso.""",24.0,2.0,3.0,2.0,2.0,1.0,2.0,0.0,6.0,0.0,0.0,1.0,2.0,3.0,1.0,0.0,2.0,0.0,1.0,1.0,1.0
+"""Posso ter tido azar, mas não gostei desse restaurante.""",10.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""A decoração é muito bonita, mas os pratos deixaram a desejar.""",12.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Achei muito caro por aquilo que serve.""",8.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Primeira vez que fui ao Mamma Jamma e tive uma boa experiência.""",13.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,3.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Preço é justo: Pedi de entrada um pão com calabresa, com queijo gratinado (muito bom, por sinal) e uma pizza grande para dividir por 2 pessoas + bebidas, e deu um pouco menos de 60 reais para cada.""",39.0,4.0,7.0,4.0,1.0,2.0,4.0,0.0,11.0,2.0,0.0,0.0,0.0,9.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Atendimento e comida excelente como sempre!""",7.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Restaurante dentro do Copacabana Palace....atendimento impecável, comida muito boa  e ambiente bom...""",14.0,3.0,1.0,3.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Restaurante nota 10, da recepção no estacionamento, atendimento, menu, visual, conforto e comida deliciosa.""",15.0,2.0,2.0,2.0,0.0,1.0,0.0,0.0,7.0,1.0,0.0,0.0,0.0,8.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O preço compatível com a qualidade, menos de R$ 100 por pessoa com entrada, bebidas, pratos e sobremesa.""",19.0,2.0,4.0,2.0,0.0,1.0,2.0,0.0,6.0,1.0,0.0,0.0,0.0,6.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0
+"""Amplo estacionamento, serviço de primeira, uma das melhores opções de João Pessoa.""",13.0,2.0,3.0,2.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""O lugar que da vontade de voltar e levar os amigos.""",12.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Estive com grupo de amigos, éramos em 10.""",9.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Fomos bem atendidos.""",4.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ó restaurante não é muito grande, mas o serviço é muito bom e os pratos fartos.""",17.0,2.0,0.0,2.0,2.0,2.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Dependendo da fome pode pedir um prato e dividir.""",10.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Sobremesa peça o peti gatô deles.""",7.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bem gostoso.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Estive no Skinna para comemorar o meu aniversário de casamento e fui realmemte surpreendido pela qualidade e principalmente pelo atendimento.""",21.0,1.0,4.0,1.0,1.0,2.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Pedi de entrada casquinhas de siri e iscas de lagosta crocante, tudo muito fresco.""",15.0,2.0,3.0,2.0,0.0,1.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""De prato principal delícias do mar com cherne e lagosta e a qualidade se manteve e para finalizar carpaccio de banana, muito bom.""",24.0,2.0,4.0,2.0,0.0,3.0,1.0,0.0,8.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""O atendimento foi excelente e cada garçom que nos atendeu nos deram todas as informações e sugestões para que tivéssemos uma noite agradabilíssima.""",24.0,2.0,0.0,2.0,1.0,2.0,5.0,0.0,5.0,0.0,0.0,3.0,0.0,3.0,2.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Eu recomendo sem medo.""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O lugar é bonito e divertido,  feito para turistas, já que só funciona às segundas.""",16.0,2.0,2.0,2.0,1.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Há apresentação de quadrilha e banda tocando diversos ritmos, com foco no forró.""",14.0,0.0,3.0,0.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""A entrada é 50 reais por pessoa,  sem consumação.""",10.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,4.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Além disso deve-se deixar separados 10 reais para os flanelinhas.""",11.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""No dia 20 de outubro, após indicações de amigos, fomos conhecer o tão bem recomendado hambúrguer desse estabelecimento.""",19.0,0.0,5.0,0.0,1.0,0.0,1.0,0.0,6.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Chegando lá, encontramos um local muito pequeno e lotado, porém fomos informados que poderíamos comprar no delivery, do outro lado da rua, enquanto aguardávamos a mesa.""",27.0,1.0,3.0,1.0,1.0,2.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,7.0,1.0,0.0,7.0,0.0,1.0,0.0,1.0
+"""Na compra no delivery já houve o primeiro fato “truculento”, cobrança facultativa de 10% para a “equipe de cozinha”.""",20.0,2.0,5.0,2.0,0.0,0.0,2.0,0.0,7.0,1.0,0.0,0.0,0.0,8.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+"""Após pegarmos nosso lanche, a segunda “surpresa”: não havia embalagem para o pudim, sendo entregue em uma lata, semelhante a uma lata de extrato de tomate e sem colher.""",30.0,2.0,5.0,2.0,1.0,1.0,5.0,0.0,8.0,0.0,0.0,0.0,0.0,9.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""O lamen é barato (um missô lamen e chashu tonkotsu lamen ficaram R$20 cada).""",15.0,4.0,0.0,4.0,1.0,1.0,3.0,0.0,3.0,1.0,0.0,0.0,0.0,5.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0
+"""O atendimento foi bom, ao contrário do que as pessoas normalmente dizem.""",13.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Ao invés de expulsar as pessoas apenas prezam pela limpeza do local, inclusive, ao final da refeição, nos foi oferecido mais uma porção de gyoza.""",26.0,0.0,6.0,0.0,1.0,0.0,1.0,0.0,7.0,1.0,0.0,1.0,0.0,6.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""O tempo de espera foi por volta de 1h e 30 min, mas pelo valor vale a pena esperar.""",20.0,0.0,4.0,0.0,1.0,2.0,2.0,0.0,7.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Fomos conhecer a Cervejaria Amazon Beer no final da tarde e pedi bolinhos de queijo com carne seca e são maravilhosos.""",22.0,2.0,4.0,2.0,2.0,2.0,1.0,0.0,5.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Tem um cardápio regional e há vários pratos que servem bem para duas pessoas.""",15.0,1.0,1.0,1.0,0.0,1.0,2.0,0.0,3.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""O preço é para turistas.""",6.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""tem uma bela vista panorâmica.""",6.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Comida muito boa, ambiente muito descontraído, ótimo para confraternizar com amigos.""",12.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0
+"""Atendimento muito rápido.O único defeito é que quase sempre tem que enfrentar  uma fila de espera para entrar.""",20.0,2.0,1.0,2.0,1.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,3.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Adorei a comida, porém o fato de o local ser muito grande achei um pouco desconfortável e o atendimento demorado.""",21.0,2.0,0.0,2.0,1.0,2.0,5.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Apesar disso, como sempre, a comida estava ótima e sempre de ótima qualidade para agradar seus clientes""",17.0,2.0,1.0,2.0,1.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Eu, namorada fomos comemorar aniversário de uma colega.""",9.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Foi bacana, opções de bebidas e comida boas, bom atendimento, ambiente agradável.""",13.0,4.0,1.0,4.0,1.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Apesar de manter a mesma qualidade que os demais restaurantes da rede Elias, o da São Clemente fecha às 16:00 e não tem as cervejas artesanais da rede.""",29.0,2.0,5.0,2.0,0.0,1.0,4.0,0.0,6.0,0.0,0.0,2.0,3.0,4.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Mas a comida... como sempre, maravilhosa!!!""",7.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Rodízio muito bom!""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento é rápido e eficiente!""",7.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Shimeji quentinho e os sushis e sashimis frescos!""",9.0,1.0,0.0,1.0,0.0,2.0,1.0,0.0,2.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale a pena!!!""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ambiente agradavel,pratos bem servidos e sobremesas variadas.Espaço para crianças brincarem.""",13.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Estacionamento amplo com manobrista pago.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""atendimento mto bom.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""comida mto bem preparada.""",5.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""mas deve se dizer que por ser feita para atender o grande publico, o ambiente se torna menos confortável, pois o barulho eh mto grande.""",26.0,3.0,0.0,3.0,2.0,1.0,3.0,0.0,3.0,0.0,0.0,1.0,0.0,5.0,5.0,0.0,5.0,0.0,1.0,0.0,1.0
+"""No demais, vale a pena conhecer""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O restaurante possui diversas opções de pratos, todas de qualidade excelente, sendo esse o seu ponto.""",17.0,1.0,2.0,1.0,1.0,0.0,5.0,0.0,5.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Quase sem palavras para descrever.""",6.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ótimo atendimento do garçom Roberval Viana e uma comida excelente tbm!!!""",12.0,2.0,1.0,2.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,1.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Lugar agradável embora quando cheio alguns lugares ficam inviáveis por colocarem as mesas muito próximas, tem-se a impressão de invasão  de privacidade.""",23.0,4.0,2.0,4.0,0.0,0.0,3.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,2.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Buffet de frios variados e bons.""",7.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Pizza massa fina, bem servida de ingredientes .""",8.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Atendimento eficiente, local com ar condicionado.""",7.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Padaria localizada ao lado do Hotel Ibis Budget da Frei Caneca que faz boa comida por preço justo.""",19.0,2.0,4.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,6.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Os salgados são muito bons, especialmente os croissants.""",9.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""boa opção no centro da cidade.boa oferta de comida,preco e atendimento,limpeza tambem boa,recomendo.""",18.0,2.0,3.0,2.0,0.0,1.0,0.0,0.0,8.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Eu e m eu filho comemos um Xfile e ficamos uma semana com infecção intestinal.""",16.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,4.0,2.0,0.0,1.0,2.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""No calçadão da Rua da Quitanda, bem próximo à Praça do Patriarca.""",13.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Funciona no almoço com buffet com várias opções de pratos frios, quentes, sobremesas e sucos incluídos.""",17.0,2.0,4.0,2.0,0.0,1.0,1.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Tudo com qualidade.""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""É bar mas com opções de pratos para refeições e não somente petiscos.""",14.0,0.0,3.0,0.0,1.0,2.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Cozinha brasileira.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Pratos para compartilhar.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bom atendimento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Assim que você entra já ouve uma música ambiente, já fica flutuando.""",13.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Aí tem duas árvores que foram preservarás na construção.""",10.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Ambiente muito aconchegante.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O buffet é a vontade, preço fixo.""",8.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Pode se servir várias vezes.""",6.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Tudo sem enlatados e temperos prontos.""",7.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bebida à vontade.""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Uma grande variedade de frutas.""",6.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço justo.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ingredientes orgânicos para quem se preocupa com a saúde.""",10.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,2.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Comprei para ir no rodízio de fondue com uns casais de amigo e gostei muito da visita.""",18.0,0.0,5.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""O restaurante Remanso do peixe oferece o que de melhor existe em pescado na amazônia.""",16.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,1.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Morador ou visitante não pode deixar de conhecer essa maravilha da culinária paraense.""",14.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Apesar de achar o couvert artístico um pouco caro demais e a espera para conseguir uma mesa ser um pouco cansativa, acho que o restaurante vale a pena.""",29.0,3.0,1.0,3.0,1.0,1.0,7.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,2.0,0.0,4.0,0.0,1.0,0.0,1.0
+"""Não é barato, mas o serviço foi bom, a pizza veio super rápido, o menu é ótimo (várias opções de pizza e você pode optar por dividir a sua pizza em em até 3 sabores diferentes) e o ambiente é agradável.""",42.0,6.0,4.0,6.0,4.0,3.0,7.0,0.0,8.0,1.0,0.0,1.0,0.0,8.0,1.0,0.0,4.0,0.0,0.0,1.0,1.0
+"""Bem localizado.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Voltaria.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Melhor pizza da cidade em termos de massa fina, preço um pouco salgado.""",14.0,3.0,3.0,3.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+"""Tem o melhor petit gateu da ilha.""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,1.0,1.0,1.0
+"""Muito bom!!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento excelente do Michael!!""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida deliciosa e ambiente agradável!""",6.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Caipirinha deliciosa!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pratos caros e visualmente feios.""",6.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pouca quantidade.""",3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Pedi o salmão e não tinha mais disponível na cozinha.""",11.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Experiência pra não voltar mais.""",6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Comprar chocolates na cacau show é uma boa saída para quem quer fugir dos chocolates mais tradicionais e quer experimentar novos e deliciosos sabores de chocolates.""",27.0,4.0,3.0,4.0,1.0,2.0,1.0,0.0,7.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,5.0,0.0,1.0,0.0,1.0
+"""Excelente atendimento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente tipicamente carioca.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Comida muito bom, muito bem temperada.""",7.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Preço justo.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Excelente custo-benefício.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente agradável, garçons educados, comida gostosa, mas... as porções dos pratos kids são muito, muito, muito pequenas.""",18.0,4.0,1.0,4.0,1.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,9.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Vergonhoso cobrarem tão caro por tão pouca massa.""",9.0,2.0,1.0,2.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Até meu filho de 3 anos saiu de lá com fome.""",12.0,0.0,4.0,0.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Não volto mais, pois teria que pedir um prato de adulto para um menininho se alimentar adequadamente.""",18.0,0.0,2.0,0.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Atendimento de primeira, ambiente super legal.""",7.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ideal para um jantar entre amigos.""",7.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""As opções com camarão são as melhores mas os de peixes também são uma delícia.""",16.0,1.0,2.0,1.0,2.0,1.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+"""O preço é razoável até.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Chope bemtirado, comida questionável, o joelho de porco é bem feito, porém a salada de batatas veio azeda e o chucrute bem antigo.""",24.0,5.0,2.0,5.0,1.0,2.0,3.0,0.0,6.0,0.0,0.0,0.0,1.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""As salsichas de qualidade duvidosa.""",6.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O preço para o Rio é compatível .""",8.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente acolhedor, bebidas self-service, rock dos melhores (clássicos e atuais) e atendimento maravilhoso.""",14.0,5.0,1.0,5.0,0.0,2.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Esse restaurante é muito agradável, um excelente atendimento uma vista pro mar de abrilhantar os olhos e com uma refeição divina, nesse final de ano ele estarão fazendo um pacote muito bom pra quem gosta de celebrar a virada do ano de frente pro mar.""",46.0,4.0,8.0,4.0,2.0,1.0,7.0,0.0,13.0,0.0,0.0,2.0,0.0,5.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Local agradável, amplo, cardápio variado e bom atendimento.""",9.0,4.0,0.0,4.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Além de variados e deliciosos acaís, servem outras opções de lanches que equivalem à refeição e sucos muito gostosos.""",20.0,2.0,3.0,2.0,0.0,2.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,3.0,0.0,1.0,0.0,1.0
+"""sushi di boa qualidade e otimo tempura de legumes e camarao, tambem tem sobremesa incluida no valor do rodizio""",19.0,2.0,3.0,2.0,0.0,2.0,0.0,0.0,9.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,1.0,0.0,0.0,1.0
+"""A pizzaria é um charme.""",6.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O ambiente é ótimo para um encontro romântico ou para comer uma pizza com os amigos.""",17.0,2.0,2.0,2.0,1.0,1.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0
+"""O atendimento é bom, rápido e eficiente.""",8.0,3.0,0.0,3.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Os preços não são baratos entretanto não chegam a ser astronômicos.""",12.0,2.0,0.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Recomendo para uma refeição diferente e deliciosa.""",8.0,2.0,1.0,2.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Dei mais uma chance para a Real.""",8.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Genteeee!!!!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Vcs precisam ir a este lugar e comer a comida do Bryan, ver os arcos, beber Pisco, conversar com o chef sobre a comida peruana e terminar com o Suspiro a la limeña que é uma das 3 sobremesas mais incriveis que já comi!""",45.0,2.0,6.0,2.0,1.0,2.0,7.0,0.0,6.0,2.0,0.0,2.0,5.0,6.0,1.0,0.0,8.0,0.0,1.0,0.0,0.0
+"""Ambiente bem cuidado, atendimento excelente.""",6.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Pequena variedade, mas atende inclusive  vegetarianos.""",7.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Costuma ter bolinhas fritos a assados fora do habitual.""",10.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Tudo bem caprichado.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço caprichado também.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Não é para o dia-a-dia.""",6.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O kg custa R$ 65,00.""",7.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+"""Destaque para o creme brulee, boa pedida para sobremesa.""",10.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Va com tempo.""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Mesas para muitas pessoas demoram um pouco para liberar""",9.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""No Executivo Grill você tem um ambiente descontraído, com diversas opções de saladas, pratos quentes, carnes, feijoada, a comida é gostosa, o atendimento é razoável e o preço é muito bom.""",32.0,4.0,3.0,4.0,3.0,1.0,5.0,0.0,9.0,0.0,0.0,1.0,1.0,9.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Ambiente super agradável e de ótimo atendimento.""",8.0,2.0,1.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Fomos muito bem atendidos!""",5.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A carne é ótima e o lugar super agradável!""",10.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Um dos melhores restaurantes que vi na cidade.""",9.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Tradicional.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""As melhores burekas (folhados redondos recheados - em formato de donut) .""",12.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Para saborear no local e tambem levar pra casa (congeladas).""",11.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Ter no congelador sempre que pintar ""aquela vontade"" (e vai pintar sempre, rsrrss).""",14.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,8.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""A de ricota e de espinafre são imbativeis.""",9.0,1.0,2.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Lanche gostoso, as batatas chips que vêm de acompanhamento e a maionese temperada da casa são boas, atendimento e ambiente agradáveis, preço em conta e ainda tem delivery.""",29.0,3.0,3.0,3.0,1.0,3.0,2.0,0.0,11.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""As esfirras são a melhor propaganda do restaurante de comida tipica árabe, sabores variados (adoro a folheada de carne e a de azeitona), mas os outros pratos também são muito bons.""",32.0,4.0,4.0,4.0,2.0,2.0,6.0,0.0,9.0,0.0,0.0,0.0,0.0,7.0,0.0,0.0,2.0,0.0,2.0,1.0,1.0
+"""Não deixem de experimentar os charutinhos de folha de uva, o tempero é leve e saboroso.""",17.0,2.0,2.0,2.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""O espaço é simples e o atendimento costuma ser rápido nas mesas.""",13.0,2.0,1.0,2.0,2.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""No balcão é um pouco mais confuso pela quantidade de pessoas que ficam ao redor esperando atendimento e comendo ali mesmo, mas é tb o lugar mais divertido já que podemos presenciar a interação entre os donos árabes ou descendentes e os funcionários brasileiros...""",45.0,4.0,5.0,4.0,2.0,4.0,5.0,0.0,10.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,5.0,0.0,2.0,0.0,0.0
+"""Cumpre o esperado.""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Boa variedade de carnes, e variado buffet de saladas e outros acompanhamentos.""",13.0,2.0,2.0,2.0,0.0,2.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Bom atendimento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço razoável.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Que desfrutar de um lanche leve e rápido vale a pena no flash lanches.""",15.0,2.0,2.0,2.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Tudo muito cuidado e ambiência limpa.""",7.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Restaurante muito bem localizado perto de varios hotéis , almoçamos depois das 16:00 sendo que a maioria dos restaurantes daquela região já estavam fechados, comida deliciosa feita com produtos saudáveis !""",30.0,4.0,5.0,4.0,1.0,0.0,1.0,0.0,8.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Adoramos !""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Pedimos um rodízio que só começou a ser servido após chamar o garçom e reclamar""",15.0,0.0,0.0,0.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,2.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0
+"""Um lindo lugar, cardápio muito direcionado à camarão, preços elevados, mais condizentes com bom ambiente que as porções poucp generosas.""",21.0,5.0,2.0,5.0,0.0,0.0,2.0,0.0,6.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,2.0,0.0,1.0,0.0,1.0
+"""A casa costuma lotar no fim da tarde e serve um variado menu, de cerca de 30 itens, como pratos individuais e coletivos, para crianças, panelinhas, espetinhos e espetões, saladas, sanduíches, caldos e sobremesas.""",35.0,3.0,6.0,3.0,0.0,4.0,2.0,0.0,14.0,1.0,0.0,0.0,0.0,11.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""A porção de costela assada na brasa por seis horas, vai à mesa com mandioca, vinagrete e farofa.""",19.0,0.0,5.0,0.0,0.0,1.0,1.0,0.0,8.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Ou seja, simplesmente DIVINOOO!""",5.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O restaurante oferece um cardápio com massas, strogonoff, saladas, picadinho servidos em porções generosas, contam com um delicioso café e o ambiente é agradável, aconchegante e leve.""",28.0,5.0,3.0,5.0,1.0,2.0,4.0,0.0,9.0,0.0,0.0,0.0,0.0,8.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Infelizmente no dia que fui pedi duas opções de sobremesa que não tinham disponíveis, mas de modo geral a expriência foi muito agradável.""",24.0,3.0,3.0,3.0,2.0,1.0,1.0,0.0,5.0,1.0,0.0,0.0,0.0,4.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Quero agradecer por escolherem as terras Brasileiras para lançar o Jamie's Italian.""",13.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,3.0,3.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""As refeições por aqui estão cada vez mais padronizadas e não saudáveis, talvez pela cultura ou talvez pela pressão dos restaurantes do tipo fast-food.""",25.0,2.0,6.0,2.0,1.0,2.0,1.0,0.0,8.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Estamos ansiosos para vivenciar um marco nos costumes da nossa sociedade, o despertar do interesse nos alimentos, sua procedência e seu poder nutricional.""",24.0,2.0,4.0,2.0,1.0,1.0,4.0,0.0,7.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""PARABÉNS!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Batatas fritas muito especiais, burger extremamente saboroso (quem não come mal passado deve evitar).""",15.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Guarde espaço para a sobremesa, vale a pena!""",9.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Depois de uma indicacao na recepcao do hotel, tive a pessia ideia de ir conhecer o restaurante, que com luzes piscando na porta (tipo um pequeno enfeite para arvore de natal) ja me indicavam o que me esperava...pedi um salmao grelhado, que diziam servir 2 pessoas... O peixe chegou, com sal alem da conta, com batatas semi cozidas como acompanhamento, um molho que parecia o oleo do fusca do meu avo e regado tambem a salmoura...afff nem vou comentar da salada de entrada, qualquer bar de periferia poderia superar... Sobre o garcom, tive que repetir minhas solicitacoes por mais de 3 x cada... Descepcionante... Em resumo, nao volto nunca mais e se mesmo assim vc se encorajar, lembre-se eu nao recomendo...""",124.0,3.0,21.0,3.0,2.0,3.0,12.0,0.0,32.0,2.0,0.0,11.0,2.0,21.0,4.0,0.0,23.0,0.0,2.0,0.0,0.0
+"""Um boa opção para quem trabalha na região.""",9.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O Restaurante Verde e Grill oferece carnes de qualidade acompanhadas de um buffet bastante interessante, com pasteis, quiche, várias opções de saladas e legumes.""",25.0,1.0,4.0,1.0,0.0,2.0,3.0,0.0,8.0,0.0,0.0,0.0,3.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Um lugar super agradável!""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um cardápio variado com opções  de massas, pizzas, pratos ornamentados, tudo muito sofisticado e caprichado.""",16.0,3.0,2.0,3.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""As pizzas são super saborosas.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Espaço infantil para crianças brincarem.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Muito bom para ir com família ou jantar para casais.""",11.0,1.0,2.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Comida Excelente, sem palavras!""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cardápio variado e muito bom gosto, o buffet e sem igual, vale a pena expetiencia!!""",16.0,3.0,1.0,3.0,0.0,2.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comida boa de qualidade, variedade comida típica mineira!""",9.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Bom ambiente!""",3.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bom atendimento!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Tem muita variedade de sobremesa!""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Vale a pena!""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bastante variedade ( carnes, sushi, japonesa, chinesa) atendimento regular, uma área ampla, mas o preço um pouco acima da qualidade oferecida!""",21.0,4.0,1.0,4.0,0.0,1.0,4.0,0.0,7.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Restaurante bonito, que pela estilo parace ser caro, porem a moqueca estava mais barata do que na barraca na praia .""",21.0,4.0,4.0,4.0,2.0,0.0,1.0,0.0,5.0,0.0,0.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,2.0,0.0,1.0
+"""Os pratos nao veem em graaaande quantidade , mas a porçao para  duas pessoas cumpre com o objetivo, desde que uma das pessoas nao coma muito, o que e o caso da minha esposa, melhor para mim.""",37.0,1.0,7.0,1.0,0.0,2.0,4.0,0.0,8.0,2.0,0.0,3.0,0.0,7.0,2.0,0.0,3.0,0.0,1.0,1.0,0.0
+"""Após dois anos,  retornamos , a casquinha de Siri continua maravilhosa , chopp muito bem tirado,  cremoso.""",16.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,0.0,1.0,7.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""O filet aperitivo com molho de mostarda,  deixou saudades aos de outras oportunidades.""",14.0,1.0,3.0,1.0,0.0,0.0,2.0,0.0,5.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Ambiente super aconchegante.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Excelente serviço de garçom.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A casa é bem decorada, estava um pouco quente, ar desligado.""",12.0,2.0,0.0,2.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Os PFs são bons e a bons preços.""",9.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Mas o quilo não vale muito à pena: de segunda a sexta, muda pouca coisa.""",16.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Mas vale muito à pena para tomar cerveja de noite.""",11.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Boa opção de almoço na região , pois contam com sistema de buffet livre no horário de almoço, disponível ótimos pratos e saboroso, o único ponto negativo é que o salao de mesas não é tao grande o que gera um certa espera na chegada.""",45.0,8.0,8.0,8.0,1.0,1.0,4.0,0.0,13.0,0.0,0.0,2.0,0.0,6.0,2.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""lamens muito bons, bem tradicionais, apesar da grande espera por estar sempre lotado, vale a pena ter paciencia""",18.0,3.0,0.0,3.0,1.0,0.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Gosto bastante do açaí do Açaí Aju.""",8.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Recomendo o que vem acompanhado de chantilly.""",8.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Acho que o nome é Diplomata.""",7.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O ponto negativo da casa está nos chamados hambúrgueres gourmet.""",11.0,2.0,2.0,2.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Os molhos não são tão caprichados assim é o preço é bem caro.""",14.0,1.0,0.0,1.0,3.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Não voltaria lá para comer os hambúrgueres.""",8.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Achei o restaurante bem bacana com decoração sofisticada e cardapio muito bom.""",13.0,4.0,1.0,4.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Ambiente tranquilo com musica boa.""",6.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Já fui nas duas lojas deles e o burguer é muito bom e podes escolher o ponto do hamburguer o ambiente também é bem legal.""",26.0,2.0,2.0,2.0,3.0,2.0,3.0,0.0,5.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Tomei cerveja artesanal""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Sabia que o Nino era um bom restaurante, mas me surpreendi positivamente.""",13.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,1.0,0.0,0.0,1.0,1.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Ambiente agradável, atendimento muito bom, com garçons simpáticos, que conhecem bastante dos pratos.""",14.0,3.0,2.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Pedimos a entrada de Burrata com embutidos.""",8.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Acompanha um pão delicioso!""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Para prato principal, pedi o Tagliolini com funghi porcini puxado na manteiga de trufas e gema mole: Sensacional!!!""",19.0,2.0,4.0,2.0,0.0,1.0,1.0,1.0,6.0,0.0,0.0,0.0,1.0,7.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Nao quis nem colocar queijo parmesão para nao tirar o sabor do prato.""",14.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Experimentei os outros que foram pedidos na mesa, mas preferi o meu!""",13.0,0.0,1.0,0.0,1.0,1.0,3.0,0.0,2.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Carta de vinhos boa, com opcoes justas.""",8.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Em relacao ao preço do jantar, nao achei nenhum absurdo para Um jantar com entrada, prato principal, sobremesa e vinho.""",21.0,1.0,5.0,1.0,0.0,1.0,2.0,0.0,9.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Recomendo o restaurante e certamente voltarei.""",7.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Hoje comi um com o hot dog nesse restaurante e foi muito decepcionante.""",14.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,2.0,0.0,0.0,1.0
+"""O lugar estava vazio, o atendente morrendo atrás do computador.""",11.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Parece o pior dia da vida dele, nem bom dia deu.""",12.0,2.0,1.0,2.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,1.0,1.0,0.0
+"""O lanche foi preparado por ele sem qualquer atenção.""",10.0,0.0,2.0,0.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O molho para o nacho veio num copo ho plástico sem qq colher, os nachos eram maiores que o copo não tinha como pegar.""",25.0,2.0,3.0,2.0,1.0,0.0,4.0,0.0,6.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,4.0,0.0,1.0,0.0,0.0
+"""O refrigerante veio em lata, sem copo sem canudo.""",10.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Atendente estava nitidamente resfriado, fungando na comida.""",8.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O preço cobrado  30 reais (Jan 20) é altíssimo se considerado a qualidade entregue.""",15.0,2.0,0.0,2.0,1.0,0.0,2.0,0.0,2.0,1.0,0.0,1.0,2.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Lugar a se evitar.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Quem sabe se os proprietários um dia virem esse análise façam algo, o lugar parece bacana.""",17.0,1.0,0.0,1.0,0.0,0.0,3.0,0.0,4.0,1.0,0.0,2.0,0.0,4.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Ah outra mega decepção.""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""O chatchup nitidamente foi colocado nos vidros da heinz.""",10.0,1.0,2.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""É nitidamente colocado outra marca, pois o sabor é daqueles bem vagabundos.""",13.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Conheci o Folques Doces em março um ótimo ambiente com doces magníficos um lugar para saborear ótimos doces""",18.0,3.0,2.0,3.0,0.0,0.0,3.0,0.0,5.0,0.0,0.0,0.0,2.0,2.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0
+"""O  Restaurante San Marino tem um ambiente agradável, o atendimento é muito bom, funcionários educados, a comida é muito saborosa.""",21.0,3.0,0.0,3.0,2.0,0.0,4.0,0.0,4.0,0.0,0.0,0.0,3.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Comida espetacular, atendimento impecável, Petit Gateau perfeito, ambiente super agradável, sem duvida um dos melhores restaurantes que já fui.""",20.0,6.0,2.0,6.0,1.0,0.0,0.0,0.0,5.0,1.0,0.0,1.0,2.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um restaurante novo, bem montado, gostoso de se frequentar, parecido com outro de nome ""Coco Bambu"", com preços mais atraentes.""",21.0,4.0,3.0,4.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,2.0,9.0,1.0,0.0,2.0,0.0,1.0,0.0,1.0
+"""Os pratos são fartos e bem feitos.""",8.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O garçon que nos atendeu foi bastante solícito e explicou cada prato perguntado, com detalhes.""",16.0,1.0,1.0,1.0,1.0,1.0,2.0,0.0,3.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Um dos problemas é que os pratos fartos, são exagerados para duas pessoas.""",14.0,0.0,2.0,0.0,2.0,0.0,1.0,0.0,3.0,2.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Pedimos uma pescada acompanhada de arroz e legumes na manteiga, que servia tranquilamente 04 pessoas.""",16.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,5.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Sugestão: que a casa sirva pratos em menor porção para que as pessoas possam solicitar mais variedades.""",18.0,1.0,1.0,1.0,0.0,0.0,3.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,3.0,0.0,3.0,0.0,2.0,0.0,0.0
+"""No geral, um bom restaurante!""",6.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""tudo muito saboroso e bem elaborado, os sanduíches poderiam ter um pão maior, pois o pão sempre acaba antes do hambúrguer, mas sempre delicioso.""",25.0,3.0,1.0,3.0,0.0,2.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,6.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""O delivery é bem rápido.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Além das pizzas, vale a pena experimentar os breads e o dips de canela.""",15.0,0.0,2.0,0.0,0.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Sempre perguntar se tem promoção, pois há a promoção de pizza em dobro.""",14.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Comida incrível!!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Conheço bem a comida indiana e não poderia recomendar restaurante mais típico.""",13.0,2.0,0.0,2.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Garçons Super atenciosos.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Dono super simpático também""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Atendimento simplesmente perfeito, todos muito atenciosos e simpáticos.""",9.0,3.0,0.0,3.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Um senhor chamado Valdir tocando uma boa música no piano e depois na sanfona, indo de mesa em mesa de forma educada.""",23.0,3.0,5.0,3.0,0.0,1.0,2.0,0.0,7.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Os pratos também sem comentários.""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Só não dou a nota 5 pela decoração, que tem um aspecto meio ""velho"".""",15.0,2.0,1.0,2.0,0.0,0.0,2.0,0.0,3.0,1.0,0.0,1.0,0.0,6.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Acho que eles tinham a ideia de fazer uma coisa  clássica, mas exageraram um pouco.""",16.0,1.0,0.0,1.0,0.0,1.0,3.0,0.0,2.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Um dos melhores restaurantes de São Luís, especialista em carne de carneiro.""",13.0,2.0,4.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Também umas das melhores pizzas da Ilha.""",8.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""Muito bom para ir com a família.""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Estrutura moderna e nova.""",5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bom atendimento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Melhor hamburgueria de curitiba,tanto é que tem filial ate na terra do sanduiche,estados unidos.é caro!""",19.0,3.0,3.0,3.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,2.0,0.0,1.0,1.0,1.0
+"""Pizzaria muito boa, uma das melhores q já experimentei, atendimento impecável, comida de excelente qualidade, assim como bebidas... Preço justo""",20.0,5.0,3.0,5.0,0.0,0.0,0.0,0.0,6.0,1.0,0.0,1.0,0.0,7.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Ambiente pequeno, mas bem decorado e familiar.""",8.0,3.0,0.0,3.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A pizza é bem gostosa!""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Uma pizza família, com 8 pedaços, custa em torno de 45 reais.""",13.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""vale a pena ir recomendo a todos que vierem em são Paulo, limpo e legal para encontro com os amigos para bater um papo, bem localizado excelente""",27.0,3.0,3.0,3.0,1.0,1.0,3.0,0.0,4.0,0.0,0.0,2.0,1.0,4.0,2.0,0.0,6.0,0.0,0.0,0.0,1.0
+"""Tem 13 anos que não venho aqui em SP, fiz questão de conferir meu local de comida árabe preferido, servem uma iguaria chamada UZI ( massa folhada com recheio de arroz e cordeiro)""",33.0,2.0,4.0,2.0,0.0,1.0,2.0,0.0,9.0,1.0,0.0,1.0,2.0,6.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0
+"""Simplesmente maravilhosa!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bem servida, suculenta, tempero delicioso, sem defeitos.""",8.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""E o melhor, o preço.""",6.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0
+"""Parece inacreditável mas comemos uma peixada ao leite de coco e camarões acompanhada de pirao e arroz que servia bem três pessoas, em janeiro.""",25.0,1.0,4.0,1.0,0.0,3.0,1.0,0.0,8.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Pagamos 40,00 reais.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Sensacional.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bons ingredientes, variedade de combinações, é bem feita e tem bom preço.""",13.0,2.0,1.0,2.0,1.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Sempre me salvam quando não quero cozinhar!!!""",8.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Uma delicia!!!.""",3.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Única sugestão seria deixar menor quantidade de sushis na bandeja em que os garçons servem, pois quando chegam à mesa já estão com a alga murcha por estarem a algum tempo rodando pelo restaurante.""",35.0,3.0,7.0,3.0,2.0,0.0,3.0,0.0,9.0,0.0,0.0,1.0,0.0,4.0,2.0,0.0,5.0,0.0,1.0,0.0,0.0
+"""Boa estrutura , peço justo, boa comida!""",7.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Praia linda, limpa, muito agradável!""",6.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale fazer uma caminha pela orla, tem falecias que garantem lindas fotos!""",13.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Pra quem gosta de comida gostosa sem pagar muito caro.""",11.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Os pretzels são sempre frescos e bem preparados e o atendimento é muito bom.""",15.0,2.0,0.0,2.0,2.0,2.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Excelente.""",2.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Considero a melhor pizza de São Paulo, e dizem que a pizza em São Paulo é a melhor do mundo (concordo).""",22.0,1.0,3.0,1.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,4.0,6.0,1.0,0.0,3.0,0.0,3.0,2.0,1.0
+"""Essa é indiscutível.""",4.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O espaço é agradavel, a comida é boa, mas o atendimento deixa a desejar.""",15.0,2.0,0.0,2.0,2.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Os preços não são tão baixos.""",7.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Cardápio criativo com  diferentes leituras da cozinha brasileira num lugar muito especial - bairro Santa Teresa , a Montmartre brasileira.""",20.0,4.0,3.0,4.0,0.0,0.0,2.0,0.0,5.0,0.0,0.0,0.0,3.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""ótima opção para curtir uma cerveja com os amigos ou família, ostras sempre frescas e varias outras opções de frutos do mar.""",23.0,2.0,3.0,2.0,0.0,2.0,4.0,0.0,8.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Minha moqueca de arraia preferida.""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Uma pizza deliciosa... saladas deliciosas... atendimento excelente... e o valor muito honesto... sempre que vou a Curitiba, minha pizzaria preferida.""",21.0,4.0,1.0,4.0,0.0,1.0,3.0,0.0,5.0,0.0,0.0,1.0,1.0,8.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Não deixe de visitar.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Bem simples mas muito bem preparada.""",7.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Não é tão apimentada quanto seria no Nepal mas é preparada por imigrantes.""",14.0,1.0,2.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O Lugar fica numa galeria com amplo espaço na praça de alimentação exceto no horario de pico.""",18.0,1.0,7.0,1.0,0.0,0.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Sugiro o prato do dia sempre.""",7.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""simplesmente AMO as comidas deste lugar, atenção especial para o “batuta de manzo”, que é uma espécie de tartar muito não muito “temperado” como de costume de outros restaurantes, que pra mim, é um ponto positivo.""",37.0,2.0,6.0,2.0,2.0,0.0,5.0,0.0,9.0,0.0,0.0,3.0,0.0,11.0,1.0,0.0,3.0,0.0,2.0,0.0,1.0
+"""Belém carece de bons restaurantes, a preços honestos e onde seja possível conversar.""",14.0,3.0,2.0,3.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O Midori é um deles.""",6.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""A comida é sempre boa e o serviço, excelente""",9.0,2.0,0.0,2.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Restaurante em que você monta o seu próprio prato de salada, escolhendo os ingredientes!""",15.0,1.0,2.0,1.0,0.0,0.0,3.0,0.0,4.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Os sucos são bons, mas um pouco doces demais.""",10.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço bom!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Boa comida mas o serviço e lento e se pagar em dinheiro eles arredondam para mais devolvendo troco menor.""",20.0,3.0,2.0,3.0,0.0,3.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,3.0,0.0,2.0,0.0,1.0
+"""Lamentável esta atitude""",3.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Loja localizada no Shopping Tucuruvi, compartilhando as mesas e cadeiras da praça de alimentação.""",15.0,0.0,3.0,0.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Massa razoável, caseira.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento é problemático, não porque o atendente seja ruim, mas deixam uma única pessoa para preparar a massa, entregar ao cliente e cobrar no caixa.""",27.0,3.0,2.0,3.0,2.0,2.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,6.0,2.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Assim não dá mesmo.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Há um fila e consequente demora no atendimento.""",9.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Depois reclamam quando a freguesia vai embora... Não recomendo.""",10.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Indico o Balada a qualquer hora do dia e da noite!""",12.0,0.0,3.0,0.0,0.0,1.0,2.0,1.0,3.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""Tudo sempre muito bem feito e com muita qualidade.""",10.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Ambiente agradável tanto na área interna, que é climatizada, quanto na ampla varanda.""",14.0,3.0,2.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Considero outro ponto favorável é o fato deles estarem sempre introduzindo algo novo no cardápio!""",16.0,2.0,1.0,2.0,2.0,0.0,2.0,0.0,3.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Porções generosas, mas tem que saber pedir pq os preços são caros em alguns itens na proporção custo x benefício, por isso, veja o cardápio com calma e tire suas dúvidas sempre com os milhares de atendentes sempre a disposição no salão!""",43.0,2.0,8.0,2.0,2.0,3.0,6.0,0.0,13.0,0.0,0.0,1.0,0.0,6.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Tive uma experiência terrível com essa pizzaria.""",8.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Solicitei uma pizza, para pagamento via cartão - o sinal da máquina era quase zero, e por isso, fiquei por 20 minutos aguardando o entregador, decidir o que ia fazer.""",31.0,0.0,4.0,0.0,2.0,1.0,3.0,0.0,7.0,2.0,0.0,3.0,0.0,8.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0
+"""Como a pizza já estava fria, e eu cansado, sugeri fazer transferência online.""",14.0,3.0,1.0,3.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Assim, o fiz.""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""No entanto, era sexta-feira, após as 22h.""",8.0,0.0,2.0,0.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O sujeito que entregou a pizza me ligou as 22:40 reclamando que o dinheiro não cairia no mesmo dia!""",20.0,1.0,1.0,1.0,0.0,0.0,4.0,0.0,5.0,0.0,0.0,2.0,0.0,3.0,1.0,0.0,4.0,0.0,1.0,0.0,0.0
+"""Claro que não!!!!!!!""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Somente no próximo dia útil!!!!""",6.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Como podem ser tão despreparados e limitados?""",8.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Nota zero!""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""R$ 74 por uma pizza que não vale R$ 40?""",11.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,2.0,0.0,1.0,0.0,3.0,0.0,2.0,1.0,0.0,0.0,0.0,0.0
+"""Não, nunca mais!!!""",4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Realizem treinamento com seus funcionários!!!""",6.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Melhor opção no shopping para comidas e bebidas, ambiente muito bacana, bom atendimento e boa comida.""",17.0,4.0,2.0,4.0,0.0,2.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0
+"""Boa variedade de bebidas.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O bar oferece muitas opções de refeições e petiscos.""",10.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Os preços são razoáveis e as porções são muito bem servidas.""",12.0,1.0,0.0,1.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Qualquer prato para duas pessoas é suficiente para alimentar três ou até quatro pessoas.""",15.0,1.0,2.0,1.0,1.0,1.0,1.0,0.0,3.0,3.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Não deixe de experimentar o torresmo, o pastel de camarão e o arroz de brócolis.""",16.0,0.0,2.0,0.0,0.0,1.0,3.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O Otto é um restaurante de referência na Tijuca se eu não me engano está fazendo 20 anos porém ele tem o preço acima do normal para a região, o preço não conduz com os pratos, mas tirando isso é excelente.""",42.0,1.0,5.0,1.0,3.0,2.0,6.0,0.0,9.0,1.0,0.0,4.0,2.0,5.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Super recomendo.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Frequento o restaurante desde que foi inaugurado e sempre foi impecável na qualidade dos pratos, decoração e atendimento.""",19.0,1.0,3.0,1.0,2.0,2.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""A decoração muito especial, que dá a impressão de estar entrando numa Villa Italiana é sempre impecável com suas maravilhosas hortências sempre impecáveis!""",24.0,4.0,2.0,4.0,2.0,0.0,3.0,0.0,3.0,0.0,0.0,1.0,2.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""A qualidade dos produtos usados p/a execução dos pratos faz toda a diferença,sem contar o imperdível couvert com os pães de fabricação artezanal.""",25.0,2.0,4.0,2.0,0.0,0.0,6.0,0.0,9.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Um ambiente de muito requinte, agradável, super culinária italiana que amo.. fui com um primo sempre vejo pois moro bem ao lado, achei tudo maravilhoso especial, sou apaixonada por restaurantes!""",31.0,5.0,4.0,5.0,2.0,0.0,2.0,0.0,6.0,0.0,0.0,2.0,0.0,8.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Toda vez que vou ao Rio, bato o ponto no Bar Luiz.""",13.0,0.0,3.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,2.0,4.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Comida alemã excelente.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ótimo lugar para comer, ambiente bem agradável, atendimento bom, comida muito boa, preço razoável... Recomendo e ao lado tem uma ótima padaria""",22.0,5.0,1.0,5.0,0.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0,7.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Excelente Hamburger.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O buffet de saladas é bem variado.""",8.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O sundae farofino é imperdível.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""É um restaurante de rede, mas a comida é muito boa.""",12.0,1.0,1.0,1.0,2.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bar com excelentes preços no Setor Oeste.""",8.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cerveja gelada, petiscos de bom preço.""",7.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Local elegante e reservado.""",5.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Bom atendimento e outros.""",5.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Um restaurante muito bom, com boa comida, espaço, atendimento bom, bem localizado vale a pena ir, uma das boas opções de restaurante da região.""",25.0,4.0,4.0,4.0,0.0,0.0,2.0,0.0,8.0,1.0,0.0,0.0,0.0,8.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""O Latife nada mais é do que um fast food de comida árabe.""",14.0,1.0,2.0,1.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,2.0,1.0,3.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0
+"""Ainda sim, vale a pena experimentar os pratos lá servidos.""",11.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""A kafta, as esfihas e os kibes são muitos gostosos.""",11.0,1.0,0.0,1.0,1.0,1.0,4.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Há um bufê de saladas, sempre fresquinhas.""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O preço é bem em conta.""",7.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale a visita.""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Pizza rapida e em fatia.""",6.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Tem várias filiais na cidade do RJ.""",8.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Em ipanema na farme de amoedo tem outra.""",9.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Restaurante maravilhoso, cardápio variado, com uma comida incrivelmente deliciosa.""",10.0,3.0,1.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O preço é um pouco salgado, mas vale a pena pela qualidade que eles oferecem.""",16.0,1.0,1.0,1.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Você não vai se arrepender.""",6.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Tem uma localização ótima.""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""É um kilão de qualidade, local climatizado, bem limpo, uma excelente variedades de pratos quevão do churrasco a caldeiradas e maniçoba (comida típica paraense) variedade de sobremesas, é muito frequentado pela classe média da cidade, então as vezes fica difícil ter boas mesas.""",44.0,8.0,7.0,8.0,2.0,1.0,3.0,0.0,15.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""eu recomendo""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Excelente comida italiana com um atendimento excelente... Os proprietários preparam e servem as refeições com muita simpatia e cordialidade.""",20.0,3.0,2.0,3.0,0.0,2.0,4.0,0.0,6.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Vale a pena conferir""",4.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""""Pratos e sobremesas tipicamente italianas feitas pelo chef Renato Ialenti, que mistura sabores, ingredientes e sofisticação às receitas sem perder a autenticidade da cozinha contadina""""",25.0,1.0,3.0,1.0,0.0,2.0,1.0,0.0,10.0,0.0,0.0,1.0,2.0,6.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Local super agradável, funcionários atenciosos com atendimento de primeira qualidade.""",11.0,3.0,2.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cardápio variado com destaque para as carnes.""",8.0,0.0,2.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Vale muito ir conhecer, porém vá com bolso preparado.""",10.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Uma""",1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""A comida é deliciosa.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""tem sashimi de polvo que não tinha visto em Rio Branco!""",12.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,2.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""O local só é pequeno.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida simples e barata, para quem esta de passagem pelo centro de João Pessoa, eu recomendo.""",17.0,2.0,3.0,2.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,3.0,2.0,5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O local é organizado e limpo, tudo simples.""",9.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Preço bom, com comida de altíssima qualidade, com espaço agradável e bem localizado.""",14.0,3.0,3.0,3.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Atendimento de qualidade!!!""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Recomento.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Comida excelente e bastante variada.""",6.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento da recpcionista da porta ruim.""",7.0,1.0,2.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Funcionários despreparados.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Uma das vezes em que fui ao restaurante, chegamos após uma caminhada na praia com roupa de ginastica e fomos barrados para entrar e ainda estávamos com bebe de 3 meses no colo. Concluindo: o restaurante é ótimo mas perde por despreparo de seus recepcionistas.""",46.0,1.0,12.0,1.0,4.0,3.0,3.0,0.0,12.0,2.0,0.0,1.0,0.0,6.0,1.0,0.0,5.0,0.0,0.0,1.0,1.0
+"""Detalhe que estava um calor de 42 graus neste dia e o restaurante se localiza proximo a praia.""",19.0,1.0,2.0,1.0,1.0,1.0,3.0,0.0,6.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Então fui ao restaurante em frente que deixou minha familia entrar sem frescura.""",14.0,0.0,3.0,0.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Favor trocar as recepcionnistas para não perderem mais clientes.""",10.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Os bombons já foram melhores, mais bem recheados.""",9.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Como tudo do grupo Fasano não fiquei decepcionado em nenhum momento.""",12.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Atendimento ótimo, comida maravilhosa e o preço não é astronômico.""",11.0,3.0,0.0,3.0,1.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Excelente restaurante para saborear um lamen muito parecido com o do Japão.""",13.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Lamen com diversas opções de caldos e ingredientes, atendimento simpático e fácil acesso, próximo a Avenida Paulista.""",18.0,3.0,2.0,3.0,0.0,2.0,2.0,0.0,5.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Gosto muito do burguer king pelo aspecto menos fast food...gosto de churrasco e a bebida à vontade...excelente pedida...""",21.0,1.0,4.0,1.0,0.0,1.0,1.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,2.0,1.0,0.0,1.0
+"""Comemos o bolinho de feijoada que estava maravilhoso.""",9.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Caipirinha de tangerina muito bem feita.""",7.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Camarão na Moranga gostoso, mais poderia vir mais quente e com menos coentro.""",14.0,2.0,2.0,2.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,3.0,0.0,3.0,0.0,1.0
+"""A comida é boa e o cardápio varia todos os dias da semana.""",14.0,1.0,1.0,1.0,1.0,1.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Mas, se você tem problemas de pressão alta não vá!""",11.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,4.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""O cozinheiro parece apreciar muito o sal, que ele utiliza generosamente nos pratos e molhos de salada.""",18.0,0.0,2.0,0.0,0.0,1.0,2.0,0.0,5.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Evite os pratos com molhos e moquecas, são sempre os mais salgados, lamentavelmente.""",14.0,0.0,1.0,0.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""O lugar poderia ser mas confortável, as mesas  comunitárias são pequenas e apertadas.""",14.0,3.0,0.0,3.0,2.0,2.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Não entendo porque o proprietário não expandiu na mesma galeria para trazer mais conforto para os clientes.""",18.0,1.0,2.0,1.0,0.0,0.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,3.0,0.0,2.0,0.0,0.0
+"""As moças que atendem são eficientes e quase sempre simpáticas.""",11.0,2.0,0.0,2.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Um ambiente lindo com vista incrível da cidade.""",9.0,2.0,2.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A comida é muito boa, com ingredientes de qualidade e combinações bem contemporâneas.""",14.0,2.0,2.0,2.0,1.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O drink beijo de jambu é equilibrado e muito gostoso.""",11.0,3.0,0.0,3.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Só foi um pouco chato achar um Uber para subir até lá.""",13.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Os pratos não são baratos mas é muito compreensível pela qualidade.""",12.0,2.0,1.0,2.0,2.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento muito bom tb!""",5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bom, durante um jantar de negócios fomos convidados ao local que realmente se diferencia dos demais da cidade.""",19.0,1.0,5.0,1.0,1.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Bastante sofisticado, com um ambiente de requinte.""",8.0,1.0,2.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Mas, nessa tentativa de ser tão requintado, escapam alguns detalhes que prejudicam o local.""",15.0,1.0,1.0,1.0,1.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Ou ao menos prejudicaram a primeira impressão.""",8.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A entrada, com pastas, frios e pães, ficou servida por cerca de uma hora até que os pratos principais ficassem prontos.""",22.0,3.0,3.0,3.0,1.0,1.0,2.0,0.0,5.0,1.0,0.0,0.0,0.0,6.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Por mais que possa ser uma 'tática' para que os negócios pudessem ser tratados durante esse meio tempo, isso não contribui.""",22.0,1.0,2.0,1.0,2.0,0.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,6.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""O prato principal estava muito bom, com filé, salmão e os cortes de porcos da região.""",17.0,2.0,3.0,2.0,1.0,1.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento também estava bom, com muitos garçons.""",9.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""E a música ambiente bastante agradável.""",7.0,2.0,0.0,2.0,0.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comida excelente!""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente super gostoso!""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Self service, mas tudo fresquinho e gostoso,só chegue mais cedo pois a casa e lotada!""",17.0,1.0,0.0,1.0,0.0,3.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,2.0,2.0,0.0,0.0,0.0
+"""Lugar TOP, comida boa, atendimento muito bom!""",8.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,2.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Como o meu aniversário é o do meu pai são muito próximos, decidimos fazer uma única celebração, visto que não somos mais tão jovens assim.""",26.0,3.0,2.0,3.0,3.0,0.0,4.0,0.0,3.0,0.0,0.0,1.0,0.0,5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Escolhemos o CT por ser perto de casa e eu ainda não tinha provado a cozinha do Claude.""",19.0,0.0,2.0,0.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,1.0,2.0,3.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Pedimos o tartar, que veio ok, acompanhado de batatas mal cozidas.""",12.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""A cerveja veio quente.""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Pedimos hambúrguer, não tinha... Não condiz com o nível em que o restaurante pretende se enquadrar.""",17.0,0.0,2.0,0.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,5.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0
+"""Muito fraco.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Não recomendo""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O restaurante é super bonito e bem descontraído, o atendimento é bem atencioso, as refeições e os lanches são super caprichados.""",22.0,2.0,0.0,2.0,3.0,2.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""O restaurante é muito simples, mas a carne de sol oferecida é espetacular.""",14.0,2.0,1.0,2.0,2.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Os acompanhamentos são maravilhosos.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale a pena conferir ..,""",5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""É um dos melhores lugares no Rio de Janeiro, fica sempre a dúvida, é bar ou restaurante.""",18.0,1.0,3.0,1.0,2.0,1.0,1.0,0.0,4.0,1.0,0.0,0.0,2.0,5.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Indico pedir a carne assada com gnocchi a quatro queijos, vale a pena, muito bom.""",16.0,1.0,2.0,1.0,0.0,0.0,2.0,0.0,4.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""O melhor lugar em Aracaju para se comer frutos do mar, com certeza !""",14.0,1.0,3.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,1.0,4.0,1.0,0.0,1.0,0.0,1.0,1.0,0.0
+"""Todos os pratos são muito bem elaborados e saborosos com um toque de requinte !""",15.0,1.0,2.0,1.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Fui com a minha familia nesse excelente restaurante.""",9.0,1.0,2.0,1.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ótimo ambiente e atendimento.""",5.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+"""Pedimos 3 carnes, o gran chorizo, o bife pampeano e o ojo del bife ancho!""",16.0,2.0,0.0,2.0,0.0,1.0,3.0,0.0,5.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0
+"""Como acompanhamento pedimos o arroz biro biro.""",8.0,2.0,1.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O grande sucesso foi o gran chorizo!""",8.0,2.0,0.0,2.0,1.0,0.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Excelente!""",2.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Foi tudo muito gostoso!""",5.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Com certeza retornaremos!""",4.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Gostei muito do lugar, principalmente pelas sombras das árvores que amenizam o clima quente de porto velho.""",18.0,2.0,4.0,2.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Cerveja bem gelada""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Bons sanduíches mas nada diferentes do trivial, nas ultimas visitas achei a maionese da casa muito oleosa e sem tempero.""",21.0,3.0,4.0,3.0,0.0,2.0,1.0,0.0,6.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Restaurante muito bom.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente aberto e bem arborizado, sendo muito agradável.""",9.0,2.0,0.0,2.0,1.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comida de qualidade muito boa, drinks bacanas.""",8.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preço elevado, mas vale a pena visitar e desfrutar da vista.""",12.0,0.0,1.0,0.0,0.0,2.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""adoro os petiscos do bar do Alves,  mais os garçons são ruins,  o pedido demora muito.""",17.0,1.0,2.0,1.0,1.0,0.0,3.0,0.0,4.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,2.0,0.0,1.0,0.0,1.0
+"""a comida é  saborosa,  o pastel tem uma massa muito boa,  tudo tem boa qualidade.""",16.0,3.0,0.0,3.0,1.0,0.0,3.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""é  fácil para estacionar e o restaurante é  bem ventilado.""",11.0,2.0,0.0,2.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""o banheiro é  limpo e as cadeiras são confortáveis.""",10.0,2.0,0.0,2.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Apesar de gostoso, bom ambiente e funcionários educados, não vale o preço que cobra!""",15.0,1.0,1.0,1.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Um prato sai por volta de 140 reais e não vem bem servido!""",14.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,3.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Lugar lotado , fila de espera, mas anda rápido.""",9.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Bom atendimento, cardápio gigantesco.""",5.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Comi um prato de peixe, era gostoso, nada excepcional.""",10.0,2.0,1.0,2.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,1.0,1.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Eu particularmente prefiro locais menores e mais personalizados,""",9.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""É um restaurante que mantêm o padrão da rede.""",10.0,0.0,1.0,0.0,1.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Temos a vantagem de evitar surpresas e a mesma desvantagem.. Não encontraremos um sabor ""especial""""",15.0,2.0,0.0,2.0,0.0,1.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""A comida é simples e boa, o preço é bom.""",11.0,3.0,0.0,3.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O ambiente é bem simples, nada sofisticado e o atendimento foi razoável.""",13.0,3.0,0.0,3.0,2.0,1.0,2.0,0.0,2.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Vale o valor pago!""",5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Fomos a esta casa depois de muitas vezes ir e voltar ao Uniko, na Rua da Quitanda, Centro do Rio, sendo esta La Terrazza um ""anexo distante"" da primeira.""",30.0,2.0,7.0,2.0,2.0,1.0,4.0,0.0,3.0,0.0,0.0,0.0,7.0,8.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Cardápio bem variado, com opções de comida japonesa tanto tradicional como algumas opções gourmet, além de chapas.""",18.0,4.0,4.0,4.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Atendimento ágil.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Preços médios para alto.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Oferecem desenhos para crianças.""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Fácil estacionamento.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Viemos num jantar no domingo, o ótimo atendimento já começa ao chegar no restaurante, com os rapazes cuidando do carro.""",21.0,1.0,5.0,1.0,0.0,0.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Sentamos e nos foi explicado como funciona a casa.""",10.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Proposta interessante, carnes de primeiríssima qualidade e acompanhamentos de muita qualidade.""",12.0,2.0,2.0,2.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A coisa mais surpreendente foi o salmão ao molho de maracujá e o arroz piemonteses, tudo surpreendentemente gostoso.""",19.0,3.0,2.0,3.0,1.0,1.0,3.0,0.0,5.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0
+"""Os atendimentos dos rapazes é ótimo!""",7.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0
+"""Vale muito a visita.""",5.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Melhor pizza do Extremo Sul.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0
+"""Bem recheada e com ingredientes de qualidade.""",8.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Massa aberta na hora.""",5.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Não tem forno à lenha, o que não interfere em muito na qualidade.""",14.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Sempre peço a tradicional, nunca comi as de cone.""",10.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""Ambiente bem legal de se comer no local.""",9.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Ótimo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Típico restaurante indiano, fomos com um casal de amigos, adoramos o ambiente que é bem familiar e agradável.""",19.0,4.0,2.0,4.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""A comida deliciosa com boas opções.""",7.0,2.0,1.0,2.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Atendimento rápido e prático.""",5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Iniciamos com a entrada Chutneys, que são 3 molhos da casa (hortelã, tamarindo e papaia) acompanhado com o pão indiano masala papad.""",23.0,2.0,3.0,2.0,1.0,1.0,2.0,0.0,7.0,1.0,0.0,1.0,1.0,7.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Depois pedimos porção de arroz com açafrão Kesari Pullao, porção de frango Murg Masala e porção de carneiro Gosht Masala.""",21.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,7.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Bebemos uma cerveja bem gelada.""",6.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Todos os pratos pedimos levemente apimentados e eles trouxeram pimenta a parte.""",13.0,0.0,0.0,0.0,0.0,1.0,3.0,0.0,3.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Estilo natural e vegetariano.""",5.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O restaurante Peixe Vivo, apesar do nome não tem peixe vivo, porém todos os produtos, ficam em expositor refrigerado, de vidro, onde você pode escolher o que quer comer.""",30.0,1.0,2.0,1.0,0.0,1.0,4.0,0.0,6.0,0.0,0.0,4.0,2.0,8.0,0.0,0.0,7.0,0.0,0.0,0.0,0.0
+"""Ótimas carnes, um buffet impecável e um atendimento excelente.""",10.0,3.0,0.0,3.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Diferente do esperado para um domingo, enormes filas, chegamos e sentamos na varanda.""",14.0,1.0,3.0,1.0,0.0,1.0,1.0,0.0,5.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Os pratos tem os valores médios de R$50,00.""",10.0,1.0,1.0,1.0,0.0,0.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,3.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0
+"""Os pedidos vieram rápido, estavam gostosos e nos pontos solicitados.""",11.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Como críticas ficam a proximidade das mesas(menos de 20cm), impossibilitando qualquer tipo de privacidade, e os ridiculos R$7,50(por pessoa) do couvert, para 1(um) pedaço de pão e uma bolinha de manteiga.""",36.0,1.0,8.0,1.0,0.0,2.0,4.0,0.0,13.0,1.0,0.0,0.0,1.0,9.0,0.0,1.0,2.0,0.0,0.0,0.0,0.0
+"""O Bawarchi é um restaurante indiano legítimo, sendo até seus atendentes naturais do país.""",15.0,3.0,1.0,3.0,2.0,0.0,3.0,0.0,3.0,0.0,0.0,0.0,1.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A comida é simples, com poucas opções durante a semana, mas muito saborosa.""",14.0,2.0,2.0,2.0,1.0,1.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""E o preço é muito baixo, cerca de 20 reais o quilo.""",13.0,2.0,1.0,2.0,1.0,1.0,2.0,0.0,2.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente agradável, atendimento excelente, preço compatível.""",7.0,3.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ambiente maravilhoso, música agradável, comida impecável e um garçom maravilhoso: Roberto, vc foi demais!!!""",15.0,4.0,0.0,4.0,1.0,1.0,1.0,0.0,4.0,0.0,0.0,2.0,1.0,9.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Boa opcao, almoco e jantar.""",6.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Vou mais no almoco e aprecio a variedade principalmente das massas.""",12.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,1.0,0.0,0.0
+"""Spaghetti com peperonccino, apimentado na medida certa, muito gostoso.""",10.0,2.0,2.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Localizado na ilha da gigoia, na barra da tijuca, tem acesso apenas por barco.""",15.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""A ilha fica escondida atrás de avenidas e prédios.""",10.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0
+"""É preciso indicação.""",4.0,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O restaurante tem uma ornamentação com mobiliário antigo, mas confortável, numa área que parece ser o quintal da casa sob uma antiga e frondosa castanheira, cujo fruto é conhecido no nordeste como coração de negro.""",36.0,5.0,7.0,5.0,2.0,2.0,5.0,0.0,10.0,0.0,0.0,1.0,0.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""A decoração é de bom gosto e pitoresca.""",9.0,2.0,1.0,2.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""O atendimento foi simpático.""",5.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A comida muito boa.""",5.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Almoçamos um grelhado de peixe, lula e polvo, que estava saboroso.""",12.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Ingredientes frescos.""",3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Não é barato, mas valeu a visita.""",8.0,1.0,0.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Comi um peixe podre no dia dos pais, parecia, pela minha expressão facial de repúdio ao sabor, que tinham injetado-me botox.""",22.0,2.0,5.0,2.0,0.0,0.0,2.0,0.0,7.0,0.0,0.0,1.0,1.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""O mais cômico foi ouvir de uma funcionária que não estava estragado (ela não provou, claro).""",17.0,2.0,1.0,2.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,6.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""Decerto ela deveria estar correta e minhas dezenas de milhares de células gustativas, com alta apuração para detecção de coisas podres, todas erradas.""",24.0,4.0,5.0,4.0,1.0,1.0,3.0,0.0,6.0,0.0,0.0,1.0,1.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Praticamente tive que implorar para que cancelassem o valor do meu prato na minha comanda, mas se não cancelassem não faria tanta diferença, porque faria bom proveito usando como isca pra caçar urubu.""",34.0,1.0,3.0,1.0,1.0,1.0,4.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,6.0,0.0,7.0,0.0,0.0,0.0,0.0
+"""Sem falar na coca que demorou mais de 20 minutos para chegar na mesa,""",15.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,3.0,2.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Ambiente gostoso  , decoração e espaço belissimo , limpeza muito boa , atendimento nota 10 porem a  pizza deixa muito a desejar com relação a massa e sabor .""",26.0,3.0,2.0,3.0,0.0,2.0,1.0,0.0,9.0,1.0,0.0,0.0,0.0,6.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""O restaurante frango leste é um simples, já antigo e com a cerveja gelada, tem uma comida de qualidade, destaque para o frango desossado e a paçoca.""",28.0,4.0,3.0,4.0,1.0,2.0,6.0,0.0,7.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Lugar de fácil acesso perto do aeroporto, tem uma variedade muito grande de sushis e bebidas, pena que não tem sashimi de atum nem polvo, mas vale muita a pena é uma ótima opção em refeição e o custo beneficio é ótimo pois lá tem sempre promoção.""",48.0,4.0,5.0,4.0,2.0,4.0,5.0,0.0,16.0,0.0,0.0,1.0,0.0,6.0,1.0,0.0,4.0,0.0,0.0,1.0,1.0
+"""Tudo feito na hora e tudo muito gostoso!""",9.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Ótima experiência gastronômica; destaque para a feijoada, o ceviche de caju e o arroz de chouriço.""",17.0,2.0,3.0,2.0,0.0,1.0,3.0,0.0,7.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ótimo atendimento e boa localização.""",6.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Pesam contra o preço alto, as poucas opções de suco e a decoração muito despojada.""",16.0,1.0,2.0,1.0,0.0,1.0,4.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Mesmo assim, no geral, uma ótima opção.""",8.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A barraca estava lotada, e o atendimento demorado... mas o caranguejo estava excelente assim como a bolinha de peixe e as caipirinhas!!""",23.0,2.0,2.0,2.0,2.0,3.0,5.0,0.0,6.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""O Vamo é um achado!""",6.0,0.0,0.0,0.0,1.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Uma união de boa comida, bom preço e bom atendimento.""",11.0,3.0,1.0,3.0,0.0,1.0,1.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Já fui algumas vezes, em diversas ocasiões, com grupos grandes, pequenos e mesmo em um jantar a dois.""",19.0,2.0,4.0,2.0,1.0,1.0,3.0,0.0,4.0,1.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""O Atendimento é sempre bom.""",6.0,1.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Saborosa e calorosa porque a Yeran e o Agop vão em todas as mesas ver se estamos gostando muito!""",20.0,2.0,1.0,2.0,2.0,2.0,4.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Além de tudo ser ótimo tem um molho de hortelã imperdível que fica acima do servidor, não percam!""",19.0,2.0,3.0,2.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,2.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,1.0,1.0
+"""Tomar nota que este hotel serve uma grande refeição de tamanho para começar por encomenda uma refeição e partilhar entre duas pessoas.""",23.0,1.0,3.0,1.0,0.0,1.0,3.0,0.0,7.0,1.0,0.0,0.0,0.0,3.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0
+"""Lugar descontraído para levar os amigos,bater papo, petiscar e tomar um chopinho.""",14.0,0.0,0.0,0.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,5.0,1.0,0.0,5.0,0.0,0.0,0.0,1.0
+"""Os preços são bons e fomos muito bem atendidas.""",10.0,1.0,0.0,1.0,2.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Lugar agradável, seguro, com estacionamento privativo, música ao vivo, um mar de bolinhas pra criançada, e os melhores food trucks e lá tb tem os melhores churros que já comi!!""",31.0,5.0,4.0,5.0,0.0,2.0,3.0,0.0,8.0,0.0,0.0,1.0,0.0,9.0,0.0,0.0,2.0,2.0,1.0,0.0,1.0
+"""Frequento desde que abriu.""",5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""No começo  quando eu comecei a comprar as pizzas na Carginalli era usado material de qualidade era muito bom.""",20.0,1.0,3.0,1.0,2.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,1.0,3.0,1.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""Só que passou a vir a pizza além  de queimada com pouco recheio e a qualidade do material péssima.""",20.0,1.0,3.0,1.0,0.0,1.0,3.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,2.0,0.0,3.0,0.0,0.0,0.0,1.0
+"""É um dos mais antigos restaurantes italianos da cidade, a comida é muito boa, tem um rotoloni maravilhoso!""",19.0,4.0,2.0,4.0,2.0,0.0,2.0,0.0,4.0,1.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0
+"""Não gostamos de ir durante o fim de semana devido a acústica, geralmete é lotado e fica muito barulhento.""",20.0,1.0,2.0,1.0,1.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,0.0,4.0,1.0,0.0,4.0,0.0,0.0,0.0,1.0
+"""Não é um restaurante que turista frequente, mas vale a pena!""",12.0,1.0,0.0,1.0,1.0,1.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,4.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Excelente custo beneficio.""",4.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""É um restaurante coma a vontade com clima familiar, super limpo, comida boa e variada e otimo atendimento.""",19.0,5.0,1.0,5.0,1.0,2.0,2.0,0.0,6.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""recomendo!""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Lugar especialmente agradável, atendimento excepcional e a comida deliciosa.""",10.0,3.0,0.0,3.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Ótima apresentação dos pratos.""",5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Carnes Angus muito saborosas e todo tipo de acompanhamentos a um preço razoável.""",14.0,2.0,2.0,2.0,0.0,1.0,2.0,0.0,3.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Aberto direto até 22 hs.""",6.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O serviço do Bob's é quase sempre confuso e demorado.""",11.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Por isso, se quiser realmente comer lá, vá quando estiver começando a ficar com fome.""",16.0,0.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,0.0,5.0,2.0,0.0,5.0,0.0,0.0,0.0,0.0
+"""Restaurante japonês excelente.""",4.0,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Diversidade nos tipos de peixes e pratos quentes.""",9.0,1.0,2.0,1.0,0.0,1.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+"""Preço justo e sobremesa já incluída no valor.""",9.0,1.0,1.0,1.0,0.0,1.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Um fast food de comida japonesa que cumpre o que promete.""",12.0,1.0,1.0,1.0,0.0,0.0,1.0,0.0,2.0,0.0,0.0,3.0,0.0,3.0,0.0,0.0,2.0,1.0,0.0,0.0,0.0
+"""Preço justo, serviço funcional e alimentos bem preparados e apresentados!""",11.0,2.0,0.0,2.0,0.0,2.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Fui no bife de chorizo e não me arrependi!""",10.0,0.0,2.0,0.0,1.0,1.0,0.0,0.0,2.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Carne saborosíssima com belos acompanhamentos também.""",7.0,2.0,1.0,2.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Garçom atencioso e preço justo pelo que oferece.""",9.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+"""Recomendo.""",2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""Local aparentemente simples e pequeno mas super agradável e acolhedor.""",11.0,4.0,0.0,4.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Cardápio bem enxuto, mas com itens que resolvem e agradam.""",11.0,1.0,1.0,1.0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,4.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0
+"""Preço justo e atendimento excelente.""",6.0,2.0,0.0,2.0,0.0,1.0,0.0,0.0,2.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""Localizado no Shopping Vila Olímpia, este restaurante é especializado em carnes, melhor dizendo, em burguers.""",16.0,0.0,3.0,0.0,1.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,3.0,6.0,0.0,0.0,3.0,0.0,1.0,0.0,0.0
+"""E seus hambúrgueres são realmente caprichados, com nível de gordura menor que a maioria e com um pão especial, mais crocante, que vai muito bem com a carne e complementos.""",31.0,3.0,4.0,3.0,1.0,3.0,4.0,0.0,7.0,0.0,0.0,1.0,0.0,6.0,1.0,0.0,2.0,0.0,2.0,0.0,1.0
+"""Há vários tipos de carnes e de tamanhos, vale experimentar.""",11.0,0.0,2.0,0.0,0.0,1.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0
+"""Outros pratos, oferecem massas, e um Wierner Schnietzel com maionese da casa,  muito bom.""",15.0,1.0,2.0,1.0,0.0,1.0,2.0,0.0,4.0,0.0,0.0,0.0,2.0,6.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0
+"""Aliás, tudo é feito em casa, maionese, linguiças, pão.""",10.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,4.0,0.0,0.0,1.0,0.0,7.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""A carta de vinhos é enxuta, mas adequada, e com preços bem razoáveis.""",14.0,3.0,2.0,3.0,1.0,2.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0
+"""A conferir.""",3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0
+"""O movimento na porta chamou atenção!""",7.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,3.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0
