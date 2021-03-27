@@ -19,7 +19,7 @@ parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr
 parser.add_argument('--preprocess', '-p', help='If passed, data is standardized with mean = 0', dest='preprocess', action='store_true')
 parser.add_argument('--allgroups', help='If passed, all groups of features are extracted', dest='allgroups', action='store_true')
 parser.add_argument('--group', dest='group')
-parser.add_argument('--unique', dest='group', action='store_true')
+parser.add_argument('--unique', dest='unique', action='store_true')
 
 args = parser.parse_args()
 
@@ -30,9 +30,9 @@ if args.ablation:
         if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste', 'reli_less', 'computerbr_twt', 'reli_original']:
 
             print("starting ablation for {} dataset".format(args.dataset))
-            start_time = time.clock()
+            start_time = time.time()
             perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
-            print("{} ablation study finished in {} seconds".format(args.dataset), time.clock() - start_time)
+            print("{} ablation study finished in {} seconds".format(args.dataset), time.time() - start_time)
         else:
             print("{} not a dataset. Finishing.".format(args.dataset))
     else:
@@ -76,9 +76,9 @@ if args.randomsearch:
             elem = [elem for elem in CLASSIFIERS_LIST if elem['id'] == clf_name][0]
             clf = elem['clf']
             parameters = elem['parameters']
-            start_time = time.clock()
+            start_time = time.time()
             perform_randomsearch(clf, args.dataset, parameters, clf_name, unique, args.group, crossval, iterations, verbose, jobs, preprocess)
-            print("Finished in {} seconds".format(time.clock() - start_time))
+            print("Finished in {} seconds".format(time.time() - start_time))
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:

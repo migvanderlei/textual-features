@@ -1,6 +1,5 @@
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.preprocessing import StandardScaler
-from pathlib import Path
 import pandas as pd
 from src.utils.paths import PATH_DIR
 from datetime import datetime
