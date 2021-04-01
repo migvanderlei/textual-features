@@ -6,7 +6,7 @@ from src.utils.spacy_preprocessor import SpacyPreprocessor
 from src.utils.csv_generator import generate_file
 from src.utils.paths import PATH_DIR
 from tqdm import tqdm
-import csv
+import csv, sys
 
 DATASET_PATH = PATH_DIR+"res/datasets/raw/{}_dataset.tsv"
 
@@ -106,6 +106,6 @@ def extract_single(dataset):
         generate_file(extracted, features, dataset, '_unique_{}'.format(i))
 
 if __name__ == "__main__":
-    dataset='hotel'
+    dataset=sys.argv[1]
     extract_variations(dataset)
     extract_single(dataset)
