@@ -106,6 +106,6 @@ def extract_single(dataset):
         generate_file(extracted, features, dataset, '_unique_{}'.format(i))
 
 if __name__ == "__main__":
-    dataset='reli_original'
+    dataset='hotel'
     extract_variations(dataset)
     extract_single(dataset)

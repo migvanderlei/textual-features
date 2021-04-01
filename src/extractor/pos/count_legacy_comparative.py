@@ -10,7 +10,8 @@ datasets = {
     2281: 'computerbr',
     2000: 'reli',
     1049: 'tripadvisor',
-    350: 'reli_original'
+    350: 'reli_original',
+    840: 'hotel'
 }
 
 class CountComparatives(BaseEstimator):

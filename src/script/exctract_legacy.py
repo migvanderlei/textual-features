@@ -22,5 +22,5 @@ def exctract_legacy(dataset):
     print(extracted_data.shape)
 
 if __name__ == "__main__":
-    dataset='reli_original'
+    dataset='hotel'
     exctract_legacy(dataset)

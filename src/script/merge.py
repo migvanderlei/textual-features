@@ -19,7 +19,14 @@ def merge_csv(path_sent, path_data, path_out):
     merged_data.to_csv(path_out, index=False)
 
 BASE_PATH='/home/miguel/Workspace/textual-features/res/datasets'
-for dataset in ['reli', 'computerbr', 'tripadvisor']:
+merge_csv
+for dataset in ['hotel']:
+        merge_csv('{}/raw/{}_dataset.tsv'.format(
+                                BASE_PATH, dataset),
+                        '{}/extracted/{}/{}_grouped_7_dataset_ext.csv'.format(
+                                BASE_PATH, dataset, dataset),
+                        '{}/extracted/{}/{}.csv'.format(
+                                BASE_PATH, dataset, dataset))
         for i in range(7):
                 merge_csv('{}/raw/{}_dataset.tsv'.format(
                                 BASE_PATH, dataset),
