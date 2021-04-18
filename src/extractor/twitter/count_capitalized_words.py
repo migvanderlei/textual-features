@@ -3,7 +3,7 @@ import numpy as np
 import re
 
 
-class CountCapitalized(BaseEstimator):
+class CountCapitalizedWords(BaseEstimator):
     def __init__(self):
         self.name = "COUNT OF CAPITALIZED WORDS"
 

@@ -3,9 +3,9 @@ import numpy as np
 import re
 
 
-class ProportionCapitalized(BaseEstimator):
+class CountCapitalizedChars(BaseEstimator):
     def __init__(self):
-        self.name = "PROPORTION OF CAPITALIZED TEXT"
+        self.name = "COUNT OF CAPITALIZED CHARACTERS"
 
     def fit(self, X=None, y=None):
         return self
@@ -14,5 +14,5 @@ class ProportionCapitalized(BaseEstimator):
         list_count = []
         for doc in sentences:
             words = re.findall(r'([A-Z])', doc)
-            list_count.append(0 if len(words) == 0 else len(words) / len(doc))
+            list_count.append(words)
         return np.array(list_count).reshape(-1, 1)

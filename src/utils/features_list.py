@@ -8,10 +8,9 @@ from src.extractor.syntactic_rules import *
 from src.extractor.twitter import *
 
 POS_FEATURES_LIST = [
-    ('count_words', CountWords()),
     ('pos_adj', CountAdj()),
     ('pos_adp', CountAdp()),
-    ('pos_adv', CountAdj()),
+    ('pos_adv', CountAdv()),
     ('pos_aux', CountAux()),
     ('pos_cconj', CountCconj()),
     ('pos_det', CountDet()),
@@ -56,15 +55,6 @@ CONCEPT_FEATURES_LIST_ABS = [
     ('concept_sensitivity_sum_abs', SensitivityScore(True, False)),
 ]
 
-LENGHT_FEATURES_LIST_WORDS = [
-    ('count_words', CountWords()),
-]
-
-LENGHT_FEATURES_LIST = [
-    ('count_words', CountWords()),
-    ('count_words_document', DocumentSize()),
-]
-
 LEXICON_FEATURES_LIST = [
     ('lexicon_subjective', LexiconSubjective()),
     ('lexicon_positive', LexiconSubjective()),
@@ -76,15 +66,11 @@ LEXICON_FEATURES_LIST = [
     ('lexicon_quotation_exclamation_prop', LexiconSubjective(True)),
 ]
 
-POSITIONAL_FEATURES_LIST = [
-    ('sentence_position', SentencePosition()),
-    ('sentence_relative_position', SentencePosition(True))
-]
-
-SUBJECTIVITY_FEATURES_LIST = [
+MISCELLANEOUS_FEATURES_LIST = [
     ('count_named_entities', CountNE()),
     ('count_number_date_time', CountNumberDateTime()),
     ('future_tense', FutureTense()),
+    ('count_dictionary_words', CountDictionaryWords()),
 ]
 
 SYNTACTIC_RULES_FEATURES_LIST = [
@@ -95,37 +81,43 @@ SYNTACTIC_RULES_FEATURES_LIST = [
     ('rule5', SyntacticRule5()),
 ]
 
+TEXT_STRUCTURE_FEATURES_LIST = [
+    ('count_words', CountWords()),
+    ('count_capitalized_words', CountCapitalizedWords()),
+    ('proportion_capitalized_words', ProportionCapitalizedWords()),
+    ('count_capitalized_chars', CountCapitalizedChars()),
+    ('proportion_capitalized_chars', ProportionCapitalizedChars()),
+]
+
 TWITTER_FEATURES_LIST = [
-    ('count_capitalized', CountCapitalized()),
-    ('count_dictionary_words', CountDictionaryWords()),
-    ('count_elongated', CountElongated()),
-    ('count_expressions', CountExpressions()),
-    ('count_mentions', CountMentions()),
     ('count_url', CountURL()),
+    ('count_elongated', CountElongated()),
+    ('count_mentions', CountMentions()),
     ('emoji_polarity_score', EmojiPolarityScore()),
     ('emoticon_polarity_score', EmoticonPolarityScore()),
-    ('negation', Negation()),
-    ('proportion_capitalized', ProportionCapitalized()),
 ]
 
 RAW_TEXT_FEATURES = [
     ('count_words', CountWords()),
-    ('count_capitalized', CountCapitalized()),
     ('count_elongated', CountElongated()),
     ('count_mentions', CountMentions()),
     ('count_url', CountURL()),
-    ('proportion_capitalized', ProportionCapitalized()),
+    ('count_capitalized_words', CountCapitalizedWords()),
+    ('proportion_capitalized_words', ProportionCapitalizedWords()),
+    ('count_capitalized_chars', CountCapitalizedChars()),
+    ('proportion_capitalized_chars', ProportionCapitalizedChars()),
 ]
 
-ALL_FEATURES_POSITIONAL = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST + LEXICON_FEATURES_LIST \
-                          + POS_FEATURES_LIST + POSITIONAL_FEATURES_LIST + SUBJECTIVITY_FEATURES_LIST \
-                          + SYNTACTIC_RULES_FEATURES_LIST
+# ALL_FEATURES_POSITIONAL = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST + LEXICON_FEATURES_LIST \
+#                           + POS_FEATURES_LIST + POSITIONAL_FEATURES_LIST + SUBJECTIVITY_FEATURES_LIST \
+#                           + SYNTACTIC_RULES_FEATURES_LIST
 
-ALL_FEATURES_TWITTER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
-                          + POS_FEATURES_LIST + SUBJECTIVITY_FEATURES_LIST + SYNTACTIC_RULES_FEATURES_LIST\
-                          + TWITTER_FEATURES_LIST
-ALL_FEATURES_CONCEPT_INTEGER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
-                + POS_FEATURES_LIST
+# ALL_FEATURES_TWITTER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
+#                           + POS_FEATURES_LIST + SUBJECTIVITY_FEATURES_LIST + SYNTACTIC_RULES_FEATURES_LIST\
+#                           + TWITTER_FEATURES_LIST
+# ALL_FEATURES_CONCEPT_INTEGER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
+#                 + POS_FEATURES_LIST
 
-ALL_FEATURES = CONCEPT_FEATURES_LIST_ABS + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST + POS_FEATURES_LIST\
-               + SUBJECTIVITY_FEATURES_LIST + SYNTACTIC_RULES_FEATURES_LIST + TWITTER_FEATURES_LIST
+ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
+                CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
+                TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]
