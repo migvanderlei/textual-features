@@ -13,5 +13,5 @@ class CountCapitalizedWords(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for doc in sentences:
-            list_count.append(len(re.findall(r'(\b[A-Z]{2,}\b)', doc)))
+            list_count.append(len(re.findall(r'[A-Z]\w+', doc)))
         return np.array(list_count).reshape(-1, 1)

@@ -10,14 +10,15 @@ class CountDictionaryWords(BaseEstimator):
     def __init__(self):
         self.name = "COUNT DICTIONARY WORDS"
         self.file_name = words_dir
-        self.lexicon = []
+        self.lexicon = None
 
     def __load_lexicon__(self):
         with open(self.file_name, "r") as f:
-            self.lexicon = f.read().split('\n')
+            self.lexicon = set(f.read().split('\n'))
+            
 
     def __value__(self, sentence):
-        return len([term for term in sentence if term.text in self.lexicon])
+        return len([term for term in sentence if term in self.lexicon])
 
     def fit(self, x=None, y=None):
         return self
@@ -26,5 +27,5 @@ class CountDictionaryWords(BaseEstimator):
         self.__load_lexicon__()
         list_count = []
         for sentence in sentences:
-            list_count.append(self.__value__(sentence))
+            list_count.append(self.__value__(sentence.lower()))
         return np.array(list_count).reshape(-1, 1)

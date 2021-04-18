@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator
 import numpy as np
-import spacy
+# import spacy
 from src.utils.paths import PATH_DIR
 # import pt_core_news_sm
 

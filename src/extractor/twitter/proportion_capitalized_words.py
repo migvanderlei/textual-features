@@ -14,6 +14,6 @@ class ProportionCapitalizedWords(BaseEstimator):
         list_count = []
         for doc in sentences:
             word_count = len(re.findall(r'[^\s!\?,\(\)\.]+', doc))
-            capitalized_count = len(re.findall(r'(\b[A-Z]{2,}\b)', doc))
+            capitalized_count = len(re.findall(r'[A-Z]\w+', doc))
             list_count.append(0 if capitalized_count == 0 else capitalized_count/word_count)
         return np.array(list_count).reshape(-1, 1)

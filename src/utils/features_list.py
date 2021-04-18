@@ -102,6 +102,7 @@ RAW_TEXT_FEATURES = [
     ('count_elongated', CountElongated()),
     ('count_mentions', CountMentions()),
     ('count_url', CountURL()),
+    ('count_dictionary_words', CountDictionaryWords()),
     ('count_capitalized_words', CountCapitalizedWords()),
     ('proportion_capitalized_words', ProportionCapitalizedWords()),
     ('count_capitalized_chars', CountCapitalizedChars()),
@@ -118,6 +119,8 @@ RAW_TEXT_FEATURES = [
 # ALL_FEATURES_CONCEPT_INTEGER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
 #                 + POS_FEATURES_LIST
 
-ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
-                CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
-                TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]
+# ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
+#                 CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
+#                 TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]
+
+ALL_FEATURES = [TEXT_STRUCTURE_FEATURES_LIST, MISCELLANEOUS_FEATURES_LIST]

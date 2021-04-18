@@ -14,5 +14,5 @@ class CountCapitalizedChars(BaseEstimator):
         list_count = []
         for doc in sentences:
             words = re.findall(r'([A-Z])', doc)
-            list_count.append(words)
+            list_count.append(len(words))
         return np.array(list_count).reshape(-1, 1)
