@@ -9,6 +9,7 @@ python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 5 | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 6 | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 7 | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 8 | telegram-send --stdin
 ###
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 0 --unique | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 1 --unique | telegram-send --stdin
@@ -17,3 +18,4 @@ python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 4 --unique | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 5 --unique | telegram-send --stdin
 python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 6 --unique | telegram-send --stdin
+python $MANAGER_PATH/manager.py --randomsearch -d reli_original --clf gbt -j 8 -i 1000 -v 0 --group 7 --unique | telegram-send --stdin

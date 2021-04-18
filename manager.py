@@ -16,7 +16,6 @@ parser.add_argument('--iter', '-i', help='Number of iterations on RandomizedSear
 parser.add_argument('--verbose', '-v', help='Verbosity level (default = 10)', dest='verbose')
 parser.add_argument('--jobs', '-j', help='Number of threads (default = 10)', dest='jobs')
 parser.add_argument('--clf', help='Method to run. Specify one from list [svm, lr, rf, gbt]', dest='clf')
-parser.add_argument('--preprocess', '-p', help='If passed, data is standardized with mean = 0', dest='preprocess', action='store_true')
 parser.add_argument('--allgroups', help='If passed, all groups of features are extracted', dest='allgroups', action='store_true')
 parser.add_argument('--group', dest='group')
 parser.add_argument('--unique', dest='unique', action='store_true')
@@ -67,17 +66,16 @@ if args.randomsearch:
             verbose = int(args.verbose) if args.verbose else 10
             jobs = int(args.jobs) if args.jobs else 10
             clf_name = args.clf
-            preprocess = args.preprocess
             unique = True if args.unique else False
 
-            print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs, {} preprocessing data, and method {}"
-                  .format(args.dataset, crossval, iterations, verbose, jobs, "" if args.preprocess else "not", clf_name))
+            print("Running RandomSearch for {} with {} folds, {} iterations, {} verbosity level, {} jobs and method {}"
+                  .format(args.dataset, crossval, iterations, verbose, jobs, clf_name))
 
             elem = [elem for elem in CLASSIFIERS_LIST if elem['id'] == clf_name][0]
             clf = elem['clf']
             parameters = elem['parameters']
             start_time = time.time()
-            perform_randomsearch(clf, args.dataset, parameters, clf_name, unique, args.group, crossval, iterations, verbose, jobs, preprocess)
+            perform_randomsearch(clf, args.dataset, parameters, clf_name, unique, args.group, crossval, iterations, verbose, jobs)
             print("Finished in {} seconds".format(time.time() - start_time))
         else:
             print("Running RandomSearch for all datasets")
