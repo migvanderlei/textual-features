@@ -17,7 +17,6 @@ POS_FEATURES_LIST = [
     ('pos_intj', CountIntj()),
     ('pos_noun', CountNoun()),
     ('pos_num', CountNum()),
-    ('pos_part', CountPart()),
     ('pos_pron', CountPron()),
     ('pos_propn', CountPropn()),
     ('pos_punct', CountPunct()),
@@ -67,10 +66,10 @@ LEXICON_FEATURES_LIST = [
 ]
 
 MISCELLANEOUS_FEATURES_LIST = [
+    ('count_dictionary_words', CountDictionaryWords()),
     ('count_named_entities', CountNE()),
     ('count_number_date_time', CountNumberDateTime()),
     ('future_tense', FutureTense()),
-    ('count_dictionary_words', CountDictionaryWords()),
 ]
 
 SYNTACTIC_RULES_FEATURES_LIST = [
@@ -99,14 +98,14 @@ TWITTER_FEATURES_LIST = [
 
 RAW_TEXT_FEATURES = [
     ('count_words', CountWords()),
-    ('count_elongated', CountElongated()),
-    ('count_mentions', CountMentions()),
-    ('count_url', CountURL()),
-    ('count_dictionary_words', CountDictionaryWords()),
     ('count_capitalized_words', CountCapitalizedWords()),
     ('proportion_capitalized_words', ProportionCapitalizedWords()),
     ('count_capitalized_chars', CountCapitalizedChars()),
     ('proportion_capitalized_chars', ProportionCapitalizedChars()),
+    ('count_url', CountURL()),
+    ('count_elongated', CountElongated()),
+    ('count_mentions', CountMentions()),
+    ('count_dictionary_words', CountDictionaryWords()),
 ]
 
 # ALL_FEATURES_POSITIONAL = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST + LEXICON_FEATURES_LIST \
@@ -119,8 +118,6 @@ RAW_TEXT_FEATURES = [
 # ALL_FEATURES_CONCEPT_INTEGER = CONCEPT_FEATURES_LIST + LENGHT_FEATURES_LIST_WORDS + LEXICON_FEATURES_LIST \
 #                 + POS_FEATURES_LIST
 
-# ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
-#                 CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
-#                 TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]
-
-ALL_FEATURES = [TEXT_STRUCTURE_FEATURES_LIST, MISCELLANEOUS_FEATURES_LIST]
+ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
+                CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
+                TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]

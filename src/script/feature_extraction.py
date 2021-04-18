@@ -6,6 +6,7 @@ from src.utils.spacy_preprocessor import SpacyPreprocessor
 from src.utils.csv_generator import generate_file
 from src.utils.paths import PATH_DIR
 from tqdm import tqdm
+import numpy as np
 import csv, sys
 
 DATASET_PATH = PATH_DIR+"res/datasets/raw/{}_dataset.tsv"
@@ -131,8 +132,9 @@ def new_extraction(dataset, ablation=True, unique=True):
             pipeline = Pipeline(steps=
                 [('features', FeatureUnion(transformer_list=raw_text_features))]
             )
-
         extracted = pipeline.fit_transform(raw_sentences)
+        if i == 5:
+            print(extracted.tolist())
         extracted_features.append(extracted)
         print("extracted {}/{} groups...".format(i+1, len(ALL_FEATURES)))
     
@@ -140,13 +142,13 @@ def new_extraction(dataset, ablation=True, unique=True):
 
     if ablation:
         print("creating files for ablation study...")
-        for i in range(len(extracted_features)):
+        for i in range(len(extracted_features)+1):
             features_group = ALL_FEATURES[:]
             features = extracted_features[:]
             if i < len(extracted_features):
                 features_group.pop(i)
                 features.pop(i)
-            features = reduce(lambda x, y: x+y, features)
+            features = np.concatenate(tuple(features), axis=1)
             features_group = reduce(lambda x, y: x+y, features_group)
             if i < len(extracted_features):
                 generate_file(features, features_group, dataset, '_groups_{}'.format(i))
@@ -156,10 +158,11 @@ def new_extraction(dataset, ablation=True, unique=True):
         print("finished creating files for ablation study")
     
     if unique:
+        features = []
         print("creating files for unique groups...")     
         for i in range(len(extracted_features)):
             features = extracted_features[i]
-            generate_file(features, ALL_FEATURES[i], dataset, '_groups_{}'.format(i))
+            generate_file(features, ALL_FEATURES[i], dataset, '_unique_{}'.format(i))
             print("created {}/{} files...".format(i+1, len(extracted_features)))
         print("finished creating files for unique groups")
 

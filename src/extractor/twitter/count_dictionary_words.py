@@ -1,3 +1,4 @@
+import re
 from sklearn.base import BaseEstimator
 import numpy as np
 from pathlib import Path
@@ -27,5 +28,7 @@ class CountDictionaryWords(BaseEstimator):
         self.__load_lexicon__()
         list_count = []
         for sentence in sentences:
-            list_count.append(self.__value__(sentence.lower()))
+            words = re.findall(r'[^\s!\?,\(\)\.]+', sentence.lower())
+            word_count = self.__value__(words)
+            list_count.append(word_count)
         return np.array(list_count).reshape(-1, 1)

@@ -12,5 +12,6 @@ class CountNE(BaseEstimator):
     def transform(self, sentences):
         list_count = []
         for doc in sentences:
-            list_count.append(len(doc.ents))
+            entities = doc.ents
+            list_count.append(len(entities))
         return np.array(list_count).reshape(-1, 1)

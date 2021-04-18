@@ -10,12 +10,12 @@ class LexiconSubjective(BaseEstimator):
     def __init__(self, proportion=False):
         self.name = "PROP" if proportion else "NUM" + " SUBJECTIVE WORDS"
         self.file_name = liwc_dir
-        self.lexicon = []
+        self.lexicon = None
         self.proportion = proportion
 
     def __load_lexicon__(self):
         with open(self.file_name, "r") as f:
-            self.lexicon = f.read().split('\n')
+            self.lexicon = set(f.read().split('\n'))
 
     def __value__(self, sentence):
         if self.proportion:
