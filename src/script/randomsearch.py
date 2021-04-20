@@ -1,5 +1,7 @@
+from scipy.stats.stats import describe
 from sklearn.model_selection import RandomizedSearchCV
 import pandas as pd
+import numpy as np
 from src.utils.paths import PATH_DIR
 from datetime import datetime
 
@@ -21,7 +23,7 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique,
     dataset_path = ''
     if group != '8':
         dataset_path = DATASET_PATH.format(dataset_name, dataset_name,
-                                     "unique" if unique else "grouped", str(group))
+                                     "unique" if unique else "groups", str(group))
     else:
         dataset_path = PATH_DIR+'res/datasets/extracted/{}/{}_all_groups_dataset_ext.csv' \
             .format(dataset_name, dataset_name)
@@ -32,13 +34,14 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique,
     X = dataset.loc[:, dataset.columns != 'subjectivity']
     y = dataset['subjectivity']
 
-    search = RandomizedSearchCV(pipeline, parameters, n_iter=n_iter, scoring='f1',
+    scoring = ['f1', 'accuracy', 'precision', 'recall']
+
+    search = RandomizedSearchCV(pipeline, parameters, n_iter=n_iter, scoring=scoring, refit='f1',
                                 cv=folds, verbose=verbose, n_jobs=n_jobs, random_state=42)
     search.fit(X, y)
 
-    print(search.best_params_)
-    print(search.best_score_)
-    filename = ""
+    content = get_content(search, unique, group, dataset.columns, dataset_name)
+    print(content)
     if unique:
          filename = "{}logs/{}/{}_{}_{}_{}_{}.log".format(
             PATH_DIR, dataset_name, dataset_name, 'unique', OUT_NAMES[str(group)], model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
@@ -46,4 +49,27 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique,
         filename = "{}logs/{}/{}_{}_{}_{}_{}.log".format(
             PATH_DIR, dataset_name, dataset_name, 'ablation', OUT_NAMES[str(group)], model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
     with open(filename, "w+") as f:
-        f.write("Best Score (f1): {}\nParams: {}\n".format(search.best_score_, search.best_params_))
+        f.write(content)
+
+def get_content(search, unique, group, columns, dataset_name):
+    description = get_description(unique, group, columns)
+    return "Dataset: {}\nDescription: {}\nBest Score (F1): {}\nAccuracy: {}\nPrecision: {}\nRecall: {}\nParams: {}".format(
+                    dataset_name, description, get_metric('f1', search.cv_results_), 
+                    get_metric('accuracy', search.cv_results_), get_metric('precision', search.cv_results_), 
+                    get_metric('recall', search.cv_results_), search.best_params_) 
+
+def get_description(unique, group, columns):
+    if unique:
+        if int(group) < 8:
+            return "Only {} features from the group {}" \
+                    .format(len(columns)-1, OUT_NAMES[str(group)])
+        else: 
+            return "All {} features from all groups" \
+                    .format(len(columns)-1)
+    else:
+         return "Group ablation study with {} features and removing the group {}" \
+                .format(len(columns)-1, OUT_NAMES[str(group)])
+
+def get_metric(metric_name, results):
+    best_score_index = np.where(results['rank_test_'+metric_name] == 1)[0][0]
+    return results['mean_test_'+metric_name][best_score_index]
