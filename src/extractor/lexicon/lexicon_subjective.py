@@ -19,9 +19,9 @@ class LexiconSubjective(BaseEstimator):
 
     def __value__(self, sentence):
         if self.proportion:
-            return len([term for term in sentence if term.text in self.lexicon]) / len(sentence)
+            return len([term for term in sentence if term.text.lower() in self.lexicon]) / len(sentence)
         else:
-            return len([term for term in sentence if term.text in self.lexicon])
+            return len([term for term in sentence if term.text.lower() in self.lexicon])
 
     def fit(self, x=None, y=None):
         return self

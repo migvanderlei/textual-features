@@ -1,2 +1,0 @@
-Best Score (f1): 0.8087068442968585
-Params: {'n_estimators': 4, 'min_samples_leaf': 2, 'max_depth': 4, 'learning_rate': 0.1}

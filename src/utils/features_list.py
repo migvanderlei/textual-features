@@ -56,13 +56,13 @@ CONCEPT_FEATURES_LIST_ABS = [
 
 LEXICON_FEATURES_LIST = [
     ('lexicon_subjective', LexiconSubjective()),
-    ('lexicon_positive', LexiconSubjective()),
-    ('lexicon_negative', LexiconSubjective()),
-    ('lexicon_quotation_exclamation', LexiconSubjective()),
+    ('lexicon_positive', LexiconPositive()),
+    ('lexicon_negative', LexiconNegative()),
+    ('lexicon_quotation_exclamation', LexiconQuotationExclamation()),
     ('lexicon_subjective_prop', LexiconSubjective(True)),
-    ('lexicon_positive_prop', LexiconSubjective(True)),
-    ('lexicon_negative_prop', LexiconSubjective(True)),
-    ('lexicon_quotation_exclamation_prop', LexiconSubjective(True)),
+    ('lexicon_positive_prop', LexiconPositive(True)),
+    ('lexicon_negative_prop', LexiconNegative(True)),
+    ('lexicon_quotation_exclamation_prop', LexiconQuotationExclamation(True)),
 ]
 
 MISCELLANEOUS_FEATURES_LIST = [

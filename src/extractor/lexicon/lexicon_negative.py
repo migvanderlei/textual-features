@@ -20,9 +20,9 @@ class LexiconNegative(BaseEstimator):
 
     def __value__(self, sentence):
         if self.proportion:
-            return len([term for term in sentence if term.text in self.lexicon]) / len(sentence)
+            return len([term for term in sentence if term.text.lower() in self.lexicon]) / len(sentence)
         else:
-            return len([term for term in sentence if term.text in self.lexicon])
+            return len([term for term in sentence if term.text.lower() in self.lexicon])
 
     def fit(self, X=None, y=None):
         return self
@@ -32,4 +32,4 @@ class LexiconNegative(BaseEstimator):
         list_count = []
         for sentence in sentences:
             list_count.append(self.__value__(sentence))
-        return np.array(list_count)
+        return np.array(list_count).reshape(-1, 1)
