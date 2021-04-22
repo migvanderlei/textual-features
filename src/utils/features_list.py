@@ -69,7 +69,6 @@ MISCELLANEOUS_FEATURES_LIST = [
     ('count_dictionary_words', CountDictionaryWords()),
     ('count_named_entities', CountNE()),
     ('count_number_date_time', CountNumberDateTime()),
-    ('future_tense', FutureTense()),
 ]
 
 SYNTACTIC_RULES_FEATURES_LIST = [

@@ -21,7 +21,5 @@ class LexiconQuotationExclamation(BaseEstimator):
         list_count = []
         for sentence in sentences:
             value = self.__value__(sentence)
-            list_count.append(value)
-            if not self.proportion:
-                print(value, sentence)
+            list_count.append(value)                
         return np.array(list_count).reshape(-1, 1)

@@ -133,8 +133,7 @@ def new_extraction(dataset, ablation=True, unique=True):
                 [('features', FeatureUnion(transformer_list=raw_text_features))]
             )
         extracted = pipeline.fit_transform(raw_sentences)
-        if i == 5:
-            print(extracted.tolist())
+
         extracted_features.append(extracted)
         print("extracted {}/{} groups...".format(i+1, len(ALL_FEATURES)))
     
