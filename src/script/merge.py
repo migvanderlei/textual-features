@@ -5,11 +5,10 @@ OUT_NAMES = {
         '0': 'POS',
         '1': 'SYNTACTIC_RULES',
         '2': 'LEXICON',
-        '3': 'CONCEPT',
-        '4': 'CONCEPT_ABS',
-        '5': 'MISCELLANEOUS',
-        '6': 'TWITTER',
-        '7': 'TEXT_STRUCTURE'
+        '3': 'CONCEPT_ABS',
+        '4': 'MISCELLANEOUS',
+        '5': 'TWITTER',
+        '6': 'TEXT_STRUCTURE'
 }
 
 def merge_csv(path_sent, path_data, path_out):
@@ -29,7 +28,7 @@ merge_csv('{}/raw/{}_dataset.tsv'.format(
                         BASE_PATH, dataset, dataset),
                 '{}/extracted/{}/sentences/{}_all_groups.csv'.format(
                         BASE_PATH, dataset, dataset))
-for i in range(8):
+for i in range(7):
         merge_csv('{}/raw/{}_dataset.tsv'.format(
                         BASE_PATH, dataset),
                 '{}/extracted/{}/{}_unique_{}_dataset_ext.csv'.format(

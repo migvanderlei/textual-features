@@ -10,19 +10,18 @@ OUT_NAMES = {
         '0': 'POS',
         '1': 'SYNTACTIC_RULES',
         '2': 'LEXICON',
-        '3': 'CONCEPT',
-        '4': 'CONCEPT_ABS',
-        '5': 'MISCELLANEOUS',
-        '6': 'TWITTER',
-        '7': 'TEXT_STRUCTURE',
-        '8': 'ALL'
+        '3': 'CONCEPT_ABS',
+        '4': 'MISCELLANEOUS',
+        '5': 'TWITTER',
+        '6': 'TEXT_STRUCTURE',
+        '7': 'ALL'
 }
 REPORT_FILENAME = "{}logs/{}/{}_{}_{}_{}_{}.txt"
 
 def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique, group=0, folds=5, n_iter=100, verbose=10, n_jobs=10):
     """Performs RandomSearch for the specified pipeline and params"""
     dataset_path = ''
-    if group != '8':
+    if group != '7':
         dataset_path = DATASET_PATH.format(dataset_name, dataset_name,
                                      "unique" if unique else "groups", str(group))
     else:
