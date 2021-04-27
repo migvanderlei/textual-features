@@ -169,7 +169,7 @@ def new_extraction(dataset, ablation=True, unique=True):
 
 
 if __name__ == "__main__":
-    dataset=sys.argv[1]
-    new_extraction(dataset)
-    # extract_variations(dataset)
+    # dataset=sys.argv[1]
+    for dataset in ['reli', 'hotel', 'computerbr', 'tripadvisor']:
+        new_extraction(dataset)
     # extract_single(dataset)

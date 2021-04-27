@@ -1,9 +1,7 @@
-spacy>=2.3.0
+spacy>=3.0.0
 senticnet>=1.6
 pandas>=1.1.4
 numpy
 sklearn
-textblob
-googletrans
 pathlib
 argparse

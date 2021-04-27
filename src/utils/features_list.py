@@ -28,18 +28,18 @@ POS_FEATURES_LIST = [
     ('pos_superlatives', CountSuperlatives()),
 ]
 
-CONCEPT_FEATURES_LIST = [
-    ('concept_aptitude_avg', AptitudeScore(False, True)),
-    ('concept_aptitude_sum', AptitudeScore(False, False)),
-    ('concept_attention_avg', AttentionScore(False, True)),
-    ('concept_attention_sum', AttentionScore(False, False)),
-    ('concept_pleasantness_avg', PleasantnessScore(False, True)),
-    ('concept_pleasantness_sum', PleasantnessScore(False, False)),
-    ('concept_polarity_avg', PolarityScore(False, True)),
-    ('concept_polarity_sum', PolarityScore(False, False)),
-    ('concept_sensitivity_avg', SensitivityScore(False, True)),
-    ('concept_sensitivity_sum', SensitivityScore(False, False)),
-]
+# CONCEPT_FEATURES_LIST = [
+#     ('concept_aptitude_avg', AptitudeScore(False, True)),
+#     ('concept_aptitude_sum', AptitudeScore(False, False)),
+#     ('concept_attention_avg', AttentionScore(False, True)),
+#     ('concept_attention_sum', AttentionScore(False, False)),
+#     ('concept_pleasantness_avg', PleasantnessScore(False, True)),
+#     ('concept_pleasantness_sum', PleasantnessScore(False, False)),
+#     ('concept_polarity_avg', PolarityScore(False, True)),
+#     ('concept_polarity_sum', PolarityScore(False, False)),
+#     ('concept_sensitivity_avg', SensitivityScore(False, True)),
+#     ('concept_sensitivity_sum', SensitivityScore(False, False)),
+# ]
 
 CONCEPT_FEATURES_LIST_ABS = [
     ('concept_aptitude_avg_abs', AptitudeScore(True, True)),
@@ -118,5 +118,5 @@ RAW_TEXT_FEATURES = [
 #                 + POS_FEATURES_LIST
 
 ALL_FEATURES = [POS_FEATURES_LIST, SYNTACTIC_RULES_FEATURES_LIST, LEXICON_FEATURES_LIST, \
-                CONCEPT_FEATURES_LIST, CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
+                CONCEPT_FEATURES_LIST_ABS, MISCELLANEOUS_FEATURES_LIST, \
                 TWITTER_FEATURES_LIST, TEXT_STRUCTURE_FEATURES_LIST]
