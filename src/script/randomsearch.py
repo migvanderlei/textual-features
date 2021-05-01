@@ -28,9 +28,6 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique,
         dataset_path = PATH_DIR+'res/datasets/extracted/{}/{}_all_groups_dataset_ext.csv' \
             .format(dataset_name, dataset_name)
 
-    global REPORT_FILENAME 
-    REPORT_FILENAME = REPORT_FILENAME.format(
-        PATH_DIR, dataset_name, dataset_name, 'report', OUT_NAMES[str(group)], model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
 
     print(dataset_path)
     dataset = pd.read_csv(dataset_path)
@@ -44,6 +41,9 @@ def perform_randomsearch(pipeline, dataset_name, parameters, model_name, unique,
                                 cv=folds, verbose=verbose, n_jobs=n_jobs, random_state=42)
     search.fit(X, y)
     # print(search.cv_results_)
+    global REPORT_FILENAME 
+    REPORT_FILENAME = REPORT_FILENAME.format(
+        PATH_DIR, dataset_name, dataset_name, 'report', OUT_NAMES[str(group)], model_name, datetime.now().strftime("%Y-%m-%d-%H-%M"))
     content = get_content(search, unique, group, dataset.columns, dataset_name)
     print(content)
     report = cross_val_score(search, X=X, y=y, cv=folds,
@@ -79,7 +79,7 @@ def get_content(search, unique, group, columns, dataset_name):
 
 def get_description(unique, group, columns):
     if unique:
-        if int(group) < 8:
+        if int(group) < 7:
             return "Only {} features from group {}" \
                     .format(len(columns)-1, OUT_NAMES[str(group)])
         else: 
