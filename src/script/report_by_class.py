@@ -50,7 +50,7 @@ def classification_report_with_f1_score(y_true, y_pred):
         print(classification_report(
             y_true, y_pred, target_names=['objective', 'subjective'], digits=16
             )+"\n"+"-"*85, file=f)
-    return f1_score(y_true, y_pred)
+    return f1_score(y_true, y_pred, average='macro')
 
 MODELS = [
     ("HOTEL_ALL", SVC(kernel='rbf', gamma='scale', class_weight=None, C=10), 'hotel', 7),

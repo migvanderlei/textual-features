@@ -19,7 +19,7 @@ CLASSIFIERS_LIST = [
      'parameters':
          {'penalty': ['l2'],
           'C': [0.001, 0.01, 1, 10, 100, 1000],
-          'max_iter': list(range(100, 2001, 100)),
+          'max_iter': list(range(100, 5001, 500)),
           'solver': ['newton-cg', 'lbfgs', 'liblinear']
           }
      },
