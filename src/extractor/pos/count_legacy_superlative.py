@@ -10,7 +10,9 @@ datasets = {
     2000: 'reli',
     1049: 'tripadvisor',
     350: 'reli_original',
-    840: 'hotel'
+    840: 'hotel',
+    2053: 'comp_twitter',
+    2754: 'comp_buscape'
 }
 
 class CountSuperlatives(BaseEstimator):

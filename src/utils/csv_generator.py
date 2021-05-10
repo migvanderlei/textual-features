@@ -6,7 +6,7 @@ from src.utils.paths import PATH_DIR
 
 EXTRACTED_PATH = PATH_DIR+'res/datasets/extracted/{}/{}_dataset_ext.csv'
 DATASET_PATH = PATH_DIR+'res/datasets/raw/{}_dataset.tsv'
-TARGET = 'subjectivity'
+TARGET = 'type'
 
 
 def get_feature_names(features):

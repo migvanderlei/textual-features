@@ -17,10 +17,10 @@ CLASSIFIERS_LIST = [
     {'id': 'lr',
      'clf': LogisticRegression(),
      'parameters':
-         {'penalty': ['l2'],
+         {'penalty': ['l1', 'l2'],
           'C': [0.001, 0.01, 1, 10, 100, 1000],
-          'max_iter': list(range(100, 5001, 500)),
-          'solver': ['newton-cg', 'lbfgs', 'liblinear']
+          'max_iter': list(range(100, 5001, 200)),
+          'solver': ['lbfgs', 'liblinear', 'sag', 'saga']
           }
      },
     {'id': 'rf',

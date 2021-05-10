@@ -29,9 +29,9 @@ if args.ablation:
         if args.dataset in ['computerbr', 'reli', 'tripadvisor', 'teste', 'reli_less', 'computerbr_twt', 'reli_original']:
 
             print("starting ablation for {} dataset".format(args.dataset))
-            start_time = time.time()
+
             perform_ablation(CLASSIFIERS_PARAMETERS[args.dataset], args.dataset)
-            print("{} ablation study finished in {} seconds".format(args.dataset), time.time() - start_time)
+            # print("{} ablation study finished in {} seconds".format(args.dataset), time.time() - start_time)
         else:
             print("{} not a dataset. Finishing.".format(args.dataset))
     else:
@@ -74,9 +74,8 @@ if args.randomsearch:
             elem = [elem for elem in CLASSIFIERS_LIST if elem['id'] == clf_name][0]
             clf = elem['clf']
             parameters = elem['parameters']
-            start_time = time.time()
             perform_randomsearch(clf, args.dataset, parameters, clf_name, unique, args.group, crossval, iterations, verbose, jobs)
-            print("Finished in {} seconds".format(time.time() - start_time))
+            # print("Finished in {} seconds".format(time.time() - start_time))
         else:
             print("Running RandomSearch for all datasets")
             for dataset in ['computerbr', 'reli', 'tripadvisor']:

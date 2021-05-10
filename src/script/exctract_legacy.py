@@ -22,5 +22,5 @@ def exctract_legacy(dataset):
     print(extracted_data.shape)
 
 if __name__ == "__main__":
-    dataset='hotel'
-    exctract_legacy(dataset)
+    for dataset in ['comp_twitter', 'comp_buscape']:
+        exctract_legacy(dataset)

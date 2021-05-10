@@ -170,6 +170,7 @@ def new_extraction(dataset, ablation=True, unique=True):
 
 if __name__ == "__main__":
     # dataset=sys.argv[1]
-    for dataset in ['reli', 'hotel', 'computerbr', 'tripadvisor']:
+    # for dataset in ['reli', 'hotel', 'computerbr', 'tripadvisor']:
+    for dataset in ['comp_twitter', 'comp_buscape']:
         new_extraction(dataset)
     # extract_single(dataset)

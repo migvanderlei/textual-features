@@ -1,4 +1,5 @@
-MANAGER_PATH=/home/miguel/textual-features
+MANAGER_PATH=$(pwd)
+PYTHONPATH=:$(pwd)
 
 ### TRIPADVISOR
 python $MANAGER_PATH/manager.py --randomsearch -d tripadvisor --clf gbt -j 8 -i 1000 -v 0 --group 0 | telegram-send --stdin
