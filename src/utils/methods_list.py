@@ -8,10 +8,13 @@ CLASSIFIERS_LIST = [
     {'id': 'svm',
      'clf': SVC(),
      'parameters':
-         {'C': [0.01, 0.1, 1, 10, 100, 1000],
+         {'C': [0.001, 0.01, 0.1, 1, 10, 100, 1000],
           'class_weight': [None, 'balanced'],
-          'kernel': ['linear', 'poly', 'rbf'],
+          'kernel': ['linear', 'poly', 'rbf', 'sigmoid'],
           'gamma': ['auto', 'scale'],
+          'degree': [2, 3, 4],
+          'coef0': [0, 1],
+          'tol': [1e-3, 1e-2, 1e-1]
           }
      },
     {'id': 'lr',
